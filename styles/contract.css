@@ -1,5 +1,5 @@
 header {
-  font-family: Papyrus, "Brush Script MT", sans-serif;
+  font-family: 'Carter one', cursive;
   color: rgb(0, 87, 189);
   margin-top: 30px;
   text-align: center;
@@ -13,11 +13,12 @@ main {
   border: 3px double blue;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  margin-top: 50px;
+  margin-top: 500px;
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
+  text-align: left;
 }
 
 footer {
