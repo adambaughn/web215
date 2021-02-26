@@ -188,11 +188,13 @@ a:hover
 
 #dynamiclinks {
 	font-family: 'Carter one', cursive;
+	font-size: 1.5em;
 	margin-left: 10px;
 }
 
 #links_to_profile_pages p {
 	font-family: 'Carter one', cursive;
+	font-size: 1.5em;
 	text-align: center;
 }
 
