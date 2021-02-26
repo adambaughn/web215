@@ -6,10 +6,11 @@ function hoverMain() {
   document.body.style.backgroundImage = "radial-gradient(#FFFFFF, #ADD8E6)";
 }
 
+var xhttp = new XMLHttpRequest();
+
 function loadIntroduction() {
-  var xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
-    if (xhhtp.status == 200) {
+    if (xhttp.status == 200) {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
@@ -18,9 +19,8 @@ function loadIntroduction() {
   } 
 
 function loadContract() {
-  var xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
-    if (xhhtp.status == 200) {
+    if (xhttp.status == 200) {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
@@ -30,9 +30,8 @@ function loadContract() {
 
 
 function loadBrand() {
-  var xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
-    if (xhhtp.status == 200) {
+    if (xhttp.status == 200) {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
@@ -42,9 +41,8 @@ function loadBrand() {
 
 
 function loadCodeplay() {
-  var xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
-    if (xhhtp.status == 200) {
+    if (xhttp.status == 200) {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
@@ -53,9 +51,8 @@ function loadCodeplay() {
   } 
 
 function loadAsmarterWayToLearn() {
-  var xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
-    if (xhhtp.status == 200) {
+    if (xhttp.status == 200) {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
