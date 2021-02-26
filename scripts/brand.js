@@ -6,39 +6,65 @@ function hoverMain() {
   document.body.style.backgroundImage = "radial-gradient(#FFFFFF, #ADD8E6)";
 }
 
-function loadXMLDoc() {
+function loadIntroduction() {
   var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("dynamiccontent").innerHTML =
-      this.responseText;
+  xhttp.onload = function() {
+    if (xhhtp.status == 200) {
+      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-  if ($("button").attr("id") === "contract") {
-    xhttp.open("GET", "contract_two.html", true);
-    xhttp.send();
-  } 
-  else if ($("button").attr("id") === "introduction") {
     xhttp.open("GET", "introduction_two.html", true);
-    xhttp.send();
+    xhttp.send(null);
   } 
-  else if ($("button").attr("id") === "brand") {
+
+function loadContract() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    if (xhhtp.status == 200) {
+      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+    }
+  };
+    xhttp.open("GET", "contract_two.html", true);
+    xhttp.send(null);
+  } 
+
+
+function loadBrand() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    if (xhhtp.status == 200) {
+      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+    }
+  };
     xhttp.open("GET", "brand_two.html", true);
-    xhttp.send();
+    xhttp.send(null);
   } 
-  else if ($("button").attr("id") === "codeplay") {
+
+
+function loadCodeplay() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    if (xhhtp.status == 200) {
+      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+    }
+  };
     xhttp.open("GET", "codeplay_two.html", true);
-    xhttp.send();
+    xhttp.send(null);
   } 
-  else if ($("button").attr("id") === "asmarterwaytolearn") {
+
+function loadAsmarterWayToLearn() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    if (xhhtp.status == 200) {
+      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+    }
+  };
     xhttp.open("GET", "asmarterwaytolearn_two.html", true);
-    xhttp.send();
+    xhttp.send(null);
   } 
-  else {
-    xhttp.open("GET", "placeholder.txt", true);
-    xhttp.send();
-  }
-}
+
+
+  
 
 
   
