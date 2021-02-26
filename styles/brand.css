@@ -188,11 +188,12 @@ a:hover
 
 #dynamiclinks {
 	margin-left: 10px;
+	font-family: 'Carter one', cursive;
 }
 
 #links_to_profile_pages p {
-	text-align: center;
 	font-family: 'Carter one', cursive;
+	text-align: center;
 }
 
 .validation_links
