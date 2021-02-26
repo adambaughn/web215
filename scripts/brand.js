@@ -31,7 +31,7 @@ function loadXMLDoc() {
     xhttp.send();
   } 
   else if ($("a").attr("id") === "asmarterwaytolearn") {
-    xhttp.open("GET", "asmarterwaytolearn.txt", true);
+    xhttp.open("GET", "asmarterwaytolearn.html", true);
     xhttp.send();
   } 
   else {
