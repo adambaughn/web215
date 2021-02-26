@@ -15,23 +15,23 @@ function loadXMLDoc() {
     }
   };
   if ($("a").attr("id") === "contract") {
-    xhttp.open("GET", "contract.html", true);
+    xhttp.open("GET", "contract_two.html", true);
     xhttp.send();
   } 
   else if ($("a").attr("id") === "introduction") {
-    xhttp.open("GET", "introduction.html", true);
+    xhttp.open("GET", "introduction_two.html", true);
     xhttp.send();
   } 
   else if ($("a").attr("id") === "brand") {
-    xhttp.open("GET", "brand.html", true);
+    xhttp.open("GET", "brand_two.html", true);
     xhttp.send();
   } 
   else if ($("a").attr("id") === "codeplay") {
-    xhttp.open("GET", "codeplay.html", true);
+    xhttp.open("GET", "codeplay_two.html", true);
     xhttp.send();
   } 
   else if ($("a").attr("id") === "asmarterwaytolearn") {
-    xhttp.open("GET", "asmarterwaytolearn.html", true);
+    xhttp.open("GET", "asmarterwaytolearn_two.html", true);
     xhttp.send();
   } 
   else {
