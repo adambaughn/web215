@@ -186,11 +186,11 @@ a:hover
 	color: #000048;
 }
 
-.dynamiclinks {
-	margin-left: 1000px;
+#dynamiclinks {
+	margin-left: 10px;
 }
 
-.links_to_profile_pages p {
+#links_to_profile_pages p {
 	text-align: center;
 }
 
