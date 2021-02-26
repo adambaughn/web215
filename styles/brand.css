@@ -186,7 +186,7 @@ a:hover
 	color: #000048;
 }
 
-#dynamiclinks {
+#dynamiclinks p {
 	font-family: 'Carter one', cursive;
 	font-size: 1.5em;
 	margin-left: 10px;
