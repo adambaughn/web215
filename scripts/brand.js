@@ -27,7 +27,7 @@ function loadXMLDoc() {
     xhttp.send();
   } 
   else if ($("a").attr("id") === "codeplay") {
-    xhttp.open("GET", "codeplay.txt", true);
+    xhttp.open("GET", "codeplay.html", true);
     xhttp.send();
   } 
   else if ($("a").attr("id") === "asmarterwaytolearn") {
