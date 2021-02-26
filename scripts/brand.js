@@ -14,23 +14,23 @@ function loadXMLDoc() {
       this.responseText;
     }
   };
-  if ($("a").attr("id") === "contract") {
+  if ($("button").attr("id") === "contract") {
     xhttp.open("GET", "contract_two.html", true);
     xhttp.send();
   } 
-  else if ($("a").attr("id") === "introduction") {
+  else if ($("button").attr("id") === "introduction") {
     xhttp.open("GET", "introduction_two.html", true);
     xhttp.send();
   } 
-  else if ($("a").attr("id") === "brand") {
+  else if ($("button").attr("id") === "brand") {
     xhttp.open("GET", "brand_two.html", true);
     xhttp.send();
   } 
-  else if ($("a").attr("id") === "codeplay") {
+  else if ($("button").attr("id") === "codeplay") {
     xhttp.open("GET", "codeplay_two.html", true);
     xhttp.send();
   } 
-  else if ($("a").attr("id") === "asmarterwaytolearn") {
+  else if ($("button").attr("id") === "asmarterwaytolearn") {
     xhttp.open("GET", "asmarterwaytolearn_two.html", true);
     xhttp.send();
   } 
