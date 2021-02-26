@@ -31,7 +31,7 @@ function loadXMLDoc() {
     xhttp.send();
   } 
     else {
-    xhttp.open("GET", "placeholder.txt.txt", true);
+    xhttp.open("GET", "placeholder.txt", true);
     xhttp.send();
 }
 
