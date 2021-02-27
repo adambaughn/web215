@@ -218,6 +218,7 @@ a:hover
 	cursor: url(myBall.cur),auto;
 	border-radius: 5px;
 	padding: 10px 20px;
+	text-align: center;
 }
 
 
