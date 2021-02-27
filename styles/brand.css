@@ -196,8 +196,7 @@ a:hover
 	text-align: center;
 }
 
-.validation_links
-{
+.validation_links {
 	font-family: 'Carter one', cursive;
 	text-align: center;
 	font-size: 20px;
@@ -205,11 +204,20 @@ a:hover
 }
 
 
-.built_by
-{
+.built_by {
 	text-align: center;
 	font-family: 'Carter One', cursive;
 	font-size:12px;
 }
+
+.buttons {
+	font-family:
+	font-family: 'Carter one', cursive;	
+	color: color: #000048;
+	cursor: url(myBall.cur),auto;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
 
 
