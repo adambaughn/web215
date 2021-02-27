@@ -210,13 +210,16 @@ a:hover
 	font-size:12px;
 }
 
-.buttons button {
+.buttons {
 	font-family: 'Carter one', cursive;	
 	color: #000048;
 	background-color: #FFFFFF;
 	border-radius: 5px;
 	padding: 10px 20px;
 	text-align: center;
+}
+
+.buttons button {
 	width: 100%;
 }
 
