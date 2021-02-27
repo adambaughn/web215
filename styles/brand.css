@@ -225,6 +225,8 @@ a:hover
 }
 
 #contract_text {
+	font-family: 'Carter one', cursive;
+	color: #000048;
 	margin-left: 20px;
 }
 
