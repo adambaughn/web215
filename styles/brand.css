@@ -276,3 +276,15 @@ button:hover
 	margin-top: 200px;
 	margin-bottom: 100px;
 }
+
+#codeplay_text {
+	margin-left: 20px;
+}
+
+.input {
+	color: green;
+}
+
+.output {
+	color: red;
+}
