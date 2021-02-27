@@ -226,6 +226,18 @@ a:hover
 	width: 100%;
 }
 
+button:hover
+{
+	text-decoration: underline;
+	background-image: radial-gradient(#FFFFFF, #ADD8E6);
+	border-style: outset;
+	border-color: #ADD8E6;
+	border-radius: 5px;
+	border-width: 2px;
+	box-shadow: 5px 5px #000048;
+	padding: 10px;
+}
+
 
 #contract_text {
 	font-family: 'Carter one', cursive;
