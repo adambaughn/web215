@@ -257,11 +257,15 @@ button:hover
 
 #introduction_top {
 	font-family: 'Carter one', cursive;
- 	color: rgb(0, 87, 189);
+ 	color: #000048;
  	margin-top: 30px;
  	text-align: center;
 }
 
+#introduction_text {
+	font-family: 'Carter one', cursive;
+ 	color: #000048;
+}
 
 #introduction_top img {
 	margin-left: 15px;	
