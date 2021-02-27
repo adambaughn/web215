@@ -281,12 +281,7 @@ button:hover
 	margin-left: 20px;
 }
 
-#codeplay_text h2 {
-	font-family: 'Carter one', cursive;
- 	color: #000048;
-}
-
-#codeplay_text h3 {
+.theme_text {
 	font-family: 'Carter one', cursive;
  	color: #000048;
 }
