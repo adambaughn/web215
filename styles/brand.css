@@ -210,7 +210,7 @@ a:hover
 	font-size:12px;
 }
 
-.buttons {
+.buttons button {
 	font-family: 'Carter one', cursive;	
 	color: #000048;
 	background-color: #FFFFFF;
