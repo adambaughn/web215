@@ -137,6 +137,15 @@ a:hover
 }
 
 
+#logo_link {
+	background-image: none;
+	border-style: none;
+	border-color: none;
+	border-radius: 0px;
+	border-width: 0px;
+	box-shadow: 0px 0px #000048;
+	padding: 0px;	
+}
 
 .toplinks
 {
