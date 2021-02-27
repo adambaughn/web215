@@ -210,6 +210,7 @@ a:hover
 	font-size:12px;
 }
 
+
 .buttons {
 	font-family: 'Carter one', cursive;	
 	color: #000048;
@@ -220,9 +221,11 @@ a:hover
 	text-align: center;
 }
 
+
 .buttons button {
 	width: 100%;
 }
+
 
 #contract_text {
 	font-family: 'Carter one', cursive;
@@ -231,5 +234,10 @@ a:hover
 }
 
 
-
+#introduction_top {
+	font-family: 'Carter one', cursive;
+ 	color: rgb(0, 87, 189);
+ 	margin-top: 30px;
+ 	text-align: center;
+}
 
