@@ -281,6 +281,18 @@ button:hover
 	margin-left: 20px;
 }
 
+#codeplay_text h2{
+	margin-left: 20px;
+	font-family: 'Carter one', cursive;
+ 	color: #000048;
+}
+
+#codeplay_text h3{
+	margin-left: 20px;
+	font-family: 'Carter one', cursive;
+ 	color: #000048;
+}
+
 .input {
 	color: green;
 }
