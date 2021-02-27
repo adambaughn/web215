@@ -137,7 +137,7 @@ a:hover
 }
 
 
-#logo_link {
+#logo_link:hover {
 	background-image: none;
 	border-style: none;
 	border-color: none;
