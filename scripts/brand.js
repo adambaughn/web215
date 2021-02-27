@@ -46,7 +46,7 @@ function loadCodeplay() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "codeplay_two.html", true);
+    xhttp.open("GET", "codeplay.html", true);
     xhttp.send(null);
   } 
 
@@ -56,7 +56,7 @@ function loadAsmarterWayToLearn() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "asmarterwaytolearn_two.html", true);
+    xhttp.open("GET", "asmarterwaytolearn", true);
     xhttp.send(null);
   } 
 
