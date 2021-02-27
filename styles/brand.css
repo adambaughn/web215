@@ -253,3 +253,7 @@ button:hover
  	text-align: center;
 }
 
+
+#introduction_top img {
+	margin-left: 20px;	
+}
