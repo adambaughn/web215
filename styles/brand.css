@@ -214,6 +214,7 @@ a:hover
 	font-family: 'Carter one', cursive;	
 	color: #000048;
 	background-color: #FFFFFF;
+	border: 1px solid #000048;
 	border-radius: 5px;
 	padding: 10px 20px;
 	text-align: center;
