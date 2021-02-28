@@ -292,3 +292,7 @@ button:hover
 .output {
 	color: red;
 }
+
+#smart_way_images {
+	margin-left: 50px;	
+}
