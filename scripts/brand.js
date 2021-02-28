@@ -56,7 +56,7 @@ function loadAsmarterWayToLearn() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "asmarterwaytolearn", true);
+    xhttp.open("GET", "asmarterwaytolearn.html", true);
     xhttp.send(null);
   } 
 
