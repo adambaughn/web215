@@ -297,6 +297,46 @@ button:hover
 	margin-top: 50px;
 }
 
+#click_one {
+	display: none;
+}
+
+#click_two {
+	display: none;
+}
+
+#click_three {
+	display: none;
+}
+
+#click_four {
+	display: none;
+}
+
+#click_five {
+	display: none;
+}
+
+#click_six {
+	display: none;
+}
+
+#click_seven {
+	display: none;
+}
+
+#click_eight {
+	display: none;
+}
+
+#click_nine {
+	display: none;
+}
+
+#click_ten {
+	display: none;
+}
+
 #click_item_one {
 	width: 100%;
 	border-radius: 5px;
