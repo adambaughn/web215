@@ -1,4 +1,3 @@
-﻿
 body
 {
 	background-color: #ADD8E6;
@@ -297,3 +296,11 @@ button:hover
 	margin-left: 150px;	
 	margin-top: 50px;
 }
+
+#click_item_one {
+	width: 100%;
+	border-radius: 5px;
+	font-family: 'Carter one', cursive;
+	text-align: center;
+}
+
