@@ -62,8 +62,10 @@ function loadAsmarterWayToLearn() {
 
 function showFunctionOne() {
 var x = document.getElementById("click_one");
+var buttonText = document.getElementById("click_one");
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 1";
   } else {
     x.style.display = "none";
   }
