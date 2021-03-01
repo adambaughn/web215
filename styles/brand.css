@@ -352,6 +352,7 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	margin-left: -100px;
 }
 
 #click_item_two {
