@@ -292,59 +292,64 @@ button:hover
 	color: red;
 }
 
-#smarter_way_images {
-	margin-left: 150px;	
-	margin-top: 50px;
-}
-
 #click_one {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;
 }
 
 #click_two {
 	display: none;
 	margin-top: 20px;
+		margin-left: 150px;
 }
 
 #click_three {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;
 }
 
 #click_four {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;
 }
 
 #click_five {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;	
 }
 
 #click_six {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;
 }
 
 #click_seven {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;
 }
 
 #click_eight {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;
 }
 
 #click_nine {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;
 }
 
 #click_ten {
 	display: none;
 	margin-top: 20px;
+	margin-left: 150px;
 }
 
 #click_item_one {
@@ -352,7 +357,6 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
-	margin-left: -100px;
 }
 
 #click_item_two {
