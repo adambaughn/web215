@@ -60,8 +60,92 @@ function loadAsmarterWayToLearn() {
     xhttp.send(null);
   } 
 
+function showFunctionOne() {
+var x = document.getElementById("click_one");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
-  
+function showFunctionTwo() {
+var x = document.getElementById("click_two");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
+function showFunctionThree() {
+var x = document.getElementById("click_three");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
-  
+function showFunctionFour() {
+var x = document.getElementById("click_four");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showFunctionFive() {
+var x = document.getElementById("click_five");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showFunctionSix() {
+var x = document.getElementById("click_six");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showFunctionSeven() {
+var x = document.getElementById("click_seven");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showFunctionEight() {
+var x = document.getElementById("click_eight");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showFunctionNine() {
+var x = document.getElementById("click_nine");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showFunctionTen() {
+var x = document.getElementById("click_ten");
+if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
