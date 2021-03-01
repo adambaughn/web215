@@ -68,6 +68,7 @@ if (x.style.display === "none") {
     buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 1";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 1 Results"
   }
 }
 
