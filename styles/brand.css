@@ -296,70 +296,60 @@ button:hover
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_two {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_three {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_four {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_five {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_six {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_seven {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_eight {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_nine {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_ten {
 	display: none;
 	margin-top: 20px;
 	margin-left: 150px;
-	background-color: white;
 }
 
 #click_item_one {
@@ -367,6 +357,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_two {
@@ -374,6 +366,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_three {
@@ -381,6 +375,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_four {
@@ -388,6 +384,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_five {
@@ -395,6 +393,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_six {
@@ -402,6 +402,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_seven {
@@ -409,6 +411,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_eight {
@@ -416,6 +420,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_nine {
@@ -423,6 +429,8 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
 
 #click_item_ten {
@@ -430,4 +438,6 @@ button:hover
 	border-radius: 5px;
 	font-family: 'Carter one', cursive;
 	text-align: center;
+	background-color: white;
+	color: #000048;
 }
