@@ -68,87 +68,114 @@ if (x.style.display === "none") {
     buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 1";
   } else {
     x.style.display = "none";
-    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 1 Results"
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 1 Results";
   }
 }
 
 function showFunctionTwo() {
 var x = document.getElementById("click_two");
+var buttonText = document.getElementById("click_item_two");  
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 2";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 2 Results";
   }
 }
 
 function showFunctionThree() {
 var x = document.getElementById("click_three");
+var buttonText = document.getElementById("click_item_three"); 
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 3";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 3 Results";
   }
 }
 
 function showFunctionFour() {
 var x = document.getElementById("click_four");
+var buttonText = document.getElementById("click_item_four");   
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 4";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 4 Results";
   }
 }
 
 function showFunctionFive() {
 var x = document.getElementById("click_five");
+var buttonText = document.getElementById("click_item_five");    
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 5";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 5 Results";
   }
 }
 
 function showFunctionSix() {
 var x = document.getElementById("click_six");
+var buttonText = document.getElementById("click_item_six");    
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 6";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 6 Results";
   }
 }
 
 function showFunctionSeven() {
 var x = document.getElementById("click_seven");
+var buttonText = document.getElementById("click_item_seven"); 
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 7";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 7 Results";
   }
 }
 
 function showFunctionEight() {
 var x = document.getElementById("click_eight");
+var buttonText = document.getElementById("click_item_eight"); 
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 8";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 8 Results";
   }
 }
 
 function showFunctionNine() {
 var x = document.getElementById("click_nine");
+var buttonText = document.getElementById("click_item_nine"); 
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 9";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 9 Results";
   }
 }
 
 function showFunctionTen() {
 var x = document.getElementById("click_ten");
+var buttonText = document.getElementById("click_item_ten"); 
 if (x.style.display === "none") {
     x.style.display = "block";
+    buttonText.innerHTML = "Click to hide A Smarter Way to Learn JS Chapter 10";
   } else {
     x.style.display = "none";
+    buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 10 Results";
   }
 }
