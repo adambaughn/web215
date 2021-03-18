@@ -14,7 +14,7 @@ function loadIntroduction() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "introduction_two.html", true);
+    xhttp.open("GET", "multi_page_sites/introduction_two.html", true);
     xhttp.send(null);
   } 
 
@@ -24,7 +24,7 @@ function loadContract() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "contract_two.html", true);
+    xhttp.open("GET", "multi_page_sites/contract_two.html", true);
     xhttp.send(null);
   } 
 
@@ -35,7 +35,7 @@ function loadBrand() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "brand_two.html", true);
+    xhttp.open("GET", "multi_page_sites/brand_two.html", true);
     xhttp.send(null);
   } 
 
@@ -46,7 +46,7 @@ function loadCodeplay() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "codeplay.html", true);
+    xhttp.open("GET", "multi_page_sites/codeplay.html", true);
     xhttp.send(null);
   } 
 
@@ -56,7 +56,7 @@ function loadAsmarterWayToLearn() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "asmarterwaytolearn.html", true);
+    xhttp.open("GET", "multi_page_sites/asmarterwaytolearn.html", true);
     xhttp.send(null);
   } 
 
