@@ -216,6 +216,101 @@
 	<p class="input">console.log(loopArray.toString());</p>
 	<p class="output">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20</p>
 
+	<p class="input">if (loopArray.length > 6) {</p>
+	<p class="input">... loopArray.pop();</p>
+	<p class="input">... while (loopArray.length > 6) {</p>
+	<p class="input">..... loopArray.pop();</p>
+	<p class="input">..... console.log(loopArray); }</p>
+	<p class="input">... }</p>
+		
+	<p class="output">[</p>
+	<p class="output"> '1', '2', '3', '4', '5', '6',</p>
+	<p class="output">  7,   8,   9,   10,  11,  12,</p>
+	<p class="output">  13,  14,  15,  16,  17,  18</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4', '5', '6',</p>
+	<p class="output">  7,   8,   9,   10,  11,  12,</p>
+	<p class="output">  13,  14,  15,  16,  17</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4', '5', '6',</p>
+	<p class="output">  7,   8,   9,   10,  11,  12,</p>
+	<p class="output">  13,  14,  15,  16</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4', '5', '6',</p>
+	<p class="output">  7,   8,   9,   10,  11,  12,</p>
+	<p class="output">  13,  14,  15</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4', '5', '6',</p>
+	<p class="output">  7,   8,   9,   10,  11,  12,</p>
+	<p class="output">  13,  14</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4', '5',</p>
+	<p class="output">  '6', 7,   8,   9,   10,</p>
+	<p class="output">  11,  12,  13</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4', '5',</p>
+	<p class="output">  '6', 7,   8,   9,   10,</p>
+	<p class="output">  11,  12</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4', '5',</p>
+	<p class="output">  '6', 7,   8,   9,   10,</p>
+	<p class="output">  11</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4', '5',</p>
+	<p class="output">  '6', 7,   8,   9,   10</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4',</p>
+	<p class="output">  '5', '6', 7,   8,</p>
+	<p class="output">  9</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3', '4',</p>
+	<p class="output">  '5', '6', 7,   8</p>
+	<p class="output">]</p>
+		
+	<p class="output">[</p>
+	<p class="output">  '1', '2', '3',</p>
+	<p class="output">  '4', '5', '6',</p>
+	<p class="output">  7</p>
+	<p class="output">]</p>
+		
+	<p class="output">[ '1', '2', '3', '4', '5', '6' ]</p>
+	
+	<p class="input">while (loopArray.length < 20) {</p>
+	<p class="input">... let newValue = loopArray.length + 1;</p>
+	<p class="input">... let arrayString = newValue.toString();</p>
+	<p class="input">... loopArray.push(arrayString);</p>
+	<p class="input">... if (loopArray.length == 20) {</p>
+	<p class="input">..... console.log(loopArray);</p>
+	<p class="input">..... }</p>
+	<p class="input">... }</p>
+	<p class="output">[</p>
+	<p class="output">  '1',  '2',  '3',  '4',  '5',</p>
+	<p class="output">  '6',  '7',  '8',  '9',  '10',</p>
+	<p class="output">  '11', '12', '13', '14', '15',</p>
+	<p class="output">  '16', '17', '18', '19', '20'</p>
+	<p class="output">]</p>
 
+	
+	
 	
 </div>
