@@ -60,6 +60,17 @@ function loadAsmarterWayToLearn() {
     xhttp.send(null);
   } 
 
+function loadTribute() {
+  xhttp.onload = function() {
+    if (xhttp.status == 200) {
+      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+    }
+  };
+    xhttp.open("GET", "multi_page_sites/tribute_page.html", true);
+    xhttp.send(null);
+  } 
+
+
 function showFunctionOne() {
 var x = document.getElementById("click_one");
 var buttonText = document.getElementById("click_item_one");
