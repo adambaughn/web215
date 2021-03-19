@@ -552,4 +552,6 @@ button:active
   margin-right: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
+  border-radius: 10px;
+  border-color: #FFFFFF;
 }
