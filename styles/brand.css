@@ -555,3 +555,28 @@ button:active
   border-radius: 10px;
   border: 3px #FFFFFF solid;
 }
+
+#survey_assignment {
+  margin-left: 5%;
+  background-image: radial-gradient(#FFFFFF, #ADD8E6);
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 10px;
+  border: 3px #FFFFFF solid;
+}
+
+#survey_text {
+  margin-left: 40%;
+}
+
+#survey_submit {
+  background-color: #FFFFFF;
+  width: 40%;
+  height: 40px;
+  font-size: 1.3em;
+  font-family: 'Carter one', cursive;
+  color: #000048;
+  border-radius: 10px;
+}
