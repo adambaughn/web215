@@ -553,5 +553,5 @@ button:active
   padding-top: 2%;
   padding-bottom: 2%;
   border-radius: 10px;
-  border-color: #FFFFFF;
+  border: 3px #FFFFFF solid;
 }
