@@ -568,15 +568,21 @@ button:active
 }
 
 #survey_text {
-  margin-left: 40%;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: #F0FFFF;
+  padding-left: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 #survey_submit {
   background-color: #FFFFFF;
-  width: 40%;
+  width: 87%;
   height: 40px;
   font-size: 1.3em;
   font-family: 'Carter one', cursive;
   color: #000048;
   border-radius: 10px;
 }
+
