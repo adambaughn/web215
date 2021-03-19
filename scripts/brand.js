@@ -66,7 +66,7 @@ function loadTribute() {
       document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/tribute_page.html", true);
+    xhttp.open("GET", "multi_page_sites/tribute.html", true);
     xhttp.send(null);
   } 
 
