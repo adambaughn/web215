@@ -220,6 +220,10 @@ a:active
 	margin-left: 10px;
 }
 
+#dynamiccontent {
+	margin-top: -550px;
+}
+
 #links_to_profile_pages p {
 	font-family: 'Carter one', cursive;
 	text-align: center;
