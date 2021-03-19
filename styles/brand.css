@@ -21,6 +21,10 @@ header
 	margin-left: 280px;
 }
 
+#title {
+	text-align: center;
+	font-family: 'Carter one', cursive;
+}
 
 main
 {
