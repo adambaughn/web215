@@ -284,11 +284,13 @@ button:hover
 }
 
 .input {
-	color: green;
+	color: #006400;
+	font-size: 150%;
 }
 
 .output {
-	color: red;
+	color: #8B0000;
+	font-size: 150%;
 }
 
 #click_one {
