@@ -260,7 +260,7 @@ button:hover
 
 
 #contract_text {
-	font-family: 'Carter one', cursive;
+	font-family: Lucida Console, Courier New, sans-serif;
 	color: #000048;
 	margin-left: 20px;
 }
@@ -274,7 +274,7 @@ button:hover
 }
 
 #introduction_text {
-	font-family: 'Carter one', cursive;
+	font-family: Lucida Console, Courier New, sans-serif;
  	color: #000048;
 }
 
@@ -299,11 +299,13 @@ button:hover
 .input {
 	color: #006400;
 	font-size: 150%;
+	font-family: Lucida Console, Courier New, sans-serif;
 }
 
 .output {
 	color: #8B0000;
 	font-size: 150%;
+	font-family: Lucida Console, Courier New, sans-serif;
 }
 
 #click_one {
