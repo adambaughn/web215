@@ -574,6 +574,8 @@ button:active
   padding-left: 45px;
   padding-top: 45px;
   padding-bottom: 45px;
+  font-family: Lucida Console, Courier New, sans-serif;
+  color: #000048;
 }
 
 #survey_submit {
