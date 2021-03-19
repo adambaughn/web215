@@ -3,6 +3,10 @@ body
 	background-color: #ADD8E6;
 }
 
+.underlined {
+	text-decoration: underline;
+}
+
 .contact
 {
 	font-family: 'Carter one', cursive;
