@@ -38,16 +38,9 @@ header
 
 #title {
 	text-align: center;
-	
-	
-	#nav-bar {
-  display: flex;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin-top: 2%;
+	font-family: 'Carter one', cursive;
+	color: #000048;
 }
-
 
 main
 {
