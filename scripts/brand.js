@@ -80,6 +80,16 @@ function loadSurvey() {
     xhttp.send(null);
   } 
 
+function loadLanding() {
+  xhttp.onload = function() {
+    if (xhttp.status == 200) {
+      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+    }
+  };
+    xhttp.open("GET", "multi_page_sites/landing.html", true);
+    xhttp.send(null);
+  }
+
 
 function showFunctionOne() {
 var x = document.getElementById("click_one");
