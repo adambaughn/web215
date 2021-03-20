@@ -626,7 +626,7 @@ button:active
 	padding: 10px;
 }
 
-#nav-bar {
+#navbar {
   display: flex;
   position: fixed;
   top: 0;
@@ -635,7 +635,7 @@ button:active
   margin-left: 4%;
 }
 
-#nav-bar a {
+#navbar a {
 	font-family: 'Carter one', cursive;	
 	color: #000048;
 	background-color: #FFFFFF;
@@ -645,7 +645,7 @@ button:active
   text-decoration: none;
 }
 
-#nav-bar a:hover
+#navbar a:hover
 {
 	text-decoration: underline;
 	background-image: radial-gradient(#FFFFFF, #ADD8E6);
@@ -657,7 +657,7 @@ button:active
 	padding: 10px;
 }
 
-#nav-bar a:active
+#navbar a:active
 {
 	text-decoration: none;
 	background-image: radial-gradient(#ADD8E6, #FFFFFF);
