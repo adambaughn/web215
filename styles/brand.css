@@ -759,9 +759,13 @@ button:active
 }
 }
 
+#header-img {
+	margin-left: 5%;
+}
+
 #video_landing {
   margin-top: 90px;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 #email_landing {
