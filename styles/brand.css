@@ -717,7 +717,7 @@ button:active
   top: 0;
   width: 100%;
   margin-top: 8%;
-  margin-left: 2%;
+  margin-left: 4%;
 }
 
 #nav-bar a {
@@ -761,7 +761,8 @@ button:active
 }
 
 #header-img {
-	margin-left: 3%;
+	margin-left: 1%;
+	margin-top: -2%;
 }
 
 #video_landing {
