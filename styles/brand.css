@@ -33,6 +33,98 @@ header
 
 #title {
 	text-align: center;
+	
+	
+	#nav-bar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 2%;
+}
+
+#nav-bar a {
+	font-family: 'Carter one', cursive;	
+	color: #000048;
+	background-color: #FFFFFF;
+	border: 1px solid #000048;
+	border-radius: 5px;
+	padding: 10px 20px;
+  text-decoration: none;
+}
+
+#nav-bar a:hover
+{
+	text-decoration: underline;
+	background-image: radial-gradient(#FFFFFF, #ADD8E6);
+	border-style: outset;
+	border-color: #ADD8E6;
+	border-radius: 5px;
+	border-width: 2px;
+	box-shadow: 5px 5px #000048;
+	padding: 10px;
+}
+
+#nav-bar a:active
+{
+	text-decoration: none;
+	background-image: radial-gradient(#ADD8E6, #FFFFFF);
+	border-style: inset;
+	border-color: #ADD8E6;
+	border-radius: 5px;
+	border-width: 2px;
+	box-shadow: 0px 0px #000048;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+  background-color: blue;
+}
+}
+
+#video_landing {
+  margin-top: 90px;
+  margin-left: 30%;
+}
+
+#email_landing {
+  margin-top: 500px;
+}
+
+#product_landing_main {
+  margin-left: 30%;
+  margin-top: 10%;
+      background-image: radial-gradient(#FFFFFF, #ADD8E6);
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 10px;
+  border: 3px #FFFFFF solid;
+}
+
+#form_landing {
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: #F0FFFF;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-family: Lucida Console, Courier New, sans-serif;
+  color: #000048;
+}
+
+#submit_landing {
+  background-color: #FFFFFF;
+  height: 40px;
+  font-size: 1.3em;
+  font-family: 'Carter one', cursive;
+  color: #000048;
+  border-radius: 10px;
+}
 	font-family: 'Carter one', cursive;
 	color: #000048;
 }
