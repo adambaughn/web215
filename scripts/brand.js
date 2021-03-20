@@ -11,7 +11,7 @@ var xhttp = new XMLHttpRequest();
 function loadIntroduction() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "multi_page_sites/introduction_two.html", true);
@@ -21,7 +21,7 @@ function loadIntroduction() {
 function loadContract() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "multi_page_sites/contract_two.html", true);
@@ -32,7 +32,7 @@ function loadContract() {
 function loadBrand() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "multi_page_sites/brand_two.html", true);
@@ -43,7 +43,7 @@ function loadBrand() {
 function loadCodeplay() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "multi_page_sites/codeplay.html", true);
@@ -53,7 +53,7 @@ function loadCodeplay() {
 function loadAsmarterWayToLearn() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "multi_page_sites/asmarterwaytolearn.html", true);
@@ -63,7 +63,7 @@ function loadAsmarterWayToLearn() {
 function loadTribute() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "multi_page_sites/tribute.html", true);
@@ -73,7 +73,7 @@ function loadTribute() {
 function loadSurvey() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "multi_page_sites/survey.html", true);
@@ -83,7 +83,7 @@ function loadSurvey() {
 function loadLanding() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamiccontent').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "multi_page_sites/landing.html", true);
