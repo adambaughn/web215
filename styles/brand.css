@@ -4,6 +4,11 @@
   color: #000048;
 }
 
+#check {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 body
 {
 	background-color: #ADD8E6;
