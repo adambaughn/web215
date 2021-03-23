@@ -90,6 +90,17 @@ function loadLanding() {
     xhttp.send(null);
   }
 
+function loadTechnical() {
+  xhttp.onload = function() {
+    if (xhttp.status == 200) {
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+    }
+  };
+    xhttp.open("GET", "multi_page_sites/technical.html", true);
+    xhttp.send(null);
+  } 
+
+
 
 function showFunctionOne() {
 var x = document.getElementById("click_one");
