@@ -763,8 +763,8 @@ code {
 
 .nav-link {
     display: inline-block; 
-  width: 100%; 
-  height: 100%;
+  width: 105%; 
+  height: 105%;
     text-decoration: none;
   font-size: 1.3em;
 }
