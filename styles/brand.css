@@ -799,7 +799,9 @@ code {
 	border-width: 2px;
 	box-shadow: 5px 5px #000048;
 	padding: 10px;
+	width: 5%;
 }
+/* added width 5% */
 
 #nav-link-id-two {
 	  margin-top: -9%;
