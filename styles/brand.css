@@ -723,6 +723,7 @@ button:active
 #navbar_technical {
   	position: fixed;
 	width:150px;
+	margin-top: -1%;
 }
 /* added width 150px */
 
