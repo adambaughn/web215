@@ -737,7 +737,7 @@ code {
   font-family: 'Carter one', cursive;
   font-weight: bold;
   color: #000048;
-	margin-left: -4.5%;
+	margin-left: -4%;
 }
 
 #main-doc {
@@ -787,7 +787,7 @@ code {
   	color: #000048;
   	font-family: 'Carter one', cursive;
 	background-color: #FFFFFF;
-	width: 100%;
+	width: 105%;
 }
 /* added width 150px */
 
@@ -799,9 +799,12 @@ code {
 	border-width: 2px;
 	box-shadow: 5px 5px #000048;
 	padding: 10px;
-	width: 5%;
 }
 /* added width 5% */
+
+#nav-link-id-one a:hover {
+
+}
 
 #nav-link-id-two {
 	  margin-top: -9%;
@@ -811,7 +814,7 @@ code {
 	  color: #000048;
 	  font-family: 'Carter one', cursive;
 	  background-color: #FFFFFF;
-	width: 100%;
+	width: 105%;
 	margin-top: .5%;
 }
 /* added width: 250px and margin-top: 1% */
@@ -834,7 +837,7 @@ code {
   color: #000048;
   font-family: 'Carter one', cursive;
   background-color: #FFFFFF;
-	width: 100%;
+	width: 105%;
 	margin-top: .5%;
 }
 /* added width: 250px and margin-top: 1% */
@@ -857,7 +860,7 @@ code {
   color: #000048;
   font-family: 'Carter one', cursive;
   background-color: #FFFFFF;
-	width: 100%;
+	width: 105%;
 	margin-top: .5%;
 }
 /* added width: 250px and margin-top: 1% */
@@ -880,7 +883,7 @@ code {
   color: #000048;
   font-family: 'Carter one', cursive;
   background-color: #FFFFFF;
-	width: 100%;
+	width: 105%;
 	margin-top: .5%;
 }
 /* added width: 250px and margin-top: 1% */
