@@ -797,6 +797,7 @@ code {
   vertical-align: middle;
   line-height: 60px;
 	font-size: .7em;
+	display: block;
 }
 /* added width 150px */
 
