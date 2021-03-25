@@ -99,14 +99,11 @@
           <li>First, I created a variable to hold the new XMLHttpRequest function.<br><br><code>var xhttp = new XMLHttpRequest();</code><br><br></li>
           <li>Next, I created functions to load each page. This function was created to load my introduction page.<br><br><code>function loadIntroduction() {
   xhttp.onload = function() {
-    if (xhttp.status == 200) {
+            if (xhttp.status == 200) { </code><code>
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
             </code>
-            <br>
-            <br>
-            <br>
             <br>
             <br>
             <code>
