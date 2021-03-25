@@ -786,7 +786,7 @@ code {
   	color: #000048;
   	font-family: 'Carter one', cursive;
 	background-color: #FFFFFF;
-	width: 150px;
+	width: 250px;
 }
 /* added width 150px */
 
@@ -801,15 +801,17 @@ code {
 }
 
 #nav-link-id-two {
-  margin-top: -9%;
-    border: 3px #000048 solid;
-  text-decoration: none;
-  padding: 10px;
-  color: #000048;
-  font-family: 'Carter one', cursive;
-  background-color: #FFFFFF;
+	  margin-top: -9%;
+	    border: 3px #000048 solid;
+	  text-decoration: none;
+	  padding: 10px;
+	  color: #000048;
+	  font-family: 'Carter one', cursive;
+	  background-color: #FFFFFF;
+	width: 250px;
+	margin-top: 1%;
 }
-/* position: relative; */
+/* added width: 250px and margin-top: 1% */
 
 #nav-link-id-two:hover {
     	text-decoration: underline;
