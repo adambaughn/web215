@@ -769,7 +769,10 @@ code {
   font-size: 1.3em;
 }
 
-
+.nav-link-text-bottom {
+	margin-top: .5%;
+}
+	
 .nav-link:hover {
 
 }
