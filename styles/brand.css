@@ -753,14 +753,18 @@ code {
   font-family: Lucida Console, Courier New, sans-serif;
 }
 
+#techDocHeader {
+
+}
+
 .nav-link {
     display:block; 
-  width: 100px; 
+  width: 300px; 
   height: 40px;
     text-decoration: none;
   font-size: 1.3em;
 }
-/* Changed width from 300 to 100 */
+
 
 .nav-link:hover {
 
@@ -777,14 +781,15 @@ code {
 }
 
 #nav-link-id-one {
-    border: 3px #000048 solid;
-  text-decoration: none;
-  padding: 10px;
-  color: #000048;
-  font-family: 'Carter one', cursive;
-  background-color: #FFFFFF;
+    	border: 3px #000048 solid;
+  	text-decoration: none;
+  	padding: 10px;
+  	color: #000048;
+  	font-family: 'Carter one', cursive;
+	background-color: #FFFFFF;
+	width: 150px;
 }
-/* position: relative; */
+/* added width 150px */
 
 #nav-link-id-one:hover {
   	text-decoration: underline;
