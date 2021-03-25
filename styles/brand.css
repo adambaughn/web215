@@ -755,7 +755,7 @@ code {
 
 .nav-link {
     display:block; 
-  width: 300px; 
+  width: 100px; 
   height: 40px;
     text-decoration: none;
   font-size: 1.3em;
