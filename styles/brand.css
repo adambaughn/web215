@@ -796,6 +796,7 @@ code {
   text-align: left;
   vertical-align: middle;
   line-height: 60px;
+	word-wrap: break-word;
 }
 /* added width 150px */
 
@@ -834,6 +835,7 @@ code {
   text-align: left;
   vertical-align: middle;
   line-height: 60px;
+	word-wrap: break-word;
 }
 /* added width: 250px and margin-top: 1% */
 
@@ -871,6 +873,7 @@ code {
   text-align: left;
   vertical-align: middle;
   line-height: 60px;
+	word-wrap: break-word;
 }
 /* added width: 250px and margin-top: 1% */
 
@@ -908,6 +911,7 @@ code {
   text-align: left;
   vertical-align: middle;
   line-height: 60px;
+	word-wrap: break-word;
 }
 /* added width: 250px and margin-top: 1% */
 
@@ -945,6 +949,7 @@ code {
   text-align: left;
   vertical-align: middle;
   line-height: 60px;
+	word-wrap: break-word;
 }
 /* added width: 250px and margin-top: 1% */
 
