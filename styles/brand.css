@@ -831,8 +831,10 @@ code {
   color: #000048;
   font-family: 'Carter one', cursive;
   background-color: #FFFFFF;
+	width: 250px;
+	margin-top: 1%;
 }
-/* position: relative; */
+/* added width: 250px and margin-top: 1% */
 
 #nav-link-id-three:hover {
       	text-decoration: underline;
@@ -852,8 +854,10 @@ code {
   color: #000048;
   font-family: 'Carter one', cursive;
   background-color: #FFFFFF;
+	width: 250px;
+	margin-top: 1%;
 }
-/* position: relative; */
+/* added width: 250px and margin-top: 1% */
 
 #nav-link-id-four:hover {
   text-decoration: underline;
@@ -873,8 +877,10 @@ code {
   color: #000048;
   font-family: 'Carter one', cursive;
   background-color: #FFFFFF;
+	width: 250px;
+	margin-top: 1%;
 }
-/* position: relative; */
+/* added width: 250px and margin-top: 1% */
 
 #nav-link-id-five:hover { 
     text-decoration: underline;
