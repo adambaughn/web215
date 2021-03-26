@@ -270,7 +270,7 @@ a:active
 
 
 .buttons button {
-	width: 100%;
+	width: 100px;
 }
 
 button:hover
