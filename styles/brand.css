@@ -231,13 +231,14 @@ a:active
 		font-family: 'Carter one', cursive;
 	margin-left: -140px; 
 	margin-top: 50px; 
-	width: 40px;
+
 }
 
 
 #dynamic_links p {
 
 }
+/*	width: 40px; */
 
 #dynamic_content {
 	margin-top: -41%;
