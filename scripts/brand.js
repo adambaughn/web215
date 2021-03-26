@@ -100,7 +100,15 @@ function loadTechnical() {
     xhttp.send(null);
   } 
 
-
+function loadPortfolio() {
+  xhttp.onload = function() {
+    if (xhttp.status == 200) {
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+    }
+  };
+    xhttp.open("GET", "multi_page_sites/portfolio.html", true);
+    xhttp.send(null);
+  } 
 
 function showFunctionOne() {
 var x = document.getElementById("click_one");
@@ -219,5 +227,24 @@ if (x.style.display === "none") {
   } else {
     x.style.display = "none";
     buttonText.innerHTML = "Click to show A Smarter Way to Learn JS Chapter 10 Results";
+  }
+}
+
+document.getElementById("animated_header_two").addEventListener("load", animatedHeader);
+
+function animatedHeader() {
+ document.getElementById("animated_header_two").style.animation = "fadein 5s 1";
+
+document.getElementById("animated_header_two").style.animationDelay = "10s";
+  
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 110 || document.documentElement.scrollTop > 110) {
+    document.getElementById("animated_header_three").style.fontSize = "30px";
+  } else { document.getElementById("animated_header_three").style.fontSize = "400px";
   }
 }
