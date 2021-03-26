@@ -991,5 +991,215 @@ code {
   }
 }
 
+@media only screen and (max-width: 100px) {
+  h1 {
+    color: blue;
+  }
+}
+
+#portfolio_main {
+  background-color: #F0FFFF;
+        -webkit-animation: backgroundswitch 10s;
+/* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: backgroundswitch 10s; /* Firefox < 16 */
+        -ms-animation: backgroundswitch 10s; /* Internet Explorer */
+         -o-animation: backgroundswitch 10s; /* Opera < 12.1 */
+            animation: backgroundswitch 10s;
+    animation-name: backgroundswitch;
+  animation-duration: 10s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Carter one', cursive;
+  color: #000048;
+  height: 100vh;
+}
+
+#animated_header_one {
+  font-size: 2em;
+      -webkit-animation: fadein 5s;
+/* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+    animation-name: fadein;
+  animation-duration: 5s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+}
+
+#animated_header_two {
+  font-size: 2em;
+      -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 10s; /* Firefox < 16 */
+        -ms-animation: fadein 10s; /* Internet Explorer */
+         -o-animation: fadein 10s; /* Opera < 12.1 */
+            animation: fadein 10s;
+    animation-name: fadein;
+  animation-duration: 10s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+}
+
+#animated_header_three {
+  transition: 30s; 
+}
+
+
+#projects { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Carter one', cursive;
+  color: #F0FFFF;
+  height: 100vh;
+  background-color: #000048;
+  border-top: 1px #000048 solid;
+  border-bottom: 1px #000048 solid;
+          -webkit-animation: blowup 10s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: blowup 10s; /* Firefox < 16 */
+        -ms-animation: blowup 10s; /* Internet Explorer */
+         -o-animation: blowup 10s; /* Opera < 12.1 */
+            animation: blowup 10s;
+    animation-name: blowup;
+  animation-duration: 10s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+}
+
+#contact_portfolio {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: 'Carter one', cursive;
+  color: #000048;
+  height: 100vh;
+}
+
+#contact_portfolio_div {
+    display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact_portfolio_link {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 1.3em;
+}
+
+#navbar_portfolio {
+  position: fixed;
+  top: 0;
+  margin-left: 83%;
+  margin-top: 1.5%;
+}
+
+#navbar_portfolio a {
+    padding: 15px;
+  border: 1px #000048 solid;
+  text-decoration: none;
+    font-family: 'Carter one', cursive;
+  color: #000048;
+  background-color: #FFFFFF;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; font-size: 1em; border: 1px #000048 solid; background-color: #000048; color: #F0FFFF; }
+    to   { opacity: 1; font-size: 2em; border: 200px #F0FFFF solid; background-color: #F0FFFF; color: #000048; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; font-size: 1em; border: 1px #000048 solid; background-color: #000048; color: #F0FFFF; }
+    to   { opacity: 1; font-size: 2em; border: 200px #F0FFFF solid; background-color: #F0FFFF; color: #000048; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; font-size: 1em; border: 1px #000048 solid; background-color: #000048; color: #F0FFFF; }
+    to   { opacity: 1; font-size: 2em; border: 200px #F0FFFF solid; background-color: #F0FFFF; color: #000048; }
+}
+  
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; font-size: 1em; border: 1px #000048 solid; background-color: #000048; color: #F0FFFF; }
+    to   { opacity: 1; font-size: 2em; border: 200px #F0FFFF solid; background-color: #F0FFFF; color: #000048; }
+}
+  
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; font-size: 1em; border: 1px #000048 solid; background-color: #000048; color: #F0FFFF; }
+    to   { opacity: 1; font-size: 2em; border: 200px #F0FFFF solid; background-color: #F0FFFF; color: #000048; }
+  }
+  
+  @keyframes backgroundswitch {
+    from { background-image: radial-gradient(#F0FFFF, #ADD8E6); color: #F0FFFF; }
+    to { background-image: radial-gradient(#ADD8E6, #F0FFFF); color: #000048; }
+  }
+
+    @-moz-keyframes backgroundswitch {
+    from { background-image: radial-gradient(#F0FFFF, #ADD8E6); }
+    to { background-image: radial-gradient(#ADD8E6, #0FFFFF); }
+  }
+ 
+@-webkit-keyframes backgroundswitch {
+    from { background-image: radial-gradient(#F0FFFF, #ADD8E6); }
+    to { background-image: radial-gradient(#ADD8E6, #F0FFFF); }
+  }
+ 
+@-ms-keyframes backgroundswitch {
+    from { background-image: radial-gradient(#F0FFFF, #ADD8E6); }
+    to { background-image: radial-gradient(#ADD8E6, #F0FFFF); }
+  }
+ 
+ @-o-keyframes backgroundswitch {
+    from { background-image: radial-gradient(#F0FFFF, #ADD8E6); }
+    to { background-image: radial-gradient(#ADD8E6, #F0FFFF); }
+  }
+  
+  @keyframes blowup {
+    from { font-size: 1em; opactiy: 1; }
+    to { font-size: 5em; opacity: 0; }
+}
+ 
+  
+    @-moz-keyframes blowup {
+    from { font-size: 1em; opactiy: 1; }
+    to { font-size: 5em; opacity: 0;}
+}
+  
+  
+    @-webkit-keyframes blowup {
+    from { font-size: 1em; opactiy: 1; }
+    to { font-size: 5em; opacity: 0; }
+}
+  
+  
+    @-ms-keyframes blowup {
+    from { font-size: 1em; opactiy: 1; }
+    to { font-size: 5em; opacity: 0; }
+}
+  
+    @-o-keyframes blowup {
+    from { font-size: 1em; opactiy: 1; }
+    to { font-size: 5em; opacity: 0; }
+}
+  
 
 	
