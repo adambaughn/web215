@@ -262,10 +262,11 @@ a:active
 	font-family: 'Carter one', cursive;	
 	color: #000048;
 	background-color: #FFFFFF;
-	border: 1px solid #000048;
+	border: 1px solid #F0FFFF;
 	border-radius: 5px;
 	padding: 8px 16px;
 	text-align: center;
+	width: 100%;
 }
 
 
