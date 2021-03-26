@@ -228,14 +228,15 @@ a:active
 
 #dynamic_links {
 	width: 10%;
+		font-family: 'Carter one', cursive;
+	margin-left: -140px; 
+	margin-top: 50px; 
+	width: 40px;
 }
 
 
 #dynamic_links p {
-	font-family: 'Carter one', cursive;
-	margin-left: -140px; 
-	margin-top: 50px; 
-	width: 40px;
+
 }
 
 #dynamic_content {
