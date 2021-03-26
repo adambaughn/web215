@@ -793,7 +793,7 @@ code {
 }
 
 #nav-link-id-one {
-    	border: 3px #000048 solid;
+    	border: 1px #000048 solid;
   	text-decoration: none;
   	padding: 10px;
   	color: #000048;
@@ -831,7 +831,7 @@ code {
 
 #nav-link-id-two {
 	  margin-top: -10%;
-	    border: 3px #000048 solid;
+	    border: 1px #000048 solid;
 	  text-decoration: none;
 	  padding: 10px;
 	  color: #000048;
@@ -868,7 +868,7 @@ code {
 
 #nav-link-id-three {
   margin-top: -10%;
-    border: 3px #000048 solid;
+    border: 1px #000048 solid;
   text-decoration: none;
   padding: 10px;
   color: #000048;
@@ -905,7 +905,7 @@ code {
 
 #nav-link-id-four {
   margin-top: -10%;
-    border: 3px #000048 solid;
+    border: 1px #000048 solid;
   text-decoration: none;
   padding: 10px;
   color: #000048;
@@ -942,7 +942,7 @@ code {
   
 #nav-link-id-five { 
   margin-top: -10%;
-    border: 3px #000048 solid;
+    border: 1px #000048 solid;
   text-decoration: none;
   padding: 10px;
   color: #000048;
