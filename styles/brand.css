@@ -725,6 +725,48 @@ button:active
   font-family: 'Carter one', cursive;
   color: #000048;
   border-radius: 10px;
+  font-weight: bold;
+}
+
+#product_landing_icons {
+  margin-left: 40%;
+    margin-top: 3%;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #000048;
+}
+
+#landing_support_icons {
+  margin-top: 5%;
+   text-align:center;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+#landing_support_icons a {
+  text-decoration: none;
+  color: #000048;
+}
+
+.landing_selections {
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+.landing_select {
+  margin-left: 20.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px #000048 solid;
+  padding: 1%;
+}
+
+.landing_select i {
+  font-size: 5em;
+}
+
+#landing_email_submit {
+  text-align: center;
 }
 
 
