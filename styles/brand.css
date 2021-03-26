@@ -226,6 +226,11 @@ a:active
 	color: #000048;
 }
 
+dynamic_links {
+	width: 10%;
+}
+
+
 #dynamic_links p {
 	font-family: 'Carter one', cursive;
 	margin-left: -140px; 
