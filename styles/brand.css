@@ -1128,11 +1128,7 @@ code {
   animation-direction: alternate;
 }
 
-#projects img {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+
 
 #contact_portfolio {
     display: flex;
