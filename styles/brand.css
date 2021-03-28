@@ -729,19 +729,20 @@ button:active
 }
 
 #product_landing_icons {
-  margin-left: 40%;
-    margin-top: 3%;
-  font-size: 1.8em;
-  font-weight: bold;
-  color: #000048;
-  font-family: 'Carter one', cursive;
+	  margin-left: 40%;
+	  margin-top: 3%;
+	  font-size: 1.8em;
+	  font-weight: bold;
+	  color: #000048;
+	  font-family: 'Carter one', cursive;
 }
 
 #landing_support_icons {
-  margin-top: 5%;
-   text-align:center;
-  font-size: 5em;
-  font-weight: bold;
+  	margin-top: 5%;
+   	text-align:center;
+  	font-size: 5em;
+  	font-weight: bold;
+	font-family: Lucida Console, Courier New, sans-serif;
 }
 
 #landing_support_icons a {
