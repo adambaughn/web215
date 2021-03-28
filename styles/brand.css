@@ -1095,6 +1095,9 @@ code {
   transition: 30s; 
 }
 
+#profile_link:hover {
+	box-shadow: 0px 0px #000048;
+}
 
 #projects { 
   display: flex;
