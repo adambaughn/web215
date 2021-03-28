@@ -60,6 +60,16 @@ function loadAsmarterWayToLearn() {
     xhttp.send(null);
   } 
 
+function loadCertification() {
+  xhttp.onload = function() {
+    if (xhttp.status == 200) {
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+    }
+  };
+    xhttp.open("GET", "multi_page_sites/certification_check.html", true);
+    xhttp.send(null);
+  } 
+
 function loadTribute() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
