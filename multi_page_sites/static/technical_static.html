@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+ <title>Table of Contents</title>
+ <meta charset="utf-8">	
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="styles/brand.css">
+ <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous">
+</head>
+
+<body>
+
+<header id="index_header">
+   <p class="contact">
+    &nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="mailto:alb23016@email.cpcc.edu">Contact Us</a> 
+    &nbsp;&nbsp;&nbsp;&nbsp; 
+    |
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://mycollege.cpcc.edu/">Login</a>
+  </p>
+  <a href="index.html" id="logo_link"><img src="images/blue_atlas.png" id="logo" alt="ATLAS logo with the titan holding the world on his back"></a>
+  <!-- Original image provided by https://commons.wikimedia.org/wiki/File:Atlas_(mythology).svg -->
+  <!-- Image is a modified version of the original -->
+  <div class="banner">
+    <h1 class="bannertext">Table of Contents</h1>
+    <p class="bannertext_small">"Created by Adam Baughn for WEB 215 - N890"</p>
+  </div>
+
+</header>
+
+
+<main>	
+ 
+ <div id="dynamic_links">
+     <button type="button" id="introduction" class="buttons" onclick="loadIntroduction()">Introduction</button>
+     <br>
+     <br>
+     <button type="button" id="contract" class="buttons" onclick="loadContract()">Contract</button>
+     <br>
+     <br>
+     <button type="button" id="brand" class="buttons" onclick="loadBrand()">Brand</button>
+     <br>
+     <br>
+     <button type="button" id="codeplay" class="buttons" onclick="loadCodeplay()">Console Code<br> Play</button>
+     <br>
+     <br>
+     <button type="button" id="asmarterwaytolearn" class="buttons" onclick="loadAsmarterWayToLearn()">Smarter Way<br> to Learn</button>
+     <br>
+     <br>
+     <button type="button" id="certification_page" class="buttons" onclick="loadCertification()">Codepen<br> Page<br> Testing</button>
+     <br>
+     <br>
+     <button type="button" id="tribute_page" class="buttons" onclick="loadTribute()">Tribute<br> Page</button>
+     <br>
+     <br>
+     <button type="button" id="survey_page" class="buttons" onclick="loadSurvey()">Survey<br> Form</button>
+     <br>
+     <br>
+     <button type="button" id="landing_page" class="buttons" onclick="loadLanding()">Product<br> Landing<br> Page</button>
+     <br>
+     <br>
+     <button type="button" id="technical_page" class="buttons" onclick="loadTechnical()">Technical<br> Documentation<br> Page</button>
+     <br>
+     <br>
+     <button type="button" id="portfolio_page" class="buttons" onclick="loadPortfolio()">Portfolio<br> Page</button>
+     <br>
+     <br>
+ </div>
+ 
+  <div id="dynamic_content">
+<h2 id="assignment_title">Technical Documentation Page</h2>
+<nav id="navbar_technical"><header id="techDocHeader"> Web Page Documentation</header>
+    <br>
+    <br>
+    <div id="nav-link-id-one">
+    <a class="nav-link" href="#First_Section">Navigation Bar</a>
+    </div>
+    <br>
+    <div id="nav-link-id-two"> 
+    <a class="nav-link" href="#Second_Section">Main Content</a>
+    </div>
+    <br>
+    <div id="nav-link-id-three">
+    <a class="nav-link" href="#Third_Section">Dynamic Index Page</a>
+    </div>
+    <br>
+    <div id="nav-link-id-four">
+    <a class="nav-link" href="#Forth_Section">Dynamic Page JS</a>
+    </div>
+    <br>
+    <div id="nav-link-id-five">
+    <a class="nav-link" href="#Fifth_Section">Dynamic Page HTML</a>
+    </div>
+    <br>
+  </nav>
+
+<br>
+
+<div id="main-doc">
+  <section class="main-section" id="First_Section">
+    <header class="techListHeader">Navigation Bar</header>
+    <p>The navigation bar used to navigate this page is simple to create. </p>
+    <p>Here are some of the main elements of this navigation bar.</p>
+        <ul>
+      <li>The navigation links are contained inside a nav tag on the html page. The nav element defines a set of navigation links and it is intended for a major block of navigation links.</li>   
+          <br>
+      <li>The position of the navigation bar is fixed so it is always visible to the viewer as they scroll through the page. The following code should be added to the id for your nav tag inside the CSS:</li>
+          <br>
+          <code>nav-bar { 
+            position: fixed; }</code>
+          <br>
+          <br>
+      <li>The entire block containing each link is turned into a link. To set the entire block as a link the following code should be added to the the class for you anchor tags inside the CSS:</li>
+          <br>
+          <code>.nav-link { display: inline-block; height: 100%; width: 100%; }</code>
+          <br>
+          <br>
+      <li>The the underline was removed from the links in the navigation bar by setting the text decoration to none. Use the following code on the anchor tag class for the navigation link inside your CSS:</li>
+          <br>
+          <code>.nav-link { text-decoration: none; }</code>
+          <br>
+          <br>
+          <li>Borders were added to div id tags for each link in the navigation bar.</li>
+          <br>
+          <li>This navigation bar is using margin-top at -9% for each div id in the navigation bar.</li>
+          <br>
+          <li>The size of each block containing the navigation links was set on the class for the links in the CSS. This navigation bar uses a width of 300px and a height of 40px for each block.</li>
+          <br>
+    </ul>          
+    <p>Creating the navigation bar was simple. Positioning everything is the most time consuming part.</p>
+  </section>
+  <section class="main-section" id="Second_Section">
+    <header class="techListHeader">Main Content</header>
+        <p>The main content of the page would be a mess without the power of CSS.</p>
+    <p>Here is some of the CSS used to display the main content of the page.</p>
+        <ul>
+      <li>The section class for the main content of the page uses a top, top, right, bottom, and left margin with 3%.</li>
+          <br>
+      <li>The id for the main tag uses a margin-top with 2% and margin-left with 15.5%. </li>
+          <br>
+      <li>A code tag was added to display code on the page. The code tag in the CSS uses a 10px padded border. Setting margins on your code tag won't work in a list so you'll also need to add br tags to your HTML if you use a border with padding. This will prevent your borders from running over other items in your list. </li>
+          <br>
+      <li>The background color is #F0FFFF. </li>
+          <br>
+      <li>The font color is #000048.</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Third_Section">
+    <header class="techListHeader">Dynamic Index Page</header>
+        <p>This page is being displayed through my dynamic index page. </p>
+    <p>Here are more details about my dynamic index page.</p>
+        <ul>
+      <li>My dynamic page uses links on the left to enable users to change the content of the page.</li>
+          <br>
+      <li>Changing content on my dynamic page uses less data and loads faster than viewing the same content on multiple static pages because I am only changing the content that needs to change.</li>
+          <br>
+      <li>Dynamic pages make it easier to check the consistency in the layout for the content of the pages.</li>
+          <br>
+      <li>Updating my dynamic pages are easier than updates to my static pages.</li>
+          <br>
+      <li>Creating the dynamic page was a little more difficult than creating static pages from a template but the small amount of additional time invested in creating dynamic pages is outweighed by their advantages.</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Forth_Section">
+    <header class="techListHeader">Javascript For My Dynamic Page</header>
+        <p>There is more than one way to create dynamic pages. My index page uses Javascript to load the dynamic content.</p>
+    <p>Here is some of the Javascript behind the page.</p>
+        <ul>
+          <li>First, I created a variable to hold the new XMLHttpRequest function.<br><br><code>var xhttp = new XMLHttpRequest();</code><br><br></li>
+          <li>Next, I created functions to load each page. This function was created to load my introduction page.<br><br><code>function loadIntroduction() {
+  xhttp.onload = function() {
+            if (xhttp.status == 200) { </code><br><br><code>
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+    }
+  };
+            </code>
+            <br>
+            <br>
+            <code>
+    xhttp.open("GET", "multi_page_sites/introduction_two.html", true);
+    xhttp.send(null);
+  } </code><br><br></li>
+      <li>This part of the code from above is the target for my page. The id called "dynamic_content" is where all the new dynamic content will load.<br><br><code>document.getElementById('dynamic_content').innerHTML = xhttp.responseText;</code><br><br></li>
+      <li>This part of the code shows where I'm pulling the dynamic content from. I am getting the introduction_two.html file from the multi_page_sites folder.<br><br><code>xhttp.open("GET", "multi_page_sites/introduction_two.html", true);</code><br><br></li>
+    </ul>
+  </section>
+  <section class="main-section" id="Fifth_Section">
+    <header class="techListHeader">Dynamic Page HTML</header>
+    <p>Javascript alone can't do all the work. It needs help from HTML to get the job done.</p>
+    <p>Here's a look at some of the HTML working behind the scenes to create this page dynamic.</p>
+        <ul>
+          <li>The first step is to make sure you define your script source unless you're putting your Javascript on the same page as the HTML. Having HTML, CSS, or Javascript can get messy as more content is added so I prefer to keep them separate.</li><br>
+      <li>I placed the links for my dynamic index page inside a div without a nav tag. Each link uses a button with onclick equal to the function that calls the page. Here is the HTML that calls the function I showed in a previous example.<br><br><code>button type="button" id="introduction" class="buttons" onclick="loadIntroduction()">Introduction</code><br><br></li>
+      <li>For my function, the only important part of the button is onclick. </li><br>
+      <li>After a user activates the function with onclick, content is loaded into my div. I gave my div an id called "dynamic_content" with some placeholder text between the div tags.</li>
+          <br>
+      <li>The page that is loaded into the div called "dynamic_content" is much simpler than a normal html page. I only need to create anything that I would put inside a main tag. No head, header, or footer is needed.</li>
+    </ul>
+  </section>
+
+</div>
+</div>
+
+  <div id="margin_buffer">
+       <br>    
+  </div> 
+           
+ <div id="links_to_profile_pages">
+   <p>
+     <a href="http://students.cpcc.edu/~alb23016/web215/" target="_blank">Webspace</a> &nbsp; | &nbsp;
+     <a href="https://github.com/adambaughn" target="_blank">GitHub</a> &nbsp; | &nbsp;
+     <a href="https://adambaughn.github.io" target="_blank">GitHub Pages</a> &nbsp; | &nbsp;
+     <a href="https://adambaughn.github.io/web215_adambaughn/index.html" target="_blank">GitHub WEB215</a> &nbsp; | &nbsp;
+     <a href="https://www.freecodecamp.org/fcc34679b4e-3a3e-453c-97bf-ae8507234e97" target="_blank">freeCodeCamp</a> &nbsp; | &nbsp;
+     <a href="https://www.codecademy.com/profiles/AdamBaughn" target="_blank">Codecademy</a> &nbsp; | &nbsp; 
+     <a href="http://www.khanacademy.org/profile/adambaughn" target="_blank">KhanAcademy</a> &nbsp; | &nbsp;
+     <a href="https://jsfiddle.net/user/adambaughn/fiddles/" target="_blank">JSFiddle</a> &nbsp; | &nbsp;
+     <a href="https://profile.edx.org/u/adambaughn" target="_blank">edX</a> &nbsp; | &nbsp;
+     <a href="https://www.linkedin.com/in/adam-baughn-107b33203/" target="_blank">LinkedIn</a> &nbsp; | &nbsp;
+     <a href="https://codepen.io/alb23016" target="_blank">Codepen</a>  
+   </p>
+ </div>
+ 
+ 
+</main>
+
+
+<footer>
+  <p class="built_by">
+   Page built by Adam Baughn for WEB 215
+  </p>
+  <p class="validation_links">
+   <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fadambaughn.github.io%2Fweb215_adambaughn%2Findex.html" target="_blank">HTML<span class="check">&check;</span></a>
+   
+   &nbsp;&nbsp;&nbsp;
+
+   <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadambaughn.github.io%2Fweb215_adambaughn%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=" target="_blank">CSS<span class="check">&check;</span></a>
+  </p>
+
+</footer>
+
+
+<script src="scripts/brand.js"></script>
+</body>
+
+</html>
