@@ -120,6 +120,17 @@ function loadPortfolio() {
     xhttp.send(null);
   } 
 
+function loadSprites() {
+  xhttp.onload = function() {
+    if (xhttp.status == 200) {
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+    }
+  };
+    xhttp.open("GET", "multi_page_sites/sprites.html", true);
+    xhttp.send(null);
+  } 
+
+
 function showFunctionOne() {
 var x = document.getElementById("click_one");
 var buttonText = document.getElementById("click_item_one");
