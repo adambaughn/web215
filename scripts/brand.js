@@ -126,7 +126,7 @@ function loadSprites() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/sprites.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/sprites.html", true);
     xhttp.send(null);
   } 
 
