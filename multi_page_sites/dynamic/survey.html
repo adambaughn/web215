@@ -1,0 +1,56 @@
+<h2 id="assignment_title">Survey Form</h2>
+  <section id="survey_assignment">
+    <div id="survey_text">
+<h1>CPCC Survey</h1>
+<p id="description">Enter your information:</p>
+<form id="survey-form">
+    <label for="name" id="name_label">Name: </label>
+<input type="text" id="name" pattern="[A-Z]{1,}[a-z]{1,}" placeholder="Your Name" size="58" required>
+  <br>
+  <br>
+    <label for="email" id="email_label">Email: </label>
+<input type="email" id="email" placeholder="Your Email" size="58" "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+  <br>
+  <br>
+  <label for="number" id="number_label">Age</label>
+<input type="number" id="number" pattern="[0-9]" min="9" max="125" placeholder="Your Age">
+  <br>
+  <br>
+  <label for="dropdown" id="dropdown_label">Are you a student or teacher?</label>
+  <select name="dropdown" id="dropdown">
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+  </select>
+<br>
+  <br>
+  <p>Are you taking courses in Information Technology?</p>    
+<input type="radio" id="yes" name="place" value="yes">    <label for="yes" id="yes">Yes</label>
+ 
+ <input type="radio" id="no" name="place" value="no">    <label for="no" id="no">No</label>   <br>
+  <br>
+  <p>What types of technology courses interest you?</p>
+  <input type="checkbox" id="databases" value="databases">
+  <label for="databases" id="databases">Databases</label>
+    <br>
+  <br>
+    <input type="checkbox" id="webtech" value="webtech">
+    <label for="webtech" id="webtech">Web Technologies</label>
+   <br>
+  <br>
+   <input type="checkbox" id="cybersec" value="cybersec">
+    <label for="cybersec" id="cybersec">Cyber Security</label>
+  <br>
+  <br>
+     <input type="checkbox" id="coding" value="coding">
+    <label for="coding" id="coding">Coding</label>
+  <br>
+  <br>
+  <br>
+  <p>What other types of technology courses interest you?</p>
+  <textarea id="text_area" rows="4" cols="60" placeholder="Add you comments here"></textarea>
+  <br>
+  <br>
+  <input type="submit" id="survey_submit">
+</form>
+      </div>
+  </section>
