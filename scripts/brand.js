@@ -24,7 +24,7 @@ function loadContract() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/contract_two.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/contract_two.html", true);
     xhttp.send(null);
   } 
 
@@ -35,7 +35,7 @@ function loadBrand() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/brand_two.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/brand_two.html", true);
     xhttp.send(null);
   } 
 
@@ -46,7 +46,7 @@ function loadCodeplay() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/codeplay.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/codeplay.html", true);
     xhttp.send(null);
   } 
 
@@ -56,7 +56,7 @@ function loadAsmarterWayToLearn() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/asmarterwaytolearn.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/asmarterwaytolearn.html", true);
     xhttp.send(null);
   } 
 
@@ -66,7 +66,7 @@ function loadCertification() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/certification_check.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/certification_check.html", true);
     xhttp.send(null);
   } 
 
@@ -76,7 +76,7 @@ function loadTribute() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/tribute.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/tribute.html", true);
     xhttp.send(null);
   } 
 
@@ -86,7 +86,7 @@ function loadSurvey() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/survey.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/survey.html", true);
     xhttp.send(null);
   } 
 
@@ -96,7 +96,7 @@ function loadLanding() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/landing.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/landing.html", true);
     xhttp.send(null);
   }
 
@@ -106,7 +106,7 @@ function loadTechnical() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/technical.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/technical.html", true);
     xhttp.send(null);
   } 
 
@@ -116,7 +116,7 @@ function loadPortfolio() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/portfolio.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/portfolio.html", true);
     xhttp.send(null);
   } 
 
