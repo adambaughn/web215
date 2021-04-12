@@ -1,0 +1,198 @@
+<div id="codeplay_text">
+	<h2 class="theme_text">Console Code Play</h2> 
+	<h3 class="theme_text">Input is shown in green and output is shown in red</h3>
+	
+	<p class="input">1 + 1 * 1 / 1</p>
+	<p class="output">2</p>
+
+	<p class="input">console.log('hello world')</p>
+	<p class="output">hello world</p>
+
+	<p class="input">let y = 'this string is the value of y'; <br/> console.log(y);</p>
+	<p class="output">this string is the value of y</p>
+
+	<p class="input">let x = 'and this string is the value of x'; <br/> console.log(y + ' ' + x);</p>
+	<p class="output">this string is the value of y and this string is the value of x</p>
+
+	<p class="input">let lengthOfXAndY = x.length + y.length; <br/> console.log(lengthOfXAndY);</p>
+	<p class="output">62</p>
+
+	<p class="input">let whileCounter = lengthOfXAndY; <br/> console.log(whileCounter)</p>
+	<p class="output">62</p>
+
+	<p class="input">while (whileCounter &gt; 50) { whileCounter--; console.log(whileCounter); }</p>
+	<p class="output">61 <br/> 60 <br/> 59 <br/> 58 <br/> 57 <br/> 56 <br/> 55 <br/> 54 <br/> 53 <br/> 52 <br/> 51 <br/> 50 </p>
+
+	<p class="input">const newArray = ['Asana', 'ZoomInfo', 'Palantir', 'Snowflake']; <br/> console.log(newArray);</p>
+	<p class="output">[ 'Asana', 'ZoomInfo', 'Palantir', 'Snowflake' ]</p>
+
+	<p class="input">newArray.pop();</p>
+	<p class="output">'Snowflake'</p>
+
+	<p class="input">console.log(newArray)</p>
+	<p class="output">[ 'Asana', 'ZoomInfo', 'Palantir' ]</p>
+
+	<p class="input">newArray.push('Snowflake');</p>
+	<p class="output">4</p>
+
+	<p class="input">console.log(newArray);</p>
+	<p class="output">[ 'Asana', 'ZoomInfo', 'Palantir', 'Snowflake' ]</p>
+
+	<p class="input">newArray.length;</p>
+	<p class="output">4</p>
+
+	<p class="input">arrayLength = newArray.length;</p>
+	<p class="output">4</p>
+
+	<p class="input">while (arrayLength &gt; 0) { console.log('Reducing the array counter to ' + arrayLength) ; arrayLength-- ; }</p>
+	<p class="output">Reducing the array counter to 4 <br/> Reducing the array counter to 3 <br/> Reducing the array counter to 2 <br/> Reducing the array counter to 1 <br/> 1</p>
+
+	<p class="input">console.log(arrayLength);</p>
+	<p class="output">0</p>
+
+	<p class="input">arrayLength = 20;</p>
+	<p class="output">20</p>
+
+	<p class="input">let counter = arrayLength; <br/> console.log(counter);</p>
+	<p class="output">20</p>
+
+	<p class="input">for (counter = 5; counter &gt; 0; counter--) { console.log('Reducing the counter by ' + counter); }</p>
+	<p class="output">Reducing the counter by 5 <br/> Reducing the counter by 4 <br/> Reducing the counter by 3 <br/> Reducing the counter by 2 <br/> Reducing the counter by 1 </p>
+
+	<p class="input">for (counter = 0; counter &lt; newArray.length; counter++) { console.log(newArray[counter]); } </p>
+	<p class="output">Asana <br/> ZoomInfo <br/> Palantir <br/> Snowflake</p>
+
+	<p class="input">for (counter = 0; counter &lt; newArray.length; counter++) { if (newArray[counter] === 'Palantir') { console.log(newArray[counter] + ' is a buy'); } else {	console.log(newArray[counter] + ' is a hold'); 
+		} 
+	}</p>
+	<p class="output">Asana is a hold <br/> ZoomInfo is a hold <br/> Palantir is a buy <br/> Snowflake is a hold</p>
+
+	<p class="input">newArray.push('Alibaba');</p>
+	<p class="output">5</p>
+
+	<p class="input">newArray.push('Agora');</p>
+	<p class="output">6</p>
+
+	<p class="input">console.log(newArray);</p>
+	<p class="output">[ 'Asana', 'ZoomInfo', 'Palantir', 'Snowflake', 'Alibaba', 'Agora' ]</p>
+
+	<p class="input">for (counter = 0; counter &lt; newArray.length; counter++) { 
+		if (newArray[counter] === 'Palantir' || newArray[counter] === 'Alibaba' || newArray[counter] === 'Agora') { 
+			console.log(newArray[counter] + ' is a buy'); 
+		} else { 
+			console.log(newArray[counter] + ' is a hold'); 
+		} 
+	}</p>
+	<p class="output">Asana is a hold
+	ZoomInfo is a hold
+	Palantir is a buy
+	Snowflake is a hold
+	Alibaba is a buy
+	Agora is a bu</p>
+
+	<p class="input">const secondArray = [40, 50, 35, 300, 260, 90]; <br/>
+	console.log(secondArray);</p>
+	<p class="output">[ 40, 50, 35, 300, 260, 90 ]</p>
+
+	<p class="input">let averagePriceTarget = 55; <br/>
+	for (counter = 0; counter &lt; newArray.length; counter++) {
+	...     if (secondArray[counter] &lt; averagePriceTarget) {
+	.....           console.log(newArray[counter] + ' is a buy');
+	.....   } else {
+	.....           console.log(newArray[counter] + ' is a hold');
+	.....   }
+	... }</p>
+	<p class="output">Asana is a buy <br/>
+	ZoomInfo is a buy <br/>
+	Palantir is a buy <br/>
+	Snowflake is a hold <br/>
+	Alibaba is a hold <br/>
+	Agora is a hold</p>
+
+	<p class="input">newArray.sort();</p>
+	<p class="output">[ 'Agora', 'Alibaba', 'Asana', 'Palantir', 'Snowflake', 'ZoomInfo' ]</p>
+
+	<p class="input">newArray.reverse();</p>
+	<p class="output">[ 'ZoomInfo', 'Snowflake', 'Palantir', 'Asana', 'Alibaba', 'Agora' ]</p>
+
+	<p class="input">function buyOrHold (value, index, array) {
+	... for (counter = 0; counter &lt; newArray.length; counter++) {
+	..... if (secondArray[counter] &lt; averagePriceTarget) {
+	....... return value + ' is a buy';
+	....... } else {
+	....... return value + ' is a hold';
+	....... }
+	..... }
+	... } <br/>
+	var buyOrHoldArray = newArray.map(buyOrHold); <br/>
+	console.log(buyOrHoldArray);</p>
+	<p class="output">[ <br/>
+	  'ZoomInfo is a buy', <br/>
+	  'Snowflake is a buy', <br/>
+	  'Palantir is a buy', <br/>
+	  'Asana is a buy', <br/>
+	  'Alibaba is a buy', <br/>
+	  'Agora is a buy' <br/>
+	]</p>
+
+	<p class="input">var mustang = {
+	... year: '1994',
+	... engineHorsePower: 225,
+	... rearWheelPower: 180,
+	... powerLostThroughTransmission: function () {
+	..... return this.engineHorsePower - this.rearWheelPower;
+	..... }
+	... };<br/>
+	mustang.powerLostThroughTransmission();</p>
+	<p class="output">45</p>
+
+	<p class="input">mustang.engineTorque = 300;</p>
+	<p class="output">300</p>
+
+	<p class="input">var mustangStats = 'Year: ' + mustang.year + ', '; <br/>
+	mustangStats += 'Engine Horse Power: ' + mustang.engineHorsePower + ', ';</p>
+	<p class="output">'Year: 1994, Engine Horse Power: 225, '</p>
+
+	<p class="input">mustangStats += 'Rear Wheel Horse Power: ' + mustang.rearWheelPower + ', ';</p>
+	<p class="output">'Year: 1994, Engine Horse Power: 225, Rear Wheel Horse Power: 180, '</p>
+
+	<p class="input">mustangStats += 'Engine Torque: ' + mustang.engineTorque + ', ';</p>
+	<p class="output">'Year: 1994, Engine Horse Power: 225, Rear Wheel Horse Power: 180, Engine Torque: 300, '</p>
+
+	<p class="input">mustangStats += 'Horse Power Lost Through Transmission: ' + mustang.powerLostThroughTransmission();</p>
+	<p class="output">'Year: 1994, Engine Horse Power: 225, Rear Wheel Horse Power: 180, Engine Torque: 300, Horse Power Lost Through Transmission: 45'</p>
+
+	<p class="input">console.log(mustangStats);</p>
+	<p class="output">Year: 1994, Engine Horse Power: 225, Rear Wheel Horse Power: 180, Engine Torque: 300, Horse Power Lost Through Transmission: 45</p>
+
+	<p class="input">mustang.engineTorque = 310;</p>
+	<p class="output">310</p>
+
+	<p class="input">console.log(mustangStats);</p>
+	<p class="output">Year: 1994, Engine Horse Power: 225, Rear Wheel Horse Power: 180, Engine Torque: 300, Horse Power Lost Through Transmission: 45</p>
+
+	<p class="input">
+	var mustangStatsVarFromFunction = function () { 
+	...console.log('Engine Horse Power: ' + mustang.engineHorsePower + ', ' + 'Rear Wheel Horse Power: ' + mustang.rearWheelPower + ', ' + 'Engine Torque: ' + mustang.engineTorque + ', ' + 'Horse Power Lost Through Transmission: ' + mustang.powerLostThroughTransmission); 
+	} <br/>
+	mustangStatsVarFromFunction();</p>
+	<p class="output">Engine Horse Power: 225, Rear Wheel Horse Power: 180, Engine Torque: 310, Horse Power Lost Through Transmission: function () {
+	return this.engineHorsePower - this.rearWheelPower;
+	}</p>
+
+	<p class="input">var mustangStatsTwo = function () { return('Engine Horse Power: ' + mustang.engineHorsePower + ', ' + 'Rear Wheel Horse Power: ' + mustang.rearWheelPower + ', ' + 'Engine Torque: ' + mustang.engineTorque + ', ' + 'Horse Power Lost Through Transmission: ' + mustang.powerLostThroughTransmission); }
+	<br/> mustangStatsTwo();</p>
+	<p class="output">'Engine Horse Power: 225, Rear Wheel Horse Power: 180, Engine Torque: 310, Horse Power Lost Through Transmission: function () {\n' +
+	  'return this.engineHorsePower - this.rearWheelPower;\n' +
+	  '}'</p>
+
+	<p class="input">mustangStats.length;</p>
+	<p class="output">127</p>
+
+	<p class="input">console.log(mustangStats);</p>
+	<p class="output">Year: 1994, Engine Horse Power: 225, Rear Wheel Horse Power: 180, Engine Torque: 300, Horse Power Lost Through Transmission: 45</p>
+
+	<p class="input">mustangStats.replace(300, 295);</p>
+	<p class="output">'Year: 1994, Engine Horse Power: 225, Rear Wheel Horse Power: 180, Engine Torque: 295, Horse Power Lost Through Transmission: 45'</p>
+  
+</div>
