@@ -14,7 +14,7 @@ function loadIntroduction() {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
-    xhttp.open("GET", "multi_page_sites/introduction_two.html", true);
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/introduction_two.html", true);
     xhttp.send(null);
   } 
 
