@@ -34,7 +34,8 @@
 </div>
 
 <script type="text/javascript">
-var data;
+	$(document).ready(function(){
+	var data;
 	$.ajax({
 	  type: "GET",  
 	  url: "https://adambaughn.github.io/web215_adambaughn/text/htmlTags.csv",
@@ -77,9 +78,10 @@ var data;
 		});
 		html += '</tbody>';
 		html += '</table>';
-		alert(html);
+
 		$('#csvPage').append(html);
 	  }
 	}	
+});
 </script>   
 
