@@ -24,7 +24,7 @@
         url: "https://adambaughn.github.io/web215_adambaughn/text/htmlTags.csv",
         dataType: "text",
         success: function (data) {
-            $('body').append(arrayToTable(Papa.parse(data).data));
+            $('#csvPage').append(arrayToTable(Papa.parse(data).data));
         }
     });
 </script>
