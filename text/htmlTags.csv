@@ -9,8 +9,6 @@
 "<br>",Inserts a single line break,supported by HTML 5,Causes content to move to a new line
 "<hr>",Defines a thematic change in the content,supported by HTML 5,
 "<!--...-->",Defines a comment,supported by HTML 5,<hr>
-
-
 "<acronym>",Defines an acronym,Not supported in HTML5. Use "<abbr>" instead,<abbr>byob</abbr>
 "<abbr>",Defines an abbreviation or an  acronym,supported by HTML 5,<abbr>byob</abbr>
 "<address>",Defines contact information for the author/owner of a document/article,supported by HTML 5,<address>Contact Me: <a href="mailto:alb2301@email.cpcc.edu">Adam</a> 123 CPCC Ln</address>
@@ -20,14 +18,12 @@
 "<big>",Defines big text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 "<blockquote>",Defines a section that is quoted from another source,supported by HTML 5,Browsers usually indent blockquote elements
 "<center>",Defines centered text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
-
 "<cite>",Defines the title of a work,supported by HTML 5,<cite>This is cited text</cite>
 "<code>",Defines a piece of computer code,supported by HTML 5,<code>This is inside a code tag</code>
 "<del>",Defines text that has been deleted from a document,supported by HTML 5,<del>This text has been deleted</del>
 "<dfn>",Specifies a term that is going to be defined within the content,supported by HTML 5,<dfn>Defined</dfn>
 "<em>",Defines emphasized text,supported by HTML 5,<em>This is using the em tag</em>
 "<font>","Defines font, color, and size for text",Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
-
 "<i>",Defines a part of text in an alternate voice or mood,supported by HTML 5,<i>This is using the i tag</i>
 "<ins>",Defines a text that has been inserted into a document,supported by HTML 5,<ins>This text has been inserted</ins>
 "<kbd>",Defines keyboard input,supported by HTML 5,<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>
@@ -52,7 +48,6 @@
 "<u>",Defines some text that is unarticulated and styled differently from normal text,supported by HTML 5,<u>This text uses the u tag</u>
 "<var>",Defines a variable,supported by HTML 5,<var>A</var> + <var>B</var> = <var>C</var>
 "<wbr>",Defines a possible line-break,supported by HTML 5,Great for very long words and long urls
-
 "<form>",Defines an HTML form for user input,supported by HTML 5,The first html element added to any form
 "<input>",Defines an input control,supported by HTML 5,<label for="fname">First name:</label><input type="text" id="fname" name="fname">
 "<textarea>",Defines a multiline input control (text area),supported by HTML 5,<textarea></textarea>
@@ -65,12 +60,10 @@
 "<legend>",Defines a caption for a "<fieldset>" element,supported by HTML 5,Shown above the fieldset
 "<datalist>",Specifies a list of pre-defined options for input controls,supported by HTML 5,<label for="browser">Choose your browser from the list:</label><input list="browsers" name="browser" id="browser"><datalist id="browsers"><option value="Edge"><option value="Firefox"><option value="Chrome"><option value="Opera"><option value="Safari"></datalist>
 "<output>",Defines the result of a calculation,supported by HTML 5,can be used with the input tag and Javascript to perform calculations
-
 "<frame>",Defines a window (a frame) in a frameset,Not supported in HTML5,,It's not safe to use this tag when validating
 "<frameset>",Defines a set of frames,Not supported in HTML5,It's not safe to use this tag when validating
 "<noframes>",Defines an alternate content for users that do not support frames,Not supported in HTML5,It's not safe to use this tag when validating
 "<iframe>",Defines an inline frame,supported by HTML 5,<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
-
 "<img>",Defines an image,supported by HTML 5,Used to display an image
 "<map>",Defines a client-side image map,supported by HTML 5,Used to turn parts of an image into separate links
 "<area>",Defines an area inside an image map,supported by HTML 5,Used with the map tag to turn parts of an image into separate links
@@ -79,16 +72,13 @@
 "<figure>",Specifies self-contained content,supported by HTML 5,Used for photos and contains the figcaption tag
 "<picture>",Defines a container for multiple image resources,supported by HTML 5,Used to help images better fill viewports
 "<svg>",Defines a container for SVG graphics,supported by HTML 5,"SVG has several methods for drawing paths, boxes, circles, text, and graphic images"
-
 "<audio>",Defines sound content,supported by HTML 5,Used to play an audio file on a web page
 "<source>","Defines multiple media resources for media elements ("<video>", "<audio>" and "<picture>")",supported by HTML 5,Points to the source for the media
 "<track>",Defines text tracks for media elements ("<video>" and "<audio>"),supported by HTML 5,Adds subtitles
 "<video>",Defines a video or movie,supported by HTML 5,Used to play video
-
 "<a>",Defines a hyperlink,supported by HTML 5,Link to <a href="https://www.w3schools.com/">w3schools</a>
 "<link>",Defines the relationship between a document and an external resource (most used to link to style sheets),supported by HTML 5,Found in the head of the document
 "<nav>",Defines navigation links,supported by HTML 5,Intended for major blocks of navigation links
-
 "<ul>",Defines an unordered list,supported by HTML 5,<ul><li>Example 1</li><li>Example 2</li></ul>
 "<ol>",Defines an ordered list,supported by HTML 5,<ol><li>Example 1</li><li>Example 2</li></ol>
 "<li>",Defines a list item,supported by HTML 5,<ol><li>Example 1</li><li>Example 2</li></ol>
@@ -96,7 +86,6 @@
 "<dl>",Defines a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 "<dt>",Defines a term/name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 "<dd>",Defines a description of a term/name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
-
 "<table>",Defines a table,supported by HTML 5,For displaying rows and columns
 "<caption>",Defines a table caption,supported by HTML 5,The table caption is displayed on top of the table
 "<th>",Defines a header cell in a table,supported by HTML 5,The header cell labels the column
@@ -107,7 +96,6 @@
 "<tfoot>",Groups the footer content in a table,supported by HTML 5,All the table's totals belong here
 "<col>",Specifies column properties for each column within a "<colgroup>" element,supported by HTML 5,Used to style the columns in a table
 "<colgroup>",Specifies a group of one or more columns in a table for formatting,supported by HTML 5,Used to style multiple columns
-
 "<style>",Defines style information for a document,supported by HTML 5,Used to apply css code inside html documents
 "<div>",Defines a section in a document,supported by HTML 5,The invisible building blocks of the web
 "<span>",Defines a section in a document,supported by HTML 5,Used to apply styles to specific sections 
@@ -121,15 +109,13 @@
 "<dialog>",Defines a dialog box or window,supported by HTML 5,Create popup dialogs and modals on a web page
 "<summary>",Defines a visible heading for a "<details>" element,supported by HTML 5,Will act as a button to display to content
 "<data>",Adds a machine-readable translation of a given content,supported by HTML 5,Provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser
-
 "<head>",Defines information about the document,supported by HTML 5,Container for metadata (data about data) and is placed between the html tag and the body tag
-"<meta>",Defines metadata about an HTML document,supported by HTML 5,
-"<base>",Specifies the base URL/target for all relative URLs in a document,supported by HTML 5,
-"<basefont>",Specifies a default color, size, and font for all text in a document,Not supported in HTML5. Use CSS instead
-
-"<script>",Defines a client-side script,supported by HTML 5,
-"<noscript>",Defines an alternate content for users that do not support client-side scripts,supported by HTML 5,
-"<applet>",Defines an embedded applet,Not supported in HTML5. Use "<embed>" or "<object>" instead.
-"<embed>",Defines a container for an external (non-HTML) application,supported by HTML 5,
-"<object>",Defines an embedded object,supported by HTML 5,
-"<param>",Defines a parameter for an object,supported by HTML 5,
+"<meta>",Defines metadata about an HTML document,supported by HTML 5,blank
+"<base>",Specifies the base URL/target for all relative URLs in a document,supported by HTML 5,blank
+"<basefont>",Specifies a default color, size, and font for all text in a document,Not supported in HTML5. Use CSS instead,blank
+"<script>",Defines a client-side script,supported by HTML 5,blank
+"<noscript>",Defines an alternate content for users that do not support client-side scripts,supported by HTML 5,blank
+"<applet>",Defines an embedded applet,Not supported in HTML5. Use "<embed>" or "<object>" instead.,blank
+"<embed>",Defines a container for an external (non-HTML) application,supported by HTML 5,blank
+"<object>",Defines an embedded object,supported by HTML 5,blank
+"<param>",Defines a parameter for an object,supported by HTML 5,blank
