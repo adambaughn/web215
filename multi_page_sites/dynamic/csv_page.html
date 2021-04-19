@@ -1,8 +1,9 @@
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script> --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
+<!-- 
 <script>
-    function arrayToTable(tableData) {
+   function arrayToTable(tableData) {
         var table = $('<table></table>');
         $(tableData).each(function (i, rowData) {
             var row = $('<tr></tr>');
@@ -21,8 +22,59 @@
         success: function (data) {
             $('#csvPage').append(arrayToTable(Papa.parse(data).data));
         }
-    });
-</script>
+    }); 
+</script>-->
+<script>
+var data;
+	$.ajax({
+	  type: "GET",  
+	  url: "https://adambaughn.github.io/web215_adambaughn/text/htmlTags.csv",
+	  dataType: "text",       
+	  success: function(response)  
+	  {
+		data = $.csv.toArrays(response);
+		generateHtmlTable(data);
+	  }   
+	});
+
+    function generateHtmlTable(data) {
+    var html = '<table  class="table table-condensed table-hover table-striped">';
+ 
+      if(typeof(data[0]) === 'undefined') {
+        return null;
+      } else {
+		$.each(data, function( index, row ) {
+		  //bind header
+		  if(index == 0) {
+			html += '<thead>';
+			html += '<tr>';
+			$.each(row, function( index, colData ) {
+				html += '<th>';
+				html += colData;
+				html += '</th>';
+			});
+			html += '</tr>';
+			html += '</thead>';
+			html += '<tbody>';
+		  } else {
+			html += '<tr>';
+			$.each(row, function( index, colData ) {
+				html += '<td>';
+				html += colData;
+				html += '</td>';
+			});
+			html += '</tr>';
+		  }
+		});
+		html += '</tbody>';
+		html += '</table>';
+		alert(html);
+		$('#csv-display').append(html);
+	  }
+	}	
+</script>    
+    
+    
 <h2 id="assignment_title">CSV File</h2> 
  
 <div id="csvPage">
