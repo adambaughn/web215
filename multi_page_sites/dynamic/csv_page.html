@@ -29,13 +29,30 @@
 <div class="container" style="padding:10px 10px;">
 	<button>CSV</button>
 	<div class="well">
-		<div class="row" id="csv_page" style="height:500px;overflow: scroll;"></div>
+		<div class="row" id="table-container" style="height:500px;overflow: scroll;"></div>
 	</div>
 </div>
+
+<script>
+	
+CsvToHtmlTable.init({
+            csv_path: "data/test.csv",
+            element: "table-container",
+            allow_download: true,
+            csv_options: {
+                separator: ","
+            },
+            datatables_options: {
+                paging: false
+            }
+        });
+</script>
+
 <!--https://-->
 <!--<script>
 	https://adambaughn.github.io/web215_adambaughn/
 function connectCSV() {-->
+<!--
 <script>
 	$(document).ready(function(){
 	var data;
@@ -87,3 +104,4 @@ function connectCSV() {-->
 	}	
 });    
 </script>   
+-->
