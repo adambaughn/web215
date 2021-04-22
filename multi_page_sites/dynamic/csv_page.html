@@ -27,13 +27,16 @@
     
 <h2 id="assignment_title">CSV File</h2> 
 <div class="container" style="padding:10px 10px;">
+	<button onclick="connectCSV()">Show Data</button>
 	<div class="well">
 		<div class="row" id="csv_page" style="height:500px;overflow: scroll;"></div>
 	</div>
 </div>
 
+<!--<script>
+	$(document).ready(function(){ -->
 <script>
-	$(document).ready(function(){
+	function connectCSV() {
 	var data;
 	$.ajax({
 	  type: "GET",  
@@ -44,7 +47,7 @@
 		data = $.csv.toArrays(response);
 		generateHtmlTable(data);
 	  }   
-	});
+	};
 
     function generateHtmlTable(data) {
     var html = '<table  class="table table-condensed table-hover table-striped">';
