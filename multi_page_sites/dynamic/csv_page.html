@@ -15,7 +15,7 @@
 
     $.ajax({
         type: "GET",
-        url: "adambaughn.github.io/web215_adambaughn/htmlTags.csv",
+        url: "https://adambaughn.github.io/web215_adambaughn/htmlTags.csv",
         dataType: "text/csv",
         success: function (data) {
             $('#csvPage').append(arrayToTable(Papa.parse(data).data));
