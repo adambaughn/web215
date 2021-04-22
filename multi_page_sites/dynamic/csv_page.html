@@ -32,22 +32,23 @@
 		<div class="row" id="csv_page" style="height:500px;overflow: scroll;"></div>
 	</div>
 </div>
-<!--https://adambaughn.github.io/web215_adambaughn/-->
+<!--https://-->
 <!--<script>
-	$(document).ready(function(){ -->
+	
+function connectCSV() {-->
 <script>
-	function connectCSV() {
+	$(document).ready(function(){
 	var data;
 	$.ajax({
 	  type: "GET",  
-	  url: "test.csv",
+	  url: "adambaughn.github.io/web215_adambaughn/test.csv",
 	  dataType: "text",       
 	  success: function(response)  
 	  {
 		data = $.csv.toArrays(response);
 		generateHtmlTable(data);
 	  }   
-	};
+	});
 
     function generateHtmlTable(data) {
     var html = '<table  class="table table-condensed table-hover table-striped">';
