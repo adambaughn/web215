@@ -28,7 +28,7 @@
 <h2 id="assignment_title">CSV File</h2> 
 <div class="container" style="padding:10px 10px;">
 	<div class="well">
-		<div class="row" id="csvPage" style="height:500px;overflow: scroll;"></div>
+		<div class="row" id="csv_page" style="height:500px;overflow: scroll;"></div>
 	</div>
 </div>
 
@@ -37,7 +37,7 @@
 	var data;
 	$.ajax({
 	  type: "GET",  
-	  url: "adambaughn.github.io/web215_adambaughn/test.csv",
+	  url: "https://adambaughn.github.io/web215_adambaughn/test.csv",
 	  dataType: "text",       
 	  success: function(response)  
 	  {
@@ -78,7 +78,7 @@
 		html += '</tbody>';
 		html += '</table>';
 		alert(html);
-		$('#csvPage').append(html);
+		$('#csv_page').append(html);
 	  }
 	}	
 });    
