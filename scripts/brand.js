@@ -1,3 +1,16 @@
+    /* Change starts here */
+  CsvToHtmlTable.init({
+            csv_path: "https://adambaughn.github.io/web215_adambaughn/data/test.csv",
+            element: "table-container",
+            allow_download: true,
+            csv_options: {
+                separator: ","
+            },
+            datatables_options: {
+                paging: false
+            }
+    }); /* Change ends here */
+
 function hoverBanner() {
   document.body.style.backgroundImage = "radial-gradient(#ADD8E6, #FFFFFF)";
 }
@@ -316,15 +329,4 @@ function csvToArray( strData, strDelimiter ){
         return( arrData );
     }
 */
-    /* Change starts here */
-  CsvToHtmlTable.init({
-            csv_path: "https://adambaughn.github.io/web215_adambaughn/data/test.csv",
-            element: "table-container",
-            allow_download: true,
-            csv_options: {
-                separator: ","
-            },
-            datatables_options: {
-                paging: false
-            }
-    }); /* Change ends here */
+
