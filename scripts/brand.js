@@ -134,6 +134,18 @@ function loadCsv() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
       document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      /* Change starts here */
+      CsvToHtmlTable.init({
+            csv_path: "https://adambaughn.github.io/web215_adambaughn/data/test.csv",
+            element: "table-container",
+            allow_download: true,
+            csv_options: {
+                separator: ","
+            },
+            datatables_options: {
+                paging: false
+            }
+        }); /* Change ends here */
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/csv_page.html", true);
