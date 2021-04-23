@@ -29,7 +29,17 @@
 <div class="container" style="padding:10px 10px;">
 	<button>CSV</button>
 	<div class="well">
-		<div id="table-container"></div>
+		<div id="table-container" onload="CsvToHtmlTable.init({
+            csv_path: "https://adambaughn.github.io/web215_adambaughn/data/test.csv",
+            element: "table-container",
+            allow_download: true,
+            csv_options: {
+                separator: ","
+            },
+            datatables_options: {
+                paging: false
+            }
+        });"></div>
 	</div>
 </div>
 
