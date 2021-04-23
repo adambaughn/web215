@@ -139,18 +139,6 @@ function loadCsv() {
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/csv_page.html", true);
     xhttp.send(null);
-    /* Change starts here */
-  CsvToHtmlTable.init({
-            csv_path: "https://adambaughn.github.io/web215_adambaughn/data/test.csv",
-            element: "table-container",
-            allow_download: true,
-            csv_options: {
-                separator: ","
-            },
-            datatables_options: {
-                paging: false
-            }
-    }); /* Change ends here */
   } 
 
 
@@ -293,7 +281,7 @@ function scrollFunction() {
   }
 }
 
-
+/* old code below
 function csvToArray( strData, strDelimiter ){
         strDelimiter = (strDelimiter || ",");
         var objPattern = new RegExp(
@@ -327,3 +315,16 @@ function csvToArray( strData, strDelimiter ){
         }
         return( arrData );
     }
+*/
+    /* Change starts here */
+  CsvToHtmlTable.init({
+            csv_path: "https://adambaughn.github.io/web215_adambaughn/data/test.csv",
+            element: "table-container",
+            allow_download: true,
+            csv_options: {
+                separator: ","
+            },
+            datatables_options: {
+                paging: false
+            }
+    }); /* Change ends here */
