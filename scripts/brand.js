@@ -130,12 +130,10 @@ function loadSprites() {
     xhttp.send(null);
   } 
 
+
 function loadCsv() {
-  xhttp.onload = function() {
-    if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
-      /* Change starts here */
-      CsvToHtmlTable.init({
+  /* Change starts here */
+  CsvToHtmlTable.init({
             csv_path: "https://adambaughn.github.io/web215_adambaughn/data/test.csv",
             element: "table-container",
             allow_download: true,
@@ -145,12 +143,16 @@ function loadCsv() {
             datatables_options: {
                 paging: false
             }
-        }); /* Change ends here */
+    }); /* Change ends here */
+  xhttp.onload = function() {
+    if (xhttp.status == 200) {
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/csv_page.html", true);
     xhttp.send(null);
   } 
+
 
 function showFunctionOne() {
 var x = document.getElementById("click_one");
