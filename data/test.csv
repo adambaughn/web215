@@ -1,5 +1,5 @@
 this, is, a, test
-"<p>,", !-- --, "<!DOCTYPE>", address
+"<p>,", !-- --, !DOCTYPE, address
 this, text, should, show
 up, if, my, code
 is, working, correctly, hope
