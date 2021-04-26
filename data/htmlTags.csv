@@ -1,6 +1,6 @@
 Tag,Description,Relationship,Example
-"<!--...-->",Defines a comment,supported by HTML 5,comments are only visible to developers
-"<!DOCTYPE>",Defines the document type,supported by HTML 5,Used with the "<html>" tag to define an html document
+"!--  --",Defines a comment,supported by HTML 5,comments are only visible to developers
+"!DOCTYPE",Defines the document type,supported by HTML 5,Used with the html tag to define an html document
 "<a>",Defines a hyperlink,supported by HTML 5,Link to <a href="https://www.w3schools.com/">w3schools</a>
 "<abbr>",Defines an abbreviation or an  acronym,supported by HTML 5,<abbr>byob</abbr>
 "<acronym>",Defines an acronym,Not supported in HTML5. Use "<abbr>" instead,<abbr>byob</abbr>
@@ -99,8 +99,8 @@ Tag,Description,Relationship,Example
 "<sub>",Defines subscripted text,supported by HTML 5,<sub>This text uses the sub tag</sub>
 "<summary>",Defines a visible heading for a "<details>" element,supported by HTML 5,Will act as a button to display to content
 "<sup>",Defines superscripted text,supported by HTML 5,<sup>This text uses the sup tag</sup>
-"<table>",Defines a table,supported by HTML 5,For displaying rows and columns
 "<svg>",Defines a container for SVG graphics,supported by HTML 5,"SVG has several methods for drawing paths, boxes, circles, text, and graphic images"
+"<table>",Defines a table,supported by HTML 5,For displaying rows and columns
 "<tbody>",Groups the body content in a table,supported by HTML 5,All the table data belongs here
 "<td>",Defines a cell in a table,supported by HTML 5,Each td tag is contained in a tr tag
 "<template>",Defines a container for content that should be hidden when the page loads,supported by HTML 5,Used with javascript to hide and display content
