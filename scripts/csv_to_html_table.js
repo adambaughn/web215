@@ -79,9 +79,10 @@ function tableFilter() {
   }
 }
 
-function tableFilterLinks() {
+/* function tableFilterLinks() { */
+document.querySelectorAll('.tableLinksFilter').forEach((el) => el.addEventListener("click", function(){
   var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementsByClassName("tableLinksFilter").value;
+  input = document.getElementsByClassName("tableLinksFilter");
   filter = input[0].value.toUpperCase();
   table = document.getElementById("table-container-table");
   tr = table.getElementsByTagName("tr");
