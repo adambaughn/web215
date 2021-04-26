@@ -81,7 +81,7 @@ function tableFilter() {
 
 function tableFilterLinks(val) {
     document.getElementById('tableFilterInput').value = val;
-    function tableFilter();
+    tableFilter();
 }
 
 /* function tableFilterLinks() { */
