@@ -82,7 +82,7 @@ function tableFilter() {
 function tableFilterLinks() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementsByClassName("tableLinksFilter");
-  filter = input.value.toUpperCase();
+  filter = input[0].value.toUpperCase();
   table = document.getElementById("table-container-table");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
