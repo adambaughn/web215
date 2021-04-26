@@ -62,7 +62,7 @@ CsvToHtmlTable = {
 /*  Added code: ------------    Note: add to onClick links */
 function tableFilter() {
   var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("filterInput");
+  input = document.getElementById("tableFilterInput");
   filter = input.value.toUpperCase();
   table = document.getElementById("table-container-table");
   tr = table.getElementsByTagName("tr");
