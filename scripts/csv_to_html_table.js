@@ -47,10 +47,10 @@ CsvToHtmlTable = {
                             $tableBodyRowTd.html(csvData[rowIdx][colIdx]);
                         }
                         /* Added code: */
-                        if (rowIdx == userClick) {
+                        if (rowIdx === userClick) {
                         $tableBodyRow.append($tableBodyRowTd);
-                        $tableBody.append($tableBodyRow);
-                        }
+                        }   
+                        $tableBody.append($tableBodyRow);      
                     }
                 }
                 $table.append($tableBody);
