@@ -79,11 +79,16 @@ function tableFilter() {
   }
 }
 
+function tableFilterLinks(val) {
+    document.getElementById('tableFilterInput').value = val;
+}
+
 /* function tableFilterLinks() { */
+/*
 document.querySelectorAll('.tableLinksFilter').forEach((el) => el.addEventListener("click", function(){
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementsByClassName("tableLinksFilter");
-  filter = input[].value.toUpperCase();
+  filter = input[0].value.toUpperCase();
   table = document.getElementById("table-container-table");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
@@ -98,7 +103,7 @@ document.querySelectorAll('.tableLinksFilter').forEach((el) => el.addEventListen
     }       
   }
 }));
-
+*/
 
 /*
 function pullTable(userClick) {
