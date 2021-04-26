@@ -1,4 +1,6 @@
 var CsvToHtmlTable = CsvToHtmlTable || {};
+/*  Added code: ------------    Note: add to onClick links */
+    function pullTable(userClick) {
 
 CsvToHtmlTable = {
     init: function (options) {
@@ -44,8 +46,11 @@ CsvToHtmlTable = {
                         } else {
                             $tableBodyRowTd.html(csvData[rowIdx][colIdx]);
                         }
+                        /* Added code: */
+                        if (rowIdx == userClick) {
                         $tableBodyRow.append($tableBodyRowTd);
                         $tableBody.append($tableBodyRow);
+                        }
                     }
                 }
                 $table.append($tableBody);
@@ -58,3 +63,4 @@ CsvToHtmlTable = {
             });
     }
 };
+    }
