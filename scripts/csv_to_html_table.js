@@ -97,7 +97,7 @@ document.querySelectorAll('.tableLinksFilter').forEach((el) => el.addEventListen
       }
     }       
   }
-}
+}));
 
 
 /*
