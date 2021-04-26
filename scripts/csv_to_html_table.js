@@ -81,8 +81,8 @@ function tableFilter() {
 
 function tableFilterLinks() {
   var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementsByClassName("tableLinksFilter");
-  filter = input[1].value.toUpperCase();
+  input = document.getElementsByClassName("tableLinksFilter")[0].value;
+  filter = input[0].value.toUpperCase();
   table = document.getElementById("table-container-table");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
