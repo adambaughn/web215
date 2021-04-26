@@ -4,14 +4,14 @@ Tag,Description,Relationship,Example
 a,Defines a hyperlink,supported by HTML 5,Link to <a href="https://www.w3schools.com/">w3schools</a>
 abbr,Defines an abbreviation or an  acronym,supported by HTML 5,<abbr>byob</abbr>
 acronym,Defines an acronym,Not supported in HTML5. Use abbr instead,<abbr>byob</abbr>
-address,Defines contact information for the author/owner of a document/article,supported by HTML 5,"<address>Contact Me: <a href='"mailto:alb2301@email.cpcc.edu"'>Adam</a> 123 CPCC Ln</address>"
+address,Defines contact information for the author or owner of a document or article,supported by HTML 5,"<address>Contact Me: <a href='"mailto:alb2301@email.cpcc.edu"'>Adam</a> 123 CPCC Ln</address>"
 applet,Defines an embedded applet,Not supported in HTML5,Use embed or object instead
 area,Defines an area inside an image map,supported by HTML 5,Used with the map tag to turn parts of an image into separate links
 article,Defines an article,supported by HTML 5,An article should make sense on its own and it should be possible to distribute it independently from the rest of the site
 aside,Defines content aside from the page content,supported by HTML 5,The aside content should be indirectly related to the surrounding content.
 audio,Defines sound content,supported by HTML 5,Used to play an audio file on a web page
 b,Defines bold text,supported by HTML 5,<b>This is some bold text</b>
-base,Specifies the base URL/target for all relative URLs in a document,supported by HTML 5,There can only be one single base element in a document and it must be inside the head element
+base,Specifies the base URL or target for all relative URLs in a document,supported by HTML 5,There can only be one single base element in a document and it must be inside the head element
 basefont,Specifies a default color, size, and font for all text in a document,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating        
 body,Defines the document's body,supported by HTML 5,All the content for the page belongs here 
 bdi,Isolates a part of text that might be formatted in a different direction from other text outside it,supported by HTML 5,Useful for working with unfamiliar characters
@@ -29,12 +29,12 @@ col,Specifies column properties for each column within a colgroup element,suppor
 colgroup,Specifies a group of one or more columns in a table for formatting,supported by HTML 5,Used to style multiple columns
 data,Adds a machine-readable translation of a given content,supported by HTML 5,Provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser
 datalist,Specifies a list of pre-defined options for input controls,supported by HTML 5,<label for='"browser"'>Choose your browser from the list:</label><input list='"browsers"' name='"browser"' id='"browser"'><datalist id='"browsers"'><option value='"Edge"'><option value='"Firefox"'><option value='"Chrome"'><option value='"Opera"'><option value='"Safari"'></datalist>
-dd,Defines a description of a term/name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
+dd,Defines a description of a term or name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 details,Defines additional details that the user can view or hide,supported by HTML 5,<details>The details tag is able to show and hide content</details>
 dialog,Defines a dialog box or window,supported by HTML 5,Create popup dialogs and modals on a web page
 dir,Defines a directory list,Not supported in HTML5. Use ul instead,It's not safe to use this tag when validating
 dl,Defines a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
-dt,Defines a term/name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
+dt,Defines a term or name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 del,Defines text that has been deleted from a document,supported by HTML 5,<del>This text has been deleted</del>
 dfn,Specifies a term that is going to be defined within the content,supported by HTML 5,<dfn>Defined</dfn>
 div,Defines a section in a document,supported by HTML 5,The invisible building blocks of the web
@@ -49,7 +49,7 @@ form,Defines an HTML form for user input,supported by HTML 5,The first html elem
 frame,Defines a window (a frame) in a frameset,Not supported in HTML5,It's not safe to use this tag when validating
 frameset,Defines a set of frames,Not supported in HTML5,It's not safe to use this tag when validating
 h1 to h6,Defines HTML headings,supported by HTML 5,<h3>This is an h3 heading</h3>
-head,Contains metadata/information for the document,supported by HTML 5,Found near the top of the HTML document
+head,Contains metadata or information for the document,supported by HTML 5,Found near the top of the HTML document
 header,Defines a header for a document or section,supported by HTML 5,"Used for main headings, logos, and author information"
 html,Defines an HTML document,supported by HTML 5,Used with the !DOCTYPE tag to define an HTML document
 hr,Defines a thematic change in the content,supported by HTML 5,<hr>
