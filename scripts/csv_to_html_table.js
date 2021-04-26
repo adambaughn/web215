@@ -83,7 +83,7 @@ function tableFilter() {
 document.querySelectorAll('.tableLinksFilter').forEach((el) => el.addEventListener("click", function(){
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementsByClassName("tableLinksFilter");
-  filter = input[0].value.toUpperCase();
+  filter = input[].value.toUpperCase();
   table = document.getElementById("table-container-table");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
