@@ -6,7 +6,7 @@ abbr,Defines an abbreviation or an  acronym,supported by HTML 5,<abbr>byob</abbr
 acronym,Defines an acronym,Not supported in HTML5. Use abbr instead,<abbr>byob</abbr>
 address,Defines contact information for the author or owner of a document or article,supported by HTML 5,<address>Contact Me: <a href='mailto:alb2301@email.cpcc.edu'>Adam</a> 123 CPCC Ln</address>
 applet,Defines an embedded applet,Not supported in HTML5,Use embed or object instead
-area,Defines an area inside an image map,supported by HTML 5,Used with the map tag to turn parts of an image into separate links
+area ,Defines an area inside an image map,supported by HTML 5,Used with the map tag to turn parts of an image into separate links
 article,Defines an article,supported by HTML 5,An article should make sense on its own and it should be possible to distribute it independently from the rest of the site
 aside,Defines content aside from the page content,supported by HTML 5,The aside content should be indirectly related to the surrounding content.
 audio,Defines sound content,supported by HTML 5,Used to play an audio file on a web page
