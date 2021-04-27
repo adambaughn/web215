@@ -225,17 +225,17 @@ a:active
 
 .maintext
 {
-	margin-top: 100px;
-	font-family: Lucida Console, Courier New, sans-serif;
-	margin-left: 20px;
-	color: #000048;
+	margin-top: 100px !important;
+	font-family: Lucida Console, Courier New, sans-serif !important;
+	margin-left: 20px !important;
+	color: #000048 !important;
 }
 
 #dynamic_links {
-	width: 7%;
-	font-family: 'Carter one', cursive;
-	margin-left: -140px; 
-	margin-top: 50px; 
+	width: 7% !important;
+	font-family: 'Carter one', cursive !important;
+	margin-left: -140px !important; 
+	margin-top: 50px !important; 
 
 }
 
@@ -243,7 +243,7 @@ a:active
 #dynamic_links p {
 
 }
-/*	width: 40px; */
+
 
 #dynamic_links a:hover {
 	text-decoration: none !important;
@@ -257,7 +257,7 @@ a:active
 }
 
 #dynamic_content {
-	margin-top: -52%;
+	margin-top: -52% !important;
 }
 /* was-750px */
 
@@ -282,14 +282,14 @@ a:active
 
 
 .buttons {
-	font-family: 'Carter one', cursive;	
-	color: #000048;
-	background-color: #FFFFFF;
-	border: 1px solid #F0FFFF;
-	border-radius: 5px;
-	padding: 8px 16px;
-	text-align: center;
-	width: 100%;
+	font-family: 'Carter one', cursive !important;	
+	color: #000048 !important;
+	background-color: #FFFFFF !important;
+	border: 1px solid #F0FFFF !important;
+	border-radius: 5px !important;
+	padding: 8px 16px !important;
+	text-align: center !important;
+	width: 100% !important;
 }
 
 
