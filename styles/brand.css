@@ -1290,7 +1290,7 @@ code {
 	margin-top: 3%;
 }
 	
-#html_tag_links a:hover {
+#html_tag_links button:hover {
 	text-decoration: none;
 	background-image: radial-gradient(#FFFFFF, #ADD8E6);
 	border-style: none;
