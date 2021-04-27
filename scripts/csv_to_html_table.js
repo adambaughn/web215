@@ -84,6 +84,13 @@ function tableFilterLinks(val) {
     tableFilter(document.getElementById('tableFilterInput').value);
 }
 
+/* Code for button to clear table filter below */
+
+function clearTableFilter() {
+    tableFilter("");
+}
+
+
 /* function tableFilterLinks() { */
 /*
 document.querySelectorAll('.tableLinksFilter').forEach((el) => el.addEventListener("click", function(){
