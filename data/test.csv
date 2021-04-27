@@ -18,7 +18,7 @@ bdi,Isolates a part of text that might be formatted in a different direction fro
 bdo,Overrides the current text direction,supported by HTML 5,<bdo dir='rtl'>This tag can make text display backwards</bdo>
 big,Defines big text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 blockquote,Defines a section that is quoted from another source,supported by HTML 5,Browsers usually indent blockquote elements
-br,Inserts a single line break,supported by HTML 5,Causes content to move to a new line
+br,Inserts a single line break,supported by HTML 5,Causes content to move<br> to a new line
 button,Defines a clickable button,supported by HTML 5,<button>Button</button>
 caption,Defines a table caption,supported by HTML 5,The table caption is displayed on top of the table
 canvas,Used to draw graphics, on the fly, via scripting (usually JavaScript),supported by HTML 5,Add to your blank canvas with the power of Javascript
