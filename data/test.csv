@@ -39,7 +39,7 @@ del,Defines text that has been deleted from a document,supported by HTML 5,<del>
 dfn,Specifies a term that is going to be defined within the content,supported by HTML 5,<dfn>Defined</dfn>
 div,Defines a section in a document,supported by HTML 5,The invisible building blocks of the web
 em,Defines emphasized text,supported by HTML 5,<em>This is using the em tag</em>
-embed,Defines a container for an external (non-HTML) application,supported by HTML 5,container for an external resource"," such as a web page"," a picture"," a media player"," or a plug-in application
+embed,Defines a container for an external (non-HTML) application,supported by HTML 5,"container for an external resource, such as a web page, a picture, a media player, or a plug-in application"
 fieldset,Groups related elements in a form,supported by HTML 5,Use fieldset to group form elements inside the form
 figcaption,Defines a caption for a figure element,supported by HTML 5,A caption used below an image
 figure,Specifies self-contained content,supported by HTML 5,Used for photos and contains the figcaption tag
@@ -66,12 +66,12 @@ link,Defines the relationship between a document and an external resource (most 
 main,Specifies the main content of a document,supported by HTML 5,All the page content belong here
 mark,Defines marked/highlighted text,supported by HTML 5,<mark>This text has been marked</mark>
 map,Defines a client-side image map,supported by HTML 5,Used to turn parts of an image into separate links
-meta,Defines metadata about an HTML document,supported by HTML 5,typically used to specify character set"," page description"," keywords"," author of the document"," and viewport settings
+meta,Defines metadata about an HTML document,supported by HTML 5,"typically used to specify character set, page description, keywords, author of the document, and viewport settings"
 meter,Defines a scalar measurement within a known range (a gauge),supported by HTML 5,<label for='fun_factor'>Fun Factor:</label><meter id='fun_factor' value='9' min='0' max='10'>9 out of 10</meter>
 nav,Defines navigation links,supported by HTML 5,Intended for major blocks of navigation links
 noframes,Defines an alternate content for users that do not support frames,Not supported in HTML5,It's not safe to use this tag when validating
 noscript,Defines an alternate content for users that do not support client-side scripts,supported by HTML 5,element can be used in both head and body
-object,Defines an embedded object,supported by HTML 5,external resource can be a web page"," a picture"," a media player"," or a plug-in application
+object,Defines an embedded object,supported by HTML 5,"external resource can be a web page, a picture, a media player, or a plug-in application"
 ol,Defines an ordered list,supported by HTML 5,<ol><li>Example 1</li><li>Example 2</li></ol>
 optgroup,Defines a group of related options in a drop-down list,supported by HTML 5,<select><optgroup label='Group 1'><option value='choice a'>Choice A</option></optgroup><optgroup label='Group 2'><option value='choice b'>Choice B</option></optgroup></select>
 option,Defines an option in a drop-down list,supported by HTML 5,<label for='cars'>Choose a car:</label><select id='cars'><option value='volvo'>Volvo</option><option value='saab'>Saab</option><option value='opel'>Opel</option><option value='audi'>Audi</option></select>
