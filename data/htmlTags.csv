@@ -17,8 +17,8 @@ bdi,Isolates a part of text that might be formatted in a different direction fro
 bdo,Overrides the current text direction,supported by HTML 5,<bdo dir='rtl'>This tag can make text display backwards</bdo>
 big,Defines big text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 blockquote,Defines a section that is quoted from another source,supported by HTML 5,Browsers usually indent blockquote elements
-body,Defines the document's body,supported by HTML 5,All the content for the page belongs here 
-br,Inserts a single line break,supported by HTML 5,Causes content to move<br> to a new line
+body ,Defines the document's body,supported by HTML 5,All the content for the page belongs here 
+br ,Inserts a single line break,supported by HTML 5,Causes content to move<br> to a new line
 button,Defines a clickable button,supported by HTML 5,<button>Button</button>
 caption,Defines a table caption,supported by HTML 5,The table caption is displayed on top of the table
 canvas,"Used to draw graphics, on the fly, via scripting (usually JavaScript)",supported by HTML 5,Add to your blank canvas with the power of Javascript
@@ -112,7 +112,7 @@ time,Defines a specific time (or datetime),supported by HTML 5,<time>10:30</time
 title,Defines a title for the document,supported by HTML 5,This is the title shown by the browser
 tr,Defines a row in a table,supported by HTML 5,All rows are contained in tr tags including the th tags row
 track,Defines text tracks for media elements (video and audio),supported by HTML 5,Adds subtitles
-tt,Defines teletype text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
+tt ,Defines teletype text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 u ,Defines some text that is unarticulated and styled differently from normal text,supported by HTML 5,<u>This text uses the u tag</u>
 ul,Defines an unordered list,supported by HTML 5,<ul><li>Example 1</li><li>Example 2</li></ul>
 var,Defines a variable,supported by HTML 5,<var>A</var> + <var>B</var> = <var>C</var>
