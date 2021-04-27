@@ -43,7 +43,7 @@ embed,Defines a container for an external (non-HTML) application,supported by HT
 fieldset,Groups related elements in a form,supported by HTML 5,Use fieldset to group form elements inside the form
 figcaption,Defines a caption for a figure element,supported by HTML 5,A caption used below an image
 figure,Specifies self-contained content,supported by HTML 5,Used for photos and contains the figcaption tag
-font,"Defines font, color, and size for text",Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
+ font,"Defines font, color, and size for text",Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 footer,Defines a footer for a document or section,supported by HTML 5,"Used for authorship information, copyright information, contact information, sitemap, back to top links, and related documents"
 form,Defines an HTML form for user input,supported by HTML 5,The first html element added to any form
 frame ,Defines a window (a frame) in a frameset,Not supported in HTML5,It's not safe to use this tag when validating
