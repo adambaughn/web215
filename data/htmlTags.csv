@@ -12,7 +12,7 @@ aside,Defines content aside from the page content,supported by HTML 5,The aside 
 audio,Defines sound content,supported by HTML 5,Used to play an audio file on a web page
 b,Defines bold text,supported by HTML 5,<b>This is some bold text</b>
 base,Specifies the base URL or target for all relative URLs in a document,supported by HTML 5,There can only be one single base element in a document and it must be inside the head element
-basefont,Specifies a default color, size, and font for all text in a document,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating        
+basefont,"Specifies a default color, size, and font for all text in a document",Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating        
 body,Defines the document's body,supported by HTML 5,All the content for the page belongs here 
 bdi,Isolates a part of text that might be formatted in a different direction from other text outside it,supported by HTML 5,Useful for working with unfamiliar characters
 bdo,Overrides the current text direction,supported by HTML 5,<bdo dir='rtl'>This tag can make text display backwards</bdo>
@@ -21,13 +21,13 @@ blockquote,Defines a section that is quoted from another source,supported by HTM
 br,Inserts a single line break,supported by HTML 5,Causes content to move to a new line
 button,Defines a clickable button,supported by HTML 5,<button>Button</button>
 caption,Defines a table caption,supported by HTML 5,The table caption is displayed on top of the table
-canvas,Used to draw graphics, on the fly, via scripting (usually JavaScript),supported by HTML 5,Add to your blank canvas with the power of Javascript
+canvas,"Used to draw graphics, on the fly, via scripting (usually JavaScript)",supported by HTML 5,Add to your blank canvas with the power of Javascript
 center,Defines centered text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 cite,Defines the title of a work,supported by HTML 5,<cite>This is cited text</cite>
 code,Defines a piece of computer code,supported by HTML 5,<code>This is inside a code tag</code>
 col,Specifies column properties for each column within a colgroup element,supported by HTML 5,Used to style the columns in a table
 colgroup,Specifies a group of one or more columns in a table for formatting,supported by HTML 5,Used to style multiple columns
-data,Adds a machine-readable translation of a given content,supported by HTML 5,Provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser
+data,Adds a machine-readable translation of a given content,supported by HTML 5,"Provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser"
 datalist,Specifies a list of pre-defined options for input controls,supported by HTML 5,<label for='browser'>Choose your browser from the list:</label><input list='browsers' name='browser' id='browser'><datalist id='browsers'><option value='Edge'><option value='Firefox'><option value='Chrome'><option value='Opera'><option value='Safari'></datalist>
 dd,Defines a description of a term or name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 details,Defines additional details that the user can view or hide,supported by HTML 5,<details>The details tag is able to show and hide content</details>
@@ -39,7 +39,7 @@ del,Defines text that has been deleted from a document,supported by HTML 5,<del>
 dfn,Specifies a term that is going to be defined within the content,supported by HTML 5,<dfn>Defined</dfn>
 div,Defines a section in a document,supported by HTML 5,The invisible building blocks of the web
 em,Defines emphasized text,supported by HTML 5,<em>This is using the em tag</em>
-embed,Defines a container for an external (non-HTML) application,supported by HTML 5,`container for an external resource, such as a web page, a picture, a media player, or a plug-in application`
+embed,Defines a container for an external (non-HTML) application,supported by HTML 5,"container for an external resource, such as a web page, a picture, a media player, or a plug-in application"
 fieldset,Groups related elements in a form,supported by HTML 5,Use fieldset to group form elements inside the form
 figcaption,Defines a caption for a figure element,supported by HTML 5,A caption used below an image
 figure,Specifies self-contained content,supported by HTML 5,Used for photos and contains the figcaption tag
