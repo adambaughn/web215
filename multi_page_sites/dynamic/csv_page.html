@@ -1,37 +1,4 @@
-<!-- 	
 
-<script>
-   function arrayToTable(tableData) {
-        var table = $('<table></table>');
-        $(tableData).each(function (i, rowData) {
-            var row = $('<tr></tr>');
-            $(rowData).each(function (j, cellData) {
-                row.append($('<td>'+cellData+'</td>'));
-            });
-            table.append(row);
-        });
-        return table;
-    }
-
-    $.ajax({
-        type: "GET",
-        url: "https://adambaughn.github.io/web215_adambaughn/test.csv",
-        dataType: "text/csv",
-        success: function (data) {
-            $('#csvPage').append(arrayToTable(Papa.parse(data).data));
-        }
-    }); 
-</script>
--->
-
-<!--    
-<h2 id="assignment_title">CSV File</h2> 
-<div class="container" style="padding:10px 10px;">
-	<div class="well">
-		<div id="table-container"></div>
-	</div>
-</div>
--->
  <h2 id="assignment_title">HTML Tags</h2> 
 	  <div id="html_tag_links">
 		  <button class="tableLinksFilter" onclick="tableFilterLinks('!--  --')" value="!--  --">!--  --</button>
@@ -154,95 +121,9 @@
 		  <button class="tableLinksFilter" onclick="tableFilterLinks('video')" value="video">video</button>
 		  <button class="tableLinksFilter" onclick="tableFilterLinks('wbr')" value="wbr">wbr</button>	  
 	  </div>
-<!--<div class="container">
-	<div class="well">-->
+
 	  <input type="text" id="tableFilterInput" onkeyup="tableFilter()" placeholder="Search for tags.." title="Type in a tag">
 <div id="table_dynamic" style="height: 100vh; width: 94%; margin-left: 3%; margin-right: 3%; border: 1px #000048 solid; border-radius: 5px;">
 <iframe src="https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/iframecsv.html" title="CSV table" height="1000" width="100%"></iframe>
 </div>
 
-<!--
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
-<script src="https://adambaughn.github.io/web215_adambaughn/scripts/jquery.csv.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-<script src="https://adambaughn.github.io/web215_adambaughn/scripts/csv_to_html_table.js"></script>
-<script>
-
-CsvToHtmlTable.init({
-            csv_path: "https://adambaughn.github.io/web215_adambaughn/data/htmlTags.csv",
-            element: "table-container",
-            allow_download: true,
-            csv_options: {
-                separator: ',', delimiter: '"'
-            },
-            datatables_options: {
-                paging: false
-            }
-        });
-</script>
--->
-
-
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-
-<!--https://-->
-<!--<script>
-	https://adambaughn.github.io/web215_adambaughn/
-function connectCSV() {-->
-<!--
-<script>
-	$(document).ready(function(){
-	var data;
-	$.ajax({
-	  type: "GET",  
-	  url: "https://adambaughn.github.io/web215_adambaughn/data/test.csv",
-	  dataType: "text",       
-	  success: function(response)  
-	  {
-		data = $.csv.toArrays(response);
-		generateHtmlTable(data);
-	  }   
-	});
-
-    function generateHtmlTable(data) {
-    var html = '<table  class="table table-condensed table-hover table-striped">';
- 
-      if(typeof(data[0]) === 'undefined') {
-        return null;
-      } else {
-		$.each(data, function( index, row ) {
-		  //bind header
-		  if(index == 0) {
-			html += '<thead>';
-			html += '<tr>';
-			$.each(row, function( index, colData ) {
-				html += '<th>';
-				html += colData;
-				html += '</th>';
-			});
-			html += '</tr>';
-			html += '</thead>';
-			html += '<tbody>';
-		  } else {
-			html += '<tr>';
-			$.each(row, function( index, colData ) {
-				html += '<td>';
-				html += colData;
-				html += '</td>';
-			});
-			html += '</tr>';
-		  }
-		});
-		html += '</tbody>';
-		html += '</table>';
-		alert(html);
-		$('#csv_page').append(html);
-	  }
-	}	
-});    
-</script>   
--->
