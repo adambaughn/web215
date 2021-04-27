@@ -1448,7 +1448,7 @@ code {
 	margin-right:5%;
 	margin-top: 3%;
 	display: grid;
- 	grid-template-columns: auto auto auto;	
+ 	grid-template-columns: auto auto auto auto auto auto auto;	
 }
 
 .grid_link {
