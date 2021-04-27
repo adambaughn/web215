@@ -1443,6 +1443,7 @@ code {
 .tableLinksFilter:hover {
 	text-decoration: none;
 	background-image: none;
+	background-color: #F0FFFF
 	border-style: none;
 	border-color: #ADD8E6;
 	border-radius: 5px;
