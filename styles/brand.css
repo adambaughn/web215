@@ -1426,7 +1426,11 @@ code {
 	border-radius: 5px;
 	margin-left: 1%;
 }
-		  
+	
+.tableLinksFilter[disabled] {
+	pointer-events: none;
+}
+
 #html_tag_links {
 	margin-left: 5%;
 	margin-right:5%;
