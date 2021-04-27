@@ -1477,6 +1477,12 @@ code {
 	padding: 0px;
 }
 
+#clear_table_filter {
+	color: #000048; 
+	font-family: 'Carter one', cursive; 
+	background-color: white;
+}
+
 .codepen_headings {
 	text-align: center;
 }
