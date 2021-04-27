@@ -1,7 +1,7 @@
 Tag,Description,Relationship,Example
 !--  --,Defines a comment,supported by HTML 5,comments are only visible to developers
 !DOCTYPE,Defines the document type,supported by HTML 5,Used with the html tag to define an html document
-a,Defines a hyperlink,supported by HTML 5,Link to <a href='https://www.w3schools.com/'>w3schools</a>
+a ,Defines a hyperlink,supported by HTML 5,Link to <a href='https://www.w3schools.com/'>w3schools</a>
 abbr,Defines an abbreviation or an  acronym,supported by HTML 5,<abbr>byob</abbr>
 acronym,Defines an acronym,Not supported in HTML5. Use abbr instead,<abbr>byob</abbr>
 address,Defines contact information for the author or owner of a document or article,supported by HTML 5,<address>Contact Me: <a href='mailto:alb2301@email.cpcc.edu'>Adam</a> 123 CPCC Ln</address>
