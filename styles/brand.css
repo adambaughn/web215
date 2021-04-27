@@ -1424,6 +1424,7 @@ code {
 	font-size: 1.2em;
 	border: 1px #000048 solid;
 	border-radius: 5px;
+	margin-left: 1%;
 }
 		  
 #html_tag_links {
@@ -1443,7 +1444,7 @@ code {
 	border-style: none;
 	border-color: #ADD8E6;
 	border-radius: 5px;
-	border-width: 2px;
+	border-width: 0px;
 	box-shadow: 0px 0px #000048;
 	padding: 0px;
 }
