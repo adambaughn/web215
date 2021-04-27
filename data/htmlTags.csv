@@ -10,8 +10,8 @@ area,Defines an area inside an image map,supported by HTML 5,Used with the map t
 article,Defines an article,supported by HTML 5,An article should make sense on its own and it should be possible to distribute it independently from the rest of the site
 aside,Defines content aside from the page content,supported by HTML 5,The aside content should be indirectly related to the surrounding content.
 audio,Defines sound content,supported by HTML 5,Used to play an audio file on a web page
-b,Defines bold text,supported by HTML 5,<b>This is some bold text</b>
-base,Specifies the base URL or target for all relative URLs in a document,supported by HTML 5,There can only be one single base element in a document and it must be inside the head element
+b ,Defines bold text,supported by HTML 5,<b>This is some bold text</b>
+base ,Specifies the base URL or target for all relative URLs in a document,supported by HTML 5,There can only be one single base element in a document and it must be inside the head element
 basefont,"Specifies a default color, size, and font for all text in a document",Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating        
 bdi,Isolates a part of text that might be formatted in a different direction from other text outside it,supported by HTML 5,Useful for working with unfamiliar characters
 bdo,Overrides the current text direction,supported by HTML 5,<bdo dir='rtl'>This tag can make text display backwards</bdo>
@@ -25,9 +25,9 @@ canvas,"Used to draw graphics, on the fly, via scripting (usually JavaScript)",s
 center,Defines centered text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 cite,Defines the title of a work,supported by HTML 5,<cite>This is cited text</cite>
 code,Defines a piece of computer code,supported by HTML 5,<code>This is inside a code tag</code>
-col,Specifies column properties for each column within a colgroup element,supported by HTML 5,Used to style the columns in a table
+col ,Specifies column properties for each column within a colgroup element,supported by HTML 5,Used to style the columns in a table
 colgroup,Specifies a group of one or more columns in a table for formatting,supported by HTML 5,Used to style multiple columns
-data,Adds a machine-readable translation of a given content,supported by HTML 5,"Provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser"
+data ,Adds a machine-readable translation of a given content,supported by HTML 5,"Provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser"
 datalist,Specifies a list of pre-defined options for input controls,supported by HTML 5,<label for='browser'>Choose your browser from the list:</label><input list='browsers' name='browser' id='browser'><datalist id='browsers'><option value='Edge'><option value='Firefox'><option value='Chrome'><option value='Opera'><option value='Safari'></datalist>
 dd,Defines a description of a term or name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 del,Defines text that has been deleted from a document,supported by HTML 5,<del>This text has been deleted</del>
@@ -38,7 +38,7 @@ dir,Defines a directory list,Not supported in HTML5. Use ul instead,It's not saf
 div,Defines a section in a document,supported by HTML 5,The invisible building blocks of the web
 dl,Defines a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 dt,Defines a term or name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
-em,Defines emphasized text,supported by HTML 5,<em>This is using the em tag</em>
+em ,Defines emphasized text,supported by HTML 5,<em>This is using the em tag</em>
 embed,Defines a container for an external (non-HTML) application,supported by HTML 5,"container for an external resource, such as a web page, a picture, a media player, or a plug-in application"
 fieldset,Groups related elements in a form,supported by HTML 5,Use fieldset to group form elements inside the form
 figcaption,Defines a caption for a figure element,supported by HTML 5,A caption used below an image
@@ -46,14 +46,14 @@ figure,Specifies self-contained content,supported by HTML 5,Used for photos and 
 font,"Defines font, color, and size for text",Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 footer,Defines a footer for a document or section,supported by HTML 5,"Used for authorship information, copyright information, contact information, sitemap, back to top links, and related documents"
 form,Defines an HTML form for user input,supported by HTML 5,The first html element added to any form
-frame,Defines a window (a frame) in a frameset,Not supported in HTML5,It's not safe to use this tag when validating
+frame ,Defines a window (a frame) in a frameset,Not supported in HTML5,It's not safe to use this tag when validating
 frameset,Defines a set of frames,Not supported in HTML5,It's not safe to use this tag when validating
 h1 to h6,Defines HTML headings,supported by HTML 5,<h3>This is an h3 heading</h3>
-head,Contains metadata or information for the document,supported by HTML 5,Found near the top of the HTML document
+head ,Contains metadata or information for the document,supported by HTML 5,Found near the top of the HTML document
 header,Defines a header for a document or section,supported by HTML 5,"Used for main headings, logos, and author information"
 html,Defines an HTML document,supported by HTML 5,Used with the !DOCTYPE tag to define an HTML document
 hr,Defines a thematic change in the content,supported by HTML 5,<hr>
-i,Defines a part of text in an alternate voice or mood,supported by HTML 5,<i>This is using the i tag</i>
+i ,Defines a part of text in an alternate voice or mood,supported by HTML 5,<i>This is using the i tag</i>
 iframe,Defines an inline frame,supported by HTML 5,<iframe src='https://adambaughn.github.io/web215_adambaughn/multi_page_sites/static/introduction_static.html' title='My introduction page'></iframe>
 img,Defines an image,supported by HTML 5,Used to display an image
 input,Defines an input control,supported by HTML 5,<label for='fname'>First name:</label><input type='text' id='fname' name='fname'>
@@ -61,7 +61,7 @@ ins,Defines a text that has been inserted into a document,supported by HTML 5,<i
 kbd,Defines keyboard input,supported by HTML 5,<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>
 label,Defines a label for an input element,supported by HTML 5,Used with all form input and option fields
 legend,Defines a caption for a fieldset element,supported by HTML 5,Shown above the fieldset
-li,Defines a list item,supported by HTML 5,<ol><li>Example 1</li><li>Example 2</li></ol>
+li ,Defines a list item,supported by HTML 5,<ol><li>Example 1</li><li>Example 2</li></ol>
 link,Defines the relationship between a document and an external resource (most used to link to style sheets),supported by HTML 5,Found in the head of the document
 main,Specifies the main content of a document,supported by HTML 5,All the page content belongs here
 map,Defines a client-side image map,supported by HTML 5,Used to turn parts of an image into separate links
@@ -76,16 +76,16 @@ ol,Defines an ordered list,supported by HTML 5,<ol><li>Example 1</li><li>Example
 optgroup,Defines a group of related options in a drop-down list,supported by HTML 5,<select><optgroup label='Group 1'><option value='choice a'>Choice A</option></optgroup><optgroup label='Group 2'><option value='choice b'>Choice B</option></optgroup></select>
 option,Defines an option in a drop-down list,supported by HTML 5,<label for='cars'>Choose a car:</label><select id='cars'><option value='volvo'>Volvo</option><option value='saab'>Saab</option><option value='opel'>Opel</option><option value='audi'>Audi</option></select>
 output,Defines the result of a calculation,supported by HTML 5,can be used with the input tag and Javascript to perform calculations
-p,Defines a paragraph,supported by HTML 5,<p>This text was placed inside p tags</p>
+p ,Defines a paragraph,supported by HTML 5,<p>This text was placed inside p tags</p>
 param,Defines a parameter for an object,supported by HTML 5,the file format defined in object may not be supported in all browsers
 picture,Defines a container for multiple image resources,supported by HTML 5,Used to help images better fill viewports
 pre,Defines preformatted text,supported by HTML 5,<pre>Preserve      spaces        and line breaks with pre</pre>
 progress,Represents the progress of a task,supported by HTML 5,<label for='file'>Downloading progress:</label><progress id='file' value='98' max='100'> 98% </progress>
-q,Defines a short quotation,supported by HTML 5,<q>This text is using the q tag</q>
+q ,Defines a short quotation,supported by HTML 5,<q>This text is using the q tag</q>
 rp,Defines what to show in browsers that do not support ruby annotations,supported by HTML 5,<ruby>漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt></ruby>
 rt,Defines an explanation/pronunciation of characters (for East Asian typography),supported by HTML 5,<ruby> 漢 <rt> ㄏㄢˋ </rt></ruby>
 ruby,Defines a ruby annotation (for East Asian typography),supported by HTML 5,<ruby>漢 <rt> ㄏㄢˋ </rt></ruby>
-s,Defines text that is no longer correct,supported by HTML 5,<s>This s tag has been applied</s>
+s ,Defines text that is no longer correct,supported by HTML 5,<s>This s tag has been applied</s>
 samp,Defines sample output from a computer program,supported by HTML 5,<samp>This text is using the samp tag</samp>
 script,Defines a client-side script,supported by HTML 5,element either contains scripting statements or it points to an external script file through the src attribute
 section,Defines a section in a document,supported by HTML 5,Like a div that follows a theme so elements in a section should be related
@@ -106,14 +106,14 @@ td,Defines a cell in a table,supported by HTML 5,Each td tag is contained in a t
 template,Defines a container for content that should be hidden when the page loads,supported by HTML 5,Used with javascript to hide and display content
 textarea,Defines a multiline input control (text area),supported by HTML 5,<textarea></textarea>
 tfoot,Groups the footer content in a table,supported by HTML 5,All the table's totals belong here
-th,Defines a header cell in a table,supported by HTML 5,The header cell labels the column
+th ,Defines a header cell in a table,supported by HTML 5,The header cell labels the column
 thead,Groups the header content in a table,supported by HTML 5,All the column labels belong here
 time,Defines a specific time (or datetime),supported by HTML 5,<time>10:30</time>
 title,Defines a title for the document,supported by HTML 5,This is the title shown by the browser
 tr,Defines a row in a table,supported by HTML 5,All rows are contained in tr tags including the th tags row
 track,Defines text tracks for media elements (video and audio),supported by HTML 5,Adds subtitles
 tt,Defines teletype text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
-u,Defines some text that is unarticulated and styled differently from normal text,supported by HTML 5,<u>This text uses the u tag</u>
+u ,Defines some text that is unarticulated and styled differently from normal text,supported by HTML 5,<u>This text uses the u tag</u>
 ul,Defines an unordered list,supported by HTML 5,<ul><li>Example 1</li><li>Example 2</li></ul>
 var,Defines a variable,supported by HTML 5,<var>A</var> + <var>B</var> = <var>C</var>
 video,Defines a video or movie,supported by HTML 5,Used to play video
