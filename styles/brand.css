@@ -1431,7 +1431,7 @@ code {
 
 .tableLinksFilter:hover {
 	text-decoration: none;
-	background-image: radial-gradient(#FFFFFF, #ADD8E6);
+	background-image: none;
 	border-style: none;
 	border-color: #ADD8E6;
 	border-radius: 5px;
@@ -1461,7 +1461,7 @@ code {
 
 #html_tag_links:hover {
 	text-decoration: none;
-	background-image: radial-gradient(#FFFFFF, #ADD8E6);
+	background-image: none;
 	border-style: none;
 	border-color: #ADD8E6;
 	border-radius: 5px;
