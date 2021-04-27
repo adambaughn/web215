@@ -63,7 +63,7 @@ label,Defines a label for an input element,supported by HTML 5,Used with all for
 legend,Defines a caption for a fieldset element,supported by HTML 5,Shown above the fieldset
 li,Defines a list item,supported by HTML 5,<ol><li>Example 1</li><li>Example 2</li></ol>
 link,Defines the relationship between a document and an external resource (most used to link to style sheets),supported by HTML 5,Found in the head of the document
-main,Specifies the main content of a document,supported by HTML 5,All the page content belong here
+main,Specifies the main content of a document,supported by HTML 5,All the page content belongs here
 mark,Defines marked/highlighted text,supported by HTML 5,<mark>This text has been marked</mark>
 map,Defines a client-side image map,supported by HTML 5,Used to turn parts of an image into separate links
 meta,Defines metadata about an HTML document,supported by HTML 5,"typically used to specify character set, page description, keywords, author of the document, and viewport settings"
