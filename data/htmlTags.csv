@@ -1,10 +1,10 @@
 Tag,Description,Relationship,Example
 !--  --,Defines a comment,supported by HTML 5,comments are only visible to developers
 !DOCTYPE,Defines the document type,supported by HTML 5,Used with the html tag to define an html document
-a,Defines a hyperlink,supported by HTML 5,Link to <a href='"https://www.w3schools.com/"'>w3schools</a>
+a,Defines a hyperlink,supported by HTML 5,Link to <a href='https://www.w3schools.com/'>w3schools</a>
 abbr,Defines an abbreviation or an  acronym,supported by HTML 5,<abbr>byob</abbr>
 acronym,Defines an acronym,Not supported in HTML5. Use abbr instead,<abbr>byob</abbr>
-address,Defines contact information for the author or owner of a document or article,supported by HTML 5,<address>Contact Me: <a href='"mailto:alb2301@email.cpcc.edu"'>Adam</a> 123 CPCC Ln</address>
+address,Defines contact information for the author or owner of a document or article,supported by HTML 5,<address>Contact Me: <a href='mailto:alb2301@email.cpcc.edu'>Adam</a> 123 CPCC Ln</address>
 applet,Defines an embedded applet,Not supported in HTML5,Use embed or object instead
 area,Defines an area inside an image map,supported by HTML 5,Used with the map tag to turn parts of an image into separate links
 article,Defines an article,supported by HTML 5,An article should make sense on its own and it should be possible to distribute it independently from the rest of the site
@@ -15,7 +15,7 @@ base,Specifies the base URL or target for all relative URLs in a document,suppor
 basefont,Specifies a default color, size, and font for all text in a document,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating        
 body,Defines the document's body,supported by HTML 5,All the content for the page belongs here 
 bdi,Isolates a part of text that might be formatted in a different direction from other text outside it,supported by HTML 5,Useful for working with unfamiliar characters
-bdo,Overrides the current text direction,supported by HTML 5,<bdo dir='"rtl"'>This tag can make text display backwards</bdo>
+bdo,Overrides the current text direction,supported by HTML 5,<bdo dir='rtl'>This tag can make text display backwards</bdo>
 big,Defines big text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 blockquote,Defines a section that is quoted from another source,supported by HTML 5,Browsers usually indent blockquote elements
 br,Inserts a single line break,supported by HTML 5,Causes content to move to a new line
@@ -28,7 +28,7 @@ code,Defines a piece of computer code,supported by HTML 5,<code>This is inside a
 col,Specifies column properties for each column within a colgroup element,supported by HTML 5,Used to style the columns in a table
 colgroup,Specifies a group of one or more columns in a table for formatting,supported by HTML 5,Used to style multiple columns
 data,Adds a machine-readable translation of a given content,supported by HTML 5,Provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser
-datalist,Specifies a list of pre-defined options for input controls,supported by HTML 5,<label for='"browser"'>Choose your browser from the list:</label><input list='"browsers"' name='"browser"' id='"browser"'><datalist id='"browsers"'><option value='"Edge"'><option value='"Firefox"'><option value='"Chrome"'><option value='"Opera"'><option value='"Safari"'></datalist>
+datalist,Specifies a list of pre-defined options for input controls,supported by HTML 5,<label for='browser'>Choose your browser from the list:</label><input list='browsers' name='browser' id='browser'><datalist id='browsers'><option value='Edge'><option value='Firefox'><option value='Chrome'><option value='Opera'><option value='Safari'></datalist>
 dd,Defines a description of a term or name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 details,Defines additional details that the user can view or hide,supported by HTML 5,<details>The details tag is able to show and hide content</details>
 dialog,Defines a dialog box or window,supported by HTML 5,Create popup dialogs and modals on a web page
@@ -54,9 +54,9 @@ header,Defines a header for a document or section,supported by HTML 5,"Used for 
 html,Defines an HTML document,supported by HTML 5,Used with the !DOCTYPE tag to define an HTML document
 hr,Defines a thematic change in the content,supported by HTML 5,<hr>
 i,Defines a part of text in an alternate voice or mood,supported by HTML 5,<i>This is using the i tag</i>
-iframe,Defines an inline frame,supported by HTML 5,<iframe src='"https://www.w3schools.com"' title='"W3Schools Free Online Web Tutorials"'></iframe>
+iframe,Defines an inline frame,supported by HTML 5,<iframe src='https://www.w3schools.com' title='W3Schools Free Online Web Tutorials'></iframe>
 img,Defines an image,supported by HTML 5,Used to display an image
-input,Defines an input control,supported by HTML 5,<label for='"fname"'>First name:</label><input type='"text"' id='"fname"' name='"fname"'>
+input,Defines an input control,supported by HTML 5,<label for='fname'>First name:</label><input type='text' id='fname' name='fname'>
 ins,Defines a text that has been inserted into a document,supported by HTML 5,<ins>This text has been inserted</ins>
 kbd,Defines keyboard input,supported by HTML 5,<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>
 label,Defines a label for an input element,supported by HTML 5,Used with all form input and option fields
@@ -67,20 +67,20 @@ main,Specifies the main content of a document,supported by HTML 5,All the page c
 mark,Defines marked/highlighted text,supported by HTML 5,<mark>This text has been marked</mark>
 map,Defines a client-side image map,supported by HTML 5,Used to turn parts of an image into separate links
 meta,Defines metadata about an HTML document,supported by HTML 5,typically used to specify character set"," page description"," keywords"," author of the document"," and viewport settings
-meter,Defines a scalar measurement within a known range (a gauge),supported by HTML 5,<label for='"fun_factor"'>Fun Factor:</label><meter id='"fun_factor"' value='"9"' min='"0"' max='"10"'>9 out of 10</meter>
+meter,Defines a scalar measurement within a known range (a gauge),supported by HTML 5,<label for='fun_factor'>Fun Factor:</label><meter id='fun_factor' value='9' min='0' max='10'>9 out of 10</meter>
 nav,Defines navigation links,supported by HTML 5,Intended for major blocks of navigation links
 noframes,Defines an alternate content for users that do not support frames,Not supported in HTML5,It's not safe to use this tag when validating
 noscript,Defines an alternate content for users that do not support client-side scripts,supported by HTML 5,element can be used in both head and body
 object,Defines an embedded object,supported by HTML 5,external resource can be a web page"," a picture"," a media player"," or a plug-in application
 ol,Defines an ordered list,supported by HTML 5,<ol><li>Example 1</li><li>Example 2</li></ol>
-optgroup,Defines a group of related options in a drop-down list,supported by HTML 5,<select><optgroup label='"Group 1"'><option value='"choice a"'>Choice A</option></optgroup><optgroup label='"Group 2"'><option value='"choice b"'>Choice B</option></optgroup></select>
-option,Defines an option in a drop-down list,supported by HTML 5,<label for='"cars"'>Choose a car:</label><select id='"cars"'><option value='"volvo"'>Volvo</option><option value='"saab"'>Saab</option><option value='"opel"'>Opel</option><option value='"audi"'>Audi</option></select>
+optgroup,Defines a group of related options in a drop-down list,supported by HTML 5,<select><optgroup label='Group 1'><option value='choice a'>Choice A</option></optgroup><optgroup label='Group 2'><option value='choice b'>Choice B</option></optgroup></select>
+option,Defines an option in a drop-down list,supported by HTML 5,<label for='cars'>Choose a car:</label><select id='cars'><option value='volvo'>Volvo</option><option value='saab'>Saab</option><option value='opel'>Opel</option><option value='audi'>Audi</option></select>
 output,Defines the result of a calculation,supported by HTML 5,can be used with the input tag and Javascript to perform calculations
 p,Defines a paragraph,supported by HTML 5,<p>This text was placed inside p tags</p>
 param,Defines a parameter for an object,supported by HTML 5,the file format defined in object may not be supported in all browsers
 picture,Defines a container for multiple image resources,supported by HTML 5,Used to help images better fill viewports
 pre,Defines preformatted text,supported by HTML 5,<pre>Preserve      spaces        and line breaks with pre</pre>
-progress,Represents the progress of a task,supported by HTML 5,<label for='"file"'>Downloading progress:</label><progress id='"file"' value='"98"' max='"100"'> 98% </progress>
+progress,Represents the progress of a task,supported by HTML 5,<label for='file'>Downloading progress:</label><progress id='file' value='98' max='100'> 98% </progress>
 q,Defines a short quotation,supported by HTML 5,<q>This text is using the q tag</q>
 rp,Defines what to show in browsers that do not support ruby annotations,supported by HTML 5,<ruby>漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt></ruby>
 rt,Defines an explanation/pronunciation of characters (for East Asian typography),supported by HTML 5,<ruby> 漢 <rt> ㄏㄢˋ </rt></ruby>
@@ -89,9 +89,9 @@ s,Defines text that is no longer correct,supported by HTML 5,<s>This s tag has b
 samp,Defines sample output from a computer program,supported by HTML 5,<samp>This text is using the samp tag</samp>
 script,Defines a client-side script,supported by HTML 5,element either contains scripting statements or it points to an external script file through the src attribute
 section,Defines a section in a document,supported by HTML 5,Like a div that follows a theme so elements in a section should be related
-select,Defines a drop-down list,supported by HTML 5,<select><option value='"choice a"'>Choice A</option><option value='"choice b"'>Choice B</option></select>
+select,Defines a drop-down list,supported by HTML 5,<select><option value='choice a'>Choice A</option><option value='choice b'>Choice B</option></select>
 small,Defines smaller text,supported by HTML 5,<small>This text is using the small tag</small>
-source,"Defines multiple media resources for media elements (video"," audio and picture)"supported by HTML 5,Points to the source for the media
+source,"Defines multiple media resources for media elements (video, audio and picture)",supported by HTML 5,Points to the source for the media
 span,Defines a section in a document,supported by HTML 5,Used to apply styles to specific sections 
 strike,Defines strikethrough text,Not supported in HTML5. Use del or s instead,It's not safe to use this tag when validating
 strong,Defines important text,supported by HTML 5,<strong>This text uses the strong tag</strong>
