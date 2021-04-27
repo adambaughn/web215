@@ -13,11 +13,11 @@ audio,Defines sound content,supported by HTML 5,Used to play an audio file on a 
 b,Defines bold text,supported by HTML 5,<b>This is some bold text</b>
 base,Specifies the base URL or target for all relative URLs in a document,supported by HTML 5,There can only be one single base element in a document and it must be inside the head element
 basefont,"Specifies a default color, size, and font for all text in a document",Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating        
-body,Defines the document's body,supported by HTML 5,All the content for the page belongs here 
 bdi,Isolates a part of text that might be formatted in a different direction from other text outside it,supported by HTML 5,Useful for working with unfamiliar characters
 bdo,Overrides the current text direction,supported by HTML 5,<bdo dir='rtl'>This tag can make text display backwards</bdo>
 big,Defines big text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 blockquote,Defines a section that is quoted from another source,supported by HTML 5,Browsers usually indent blockquote elements
+body,Defines the document's body,supported by HTML 5,All the content for the page belongs here 
 br,Inserts a single line break,supported by HTML 5,Causes content to move<br> to a new line
 button,Defines a clickable button,supported by HTML 5,<button>Button</button>
 caption,Defines a table caption,supported by HTML 5,The table caption is displayed on top of the table
@@ -30,14 +30,14 @@ colgroup,Specifies a group of one or more columns in a table for formatting,supp
 data,Adds a machine-readable translation of a given content,supported by HTML 5,"Provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser"
 datalist,Specifies a list of pre-defined options for input controls,supported by HTML 5,<label for='browser'>Choose your browser from the list:</label><input list='browsers' name='browser' id='browser'><datalist id='browsers'><option value='Edge'><option value='Firefox'><option value='Chrome'><option value='Opera'><option value='Safari'></datalist>
 dd,Defines a description of a term or name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
+del,Defines text that has been deleted from a document,supported by HTML 5,<del>This text has been deleted</del>
 details,Defines additional details that the user can view or hide,supported by HTML 5,<details>The details tag is able to show and hide content</details>
+dfn,Specifies a term that is going to be defined within the content,supported by HTML 5,<dfn>Defined</dfn>
 dialog,Defines a dialog box or window,supported by HTML 5,Create popup dialogs and modals on a web page
 dir,Defines a directory list,Not supported in HTML5. Use ul instead,It's not safe to use this tag when validating
+div,Defines a section in a document,supported by HTML 5,The invisible building blocks of the web
 dl,Defines a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
 dt,Defines a term or name in a description list,supported by HTML 5,<dl><dt>Coffee</dt><dd>Black hot drink</dd><dt>Milk</dt><dd>White cold drink</dd></dl>
-del,Defines text that has been deleted from a document,supported by HTML 5,<del>This text has been deleted</del>
-dfn,Specifies a term that is going to be defined within the content,supported by HTML 5,<dfn>Defined</dfn>
-div,Defines a section in a document,supported by HTML 5,The invisible building blocks of the web
 em,Defines emphasized text,supported by HTML 5,<em>This is using the em tag</em>
 embed,Defines a container for an external (non-HTML) application,supported by HTML 5,"container for an external resource, such as a web page, a picture, a media player, or a plug-in application"
 fieldset,Groups related elements in a form,supported by HTML 5,Use fieldset to group form elements inside the form
@@ -64,8 +64,8 @@ legend,Defines a caption for a fieldset element,supported by HTML 5,Shown above 
 li,Defines a list item,supported by HTML 5,<ol><li>Example 1</li><li>Example 2</li></ol>
 link,Defines the relationship between a document and an external resource (most used to link to style sheets),supported by HTML 5,Found in the head of the document
 main,Specifies the main content of a document,supported by HTML 5,All the page content belongs here
-mark,Defines marked/highlighted text,supported by HTML 5,<mark>This text has been marked</mark>
 map,Defines a client-side image map,supported by HTML 5,Used to turn parts of an image into separate links
+mark,Defines marked/highlighted text,supported by HTML 5,<mark>This text has been marked</mark>
 meta,Defines metadata about an HTML document,supported by HTML 5,"typically used to specify character set, page description, keywords, author of the document, and viewport settings"
 meter,Defines a scalar measurement within a known range (a gauge),supported by HTML 5,<label for='fun_factor'>Fun Factor:</label><meter id='fun_factor' value='9' min='0' max='10'>9 out of 10</meter>
 nav,Defines navigation links,supported by HTML 5,Intended for major blocks of navigation links
@@ -108,9 +108,9 @@ textarea,Defines a multiline input control (text area),supported by HTML 5,<text
 tfoot,Groups the footer content in a table,supported by HTML 5,All the table's totals belong here
 th,Defines a header cell in a table,supported by HTML 5,The header cell labels the column
 thead,Groups the header content in a table,supported by HTML 5,All the column labels belong here
-tr,Defines a row in a table,supported by HTML 5,All rows are contained in tr tags including the th tags row
 time,Defines a specific time (or datetime),supported by HTML 5,<time>10:30</time>
 title,Defines a title for the document,supported by HTML 5,This is the title shown by the browser
+tr,Defines a row in a table,supported by HTML 5,All rows are contained in tr tags including the th tags row
 track,Defines text tracks for media elements (video and audio),supported by HTML 5,Adds subtitles
 tt,Defines teletype text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 u,Defines some text that is unarticulated and styled differently from normal text,supported by HTML 5,<u>This text uses the u tag</u>
