@@ -1414,14 +1414,14 @@ code {
 /* csv page css starts here ----------------------------------------------------------------------- */
 
 .tableLinksFilter {
-	width: 30px;
+	height: 100%;
+	width: 100%;
 	background-color: white;
 	font-family: 'Carter one', cursive;
 	color: #000048;
 	font-size: 1.2em;
 	border: 1px #000048 solid;
 	border-radius: 5px;
-	margin-left: 1%;
 	padding: 5px;
 }
 	
