@@ -110,7 +110,7 @@ th ,Defines a header cell in a table,supported by HTML 5,The header cell labels 
 thead,Groups the header content in a table,supported by HTML 5,All the column labels belong here
 time,Defines a specific time (or datetime),supported by HTML 5,<time>10:30</time>
 title,Defines a title for the document,supported by HTML 5,This is the title shown by the browser
-tr,Defines a row in a table,supported by HTML 5,All rows are contained in tr tags including the th tags row
+tr ,Defines a row in a table,supported by HTML 5,All rows are contained in tr tags including the th tags row
 track,Defines text tracks for media elements (video and audio),supported by HTML 5,Adds subtitles
 tt ,Defines teletype text,Not supported in HTML5. Use CSS instead,It's not safe to use this tag when validating
 u ,Defines some text that is unarticulated and styled differently from normal text,supported by HTML 5,<u>This text uses the u tag</u>
