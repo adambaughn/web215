@@ -1447,8 +1447,14 @@ code {
 	margin-left: 5%;
 	margin-right:5%;
 	margin-top: 3%;
+	display: grid;
+ 	grid-template-columns: auto auto auto;	
 }
 
+.grid_link {
+	text-align: center;
+	padding: 20px;
+}
 
 #tableFilterInput {
 	margin-left: 5%;
