@@ -1500,6 +1500,10 @@ code {
 	background-color: white;
 }
 
+#iframe_body {
+	background-color: #F0FFFF;
+}
+
 .codepen_headings {
 	text-align: center;
 }
