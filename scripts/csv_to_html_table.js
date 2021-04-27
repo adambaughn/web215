@@ -84,12 +84,12 @@ function tableFilterLinks(val) {
     tableFilter(document.getElementById('tableFilterInput').value);
 }
 
-/* Code for button to clear table filter below */
+/* Code for button to clear table filter below 
 
 function clearTableFilter() {
     tableFilter("");
 }
-
+*/
 
 /* function tableFilterLinks() { */
 /*
