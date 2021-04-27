@@ -249,6 +249,17 @@ a:active
 }
 /*	width: 40px; */
 
+#dynamic_links a:hover {
+	text-decoration: none;
+	background-image: radial-gradient(#FFFFFF, #ADD8E6);
+	border-style: none;
+	border-color: #ADD8E6;
+	border-radius: 0px;
+	border-width: 0px;
+	box-shadow: 0px 0px #000048;
+	padding: 10px;
+}
+
 #dynamic_content {
 	margin-top: -52%;
 }
