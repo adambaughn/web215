@@ -1414,8 +1414,6 @@ code {
 /* csv page css starts here ----------------------------------------------------------------------- */
 
 .tableLinksFilter {
-	height: 100%; 
-	width: 5%;
 	background-color: white;
 	font-family: 'Carter one', cursive;
 	color: #000048;
