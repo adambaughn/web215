@@ -1517,9 +1517,10 @@ code {
 
 
 #mernExampleHeading {
-	margin-top: 2%;
+	margin-top: 3%;
+	font-family: 'Carter one', cursive;
 }
 
 #mernExampleImage {
-	margin-top: 2%;
+	margin-top: 1%;
 }
