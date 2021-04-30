@@ -1524,3 +1524,24 @@ code {
 #mernExampleImage {
 	margin-top: 1%;
 }
+
+
+#node_beginner_text {
+	font-family: Lucida Console, Courier New, sans-serif;
+	color: #000048;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#node_beginner_images {
+
+}
+
+.beginner_headings_class {
+	text-align: center;
+	font-family: 'Carter one', cursive;
+}
+
+.beginner_images_class {
+	margin-left: 40%;
+}
