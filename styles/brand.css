@@ -1540,8 +1540,10 @@ code {
 .beginner_headings_class {
 	text-align: center;
 	font-family: 'Carter one', cursive;
+	margin-top: 2%;
 }
 
 .beginner_images_class {
 	margin-left: 40%;
+	margin-top: 1%;
 }
