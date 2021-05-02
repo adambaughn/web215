@@ -293,9 +293,7 @@ function animatedHeader() {
  document.getElementById("animated_header_two").style.animation = "fadein 5s 1";
 
 document.getElementById("animated_header_two").style.animationDelay = "10s";
-  
 }
-
 
 window.onscroll = function() {scrollFunction()};
 
@@ -306,39 +304,24 @@ function scrollFunction() {
   }
 }
 
-/* old code below
-function csvToArray( strData, strDelimiter ){
-        strDelimiter = (strDelimiter || ",");
-        var objPattern = new RegExp(
-            (
-                "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
-                "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
-                "([^\"\\" + strDelimiter + "\\r\\n]*))"
-            ),
-            "gi"
-            );
-        var arrData = [[]];
-        var arrMatches = null;
-        while (arrMatches = objPattern.exec( strData )){
-            var strMatchedDelimiter = arrMatches[ 1 ];
-            if (
-                strMatchedDelimiter.length &&
-                strMatchedDelimiter !== strDelimiter
-                ){
-                arrData.push( [] );
-            }
-            var strMatchedValue;
-            if (arrMatches[ 2 ]){
-                strMatchedValue = arrMatches[ 2 ].replace(
-                    new RegExp( "\"\"", "g" ),
-                    "\""
-                    );
-            } else {
-                strMatchedValue = arrMatches[ 3 ];
-            }
-            arrData[ arrData.length - 1 ].push( strMatchedValue );
-        }
-        return( arrData );
-    }
-*/
 
+function writeFile() {
+    const fs = require("fs");
+    const md = 
+    `# This is a new file
+
+    We can write text to a file with fs.writeFile
+
+    * fs.readdir
+    * fs.readFile
+    * fs.writeFile
+
+    `;
+
+    fs.writeFile("./assets/notes.md", md.trim(), err => {
+        if (err) {
+            throw err;
+        }
+        alert("file saved");
+    });
+}
