@@ -167,6 +167,17 @@ function loadNodeBeginner() {
   } 
 
 
+function loadEssentialTraining() {
+  xhttp.onload = function() {
+    if (xhttp.status == 200) {
+      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+    }
+  };
+    xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/essentialTraining_page.html", true);
+    xhttp.send(null);
+  } 
+
+
 function showFunctionOne() {
 var x = document.getElementById("click_one");
 var buttonText = document.getElementById("click_item_one");
