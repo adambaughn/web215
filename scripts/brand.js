@@ -388,7 +388,7 @@ function WriteCookie(value) {
             }
 
 function PassCookie(value) {
-    WriteCookie(document.cookieForm.username.value);
+    WriteCookie(document.getElementById("username").value);
 }
 
 function ReadCookie() {
@@ -410,7 +410,7 @@ function ReadCookie() {
 function DeleteCookie() {
                var now = new Date();
                now.setMonth( now.getMonth() - 2 );
-               cookievalue = escape(document.cookieForm.username.value) + ";"
+               cookievalue = escape(document.getElementById("username").value) + ";"
                
                document.cookie = "name=" + cookievalue;
                document.cookie = "expires=" + now.toUTCString() + ";"
