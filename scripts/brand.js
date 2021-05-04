@@ -399,9 +399,9 @@ function ReadCookie() {
                cookiearray = allcookies.split(';');
                
                // Now take key value pair out of this array
+               name = cookiearray[i].split('=')[0];
+               value = cookiearray[i].split('=')[1];
                for(var i=0; i<cookiearray.length; i++) {
-                  name = cookiearray[i].split('=')[0];
-                  value = cookiearray[i].split('=')[1];
                   document.getElementById("display_cookies_two").innerHTML = "Key is : " + name + " and Value is : " + value;
                }
             }
