@@ -423,7 +423,7 @@ function DeleteAllCookies() {
               
                 var cookies = document.cookie.split(";");
                 for (var i = 0; i < cookies.length; i++) {
-                    DeleteCookie(cookies[i].split("=")[0]);          
+                    DeleteCookie();          
                 }
                  document.getElementById("display_cookies_two").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
             }
