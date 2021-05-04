@@ -387,8 +387,8 @@ function WriteCookie(value) {
                document.write ("Setting Cookies : " + "name=" + cookievalue );
             }
 
-function PassCookie() {
-    WriteCookie(document.cookieForm.username.value)
+function PassCookie(value) {
+    WriteCookie(document.cookieForm.username.value);
 }
 
 function ReadCookie() {
