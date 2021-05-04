@@ -347,3 +347,63 @@ function writeFile() {
         alert("file saved");
     });
 }
+
+
+/* Cookies page functions below */
+
+var clientIpInfo;
+
+$(document).ready(function () {
+    $.getJSON("http://jsonip.com/?callback=?", function (data) {
+        var clientIpInfo = data.ip;
+        /*
+        console.log(data);
+        alert(data.ip); */
+    });
+});
+
+/* <script src="https://unpkg.com/bowser@2.7.0/es5.js"></script> 
+   Use this script in the page to run the bowser.getParser function below. 
+   Bowser was created by lancedikson  */
+   
+var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
+
+function WriteCookie() {
+               if( document.myform.username.value == "" ) {
+                  alert("Enter a User Name");
+                  return;
+               }
+               var now = new Date();
+               now.setMonth( now.getMonth() + 1 );
+               cookievalue = escape(document.myform.username.value) + ";";
+               document.cookie = "name=" + cookievalue;
+               document.cookie = "expires=" + now.toUTCString() + ";"
+               document.write ("Setting Cookies : " + "name=" + cookievalue );
+            }
+
+function ReadCookie() {
+               var allcookies = document.cookie;
+               document.write ("All Cookies : " + allcookies );
+               
+               // Get all the cookies pairs in an array
+               cookiearray = allcookies.split(';');
+               
+               // Now take key value pair out of this array
+               for(var i=0; i<cookiearray.length; i++) {
+                  name = cookiearray[i].split('=')[0];
+                  value = cookiearray[i].split('=')[1];
+                  document.write ("Key is : " + name + " and Value is : " + value);
+               }
+            }
+
+
+function DeleteCookie() {
+               var now = new Date();
+               now.setMonth( now.getMonth() - 2 );
+               cookievalue = escape(document.myform.username.value) + ";"
+               
+               document.cookie = "name=" + cookievalue;
+               document.cookie = "expires=" + now.toUTCString() + ";"
+               document.write("Setting Cookies : " + "name=" + cookievalue );
+            }
+
