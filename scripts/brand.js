@@ -393,7 +393,7 @@ function WriteCookie() {
 
 function ReadCookie() {
                var allcookies = document.cookie;
-               document.getElementById("display_cookies_owo").innerHTML = "All Cookies : " + allcookies;
+               document.getElementById("display_cookies_one").innerHTML = "All Cookies : " + allcookies;
                
                // Get all the cookies pairs in an array
                cookiearray = allcookies.split(';');
