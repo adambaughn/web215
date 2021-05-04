@@ -379,7 +379,7 @@ $(document).ready(function () {
 var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
 
 function WriteCookie() {
-               if( document.myform.username.value == "" ) {
+               if( document.cookieForm.username.value == "" ) {
                   alert("Enter a User Name");
                   return;
                }
@@ -410,7 +410,7 @@ function ReadCookie() {
 function DeleteCookie() {
                var now = new Date();
                now.setMonth( now.getMonth() - 2 );
-               cookievalue = escape(document.myform.username.value) + ";"
+               cookievalue = escape(document.cookieForm.username.value) + ";"
                
                document.cookie = "name=" + cookievalue;
                document.cookie = "expires=" + now.toUTCString() + ";"
