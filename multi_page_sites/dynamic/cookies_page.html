@@ -1,12 +1,12 @@
 <h2 id="assignment_title">Cookies</h2>
 
-<form id="cookieForm" onsubmit="WriteCookie()" >
+<form id="cookieForm">
 <label for="username" id="username_label">Create a Username:</label>
 <input type="text" id="username" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
   title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
   placeholder="Create Your User Name" size="58" required>
   
-<button type="submit" id="user_submit" action="_self">Submit</button>
+<button type="submit" id="user_submit" action="_self" onclick="PassCookie(document.cookieForm.username.value)">Submit</button>
 </form>
 
 <button id="show_cookie" onclick="ReadCookie()">Show Cookies</button>
