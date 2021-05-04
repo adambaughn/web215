@@ -1581,7 +1581,7 @@ code {
 	font-family: 'Carter one', cursive;
 	font-size: 1.4em;
 	text-align: center;
-	margin-top: 3%;
+	margin-top: 5%;
 	color: #000048;
 }
 
@@ -1591,9 +1591,11 @@ code {
 }
 
 .mongoDB_text {
-	margin-top: 2%;
+	margin-top: 3%;
 	margin-left: 9%;
 	color: #000048;
+	font-family: Lucida Console, Courier New, sans-serif;
+	font-size: 1.2em;
 }
 
 
