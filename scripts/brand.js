@@ -378,18 +378,18 @@ $(document).ready(function () {
    
 var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
 
-function WriteCookie() {
-               if( document.cookieForm.username.value == "" ) {
-                  alert("Enter a User Name");
-                  return;
-               }
+function WriteCookie(value) {
                var now = new Date();
                now.setMonth( now.getMonth() + 1 );
-               cookievalue = escape(document.cookieForm.username.value) + ";";
+               cookievalue = escape(value) + ";";
                document.cookie = "name=" + cookievalue;
                document.cookie = "expires=" + now.toUTCString() + ";"
                document.write ("Setting Cookies : " + "name=" + cookievalue );
             }
+
+function PassCookie() {
+    WriteCookie(document.cookieForm.username.value)
+}
 
 function ReadCookie() {
                var allcookies = document.cookie;
