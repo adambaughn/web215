@@ -416,9 +416,9 @@ function DeleteCookie() {
                */
                 var cookies = document.cookie.split(";");
                 for (var i = 0; i < cookies.length; i++) {
-               document.cookie = "name=" + cookievalue;
-               document.cookie = "expires=" + now.toUTCString() + ";"
-               document.getElementById("display_cookies_two").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
+                document.cookie = "name=" + cookievalue;
+                document.cookie = "expires=" + now.toUTCString() + ";"            
                 }
+                 document.getElementById("display_cookies_two").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
             }
 
