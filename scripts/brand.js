@@ -384,7 +384,7 @@ function WriteCookie(value) {
                cookievalue = escape(value) + ";";
                document.cookie = "name=" + cookievalue;
                document.cookie = "expires=" + now.toUTCString() + ";"
-               document.write ("Setting Cookies : " + "name=" + cookievalue );
+               document.getElementById("display_cookies_one").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
             }
 
 function PassCookie(value) {
@@ -410,10 +410,12 @@ function ReadCookie() {
 function DeleteCookie() {
                var now = new Date();
                now.setMonth( now.getMonth() - 2 );
+               cookievalue = document.cookie;
+               /*
                cookievalue = escape(document.getElementById("username").value) + ";"
-               
+               */
                document.cookie = "name=" + cookievalue;
                document.cookie = "expires=" + now.toUTCString() + ";"
-               document.write("Setting Cookies : " + "name=" + cookievalue );
+               document.getElementById("display_cookies_two").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
             }
 
