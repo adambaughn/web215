@@ -393,7 +393,7 @@ function WriteCookie() {
 
 function ReadCookie() {
                var allcookies = document.cookie;
-               document.write ("All Cookies : " + allcookies );
+               document.getElementById("display_cookies_owo").innerHTML = "All Cookies : " + allcookies;
                
                // Get all the cookies pairs in an array
                cookiearray = allcookies.split(';');
@@ -402,7 +402,7 @@ function ReadCookie() {
                for(var i=0; i<cookiearray.length; i++) {
                   name = cookiearray[i].split('=')[0];
                   value = cookiearray[i].split('=')[1];
-                  document.getElementById("display_cookies").innerHTML = "Key is : " + name + " and Value is : " + value;
+                  document.getElementById("display_cookies_two").innerHTML = "Key is : " + name + " and Value is : " + value;
                }
             }
 
