@@ -1569,6 +1569,7 @@ code {
 	font-size: 1.4em;
 	text-align: center;
 	margin-top: 3%;
+	color: #000048;
 }
 
 .essential_image {
@@ -1581,6 +1582,7 @@ code {
 	font-size: 1.4em;
 	text-align: center;
 	margin-top: 3%;
+	color: #000048;
 }
 
 .mongoDB_image {
@@ -1591,6 +1593,7 @@ code {
 .mongoDB_text {
 	margin-top: 2%;
 	margin-left: 9%;
+	color: #000048;
 }
 
 
