@@ -6,8 +6,10 @@
   title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
   placeholder="Create Your User Name" size="58" required>
   
-<button type="submit" id="user_submit">Submit</button>
+<button type="submit" id="user_submit" onclick="writeCookie()">Submit</button>
 </form>
 
-<button id="show_cookie" onclick="ReadCookie()">
-<button id="delete_cookie" onclick="DeleteCookie()">
+<button id="show_cookie" onclick="ReadCookie()">Show Cookies</button>
+<button id="delete_cookie" onclick="DeleteCookie()">Delete Cookies</button>
+
+<p id="display_cookies"></p>
