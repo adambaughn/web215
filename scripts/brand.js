@@ -402,7 +402,7 @@ function ReadCookie() {
                for(var i=0; i<cookiearray.length; i++) {
                   name = cookiearray[i].split('=')[0];
                   value = cookiearray[i].split('=')[1];
-                  document.write ("Key is : " + name + " and Value is : " + value);
+                  document.getElementById("display_cookies").innerHTML = "Key is : " + name + " and Value is : " + value;
                }
             }
 
