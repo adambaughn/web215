@@ -1568,9 +1568,30 @@ code {
 	font-family: 'Carter one', cursive;
 	font-size: 1.4em;
 	text-align: center;
+	margin-top: 3%;
 }
 
 .essential_image {
 	margin-top: 2%;
-	margin-left: 8%;
+	margin-left: 9%;
 }
+
+.mongoDB_heading {
+	font-family: 'Carter one', cursive;
+	font-size: 1.4em;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.mongoDB_image {
+	margin-top: 2%;
+	margin-left: 9%;
+}
+
+.mongoDB_text {
+	margin-top: 2%;
+	margin-left: 9%;
+}
+
+
+
