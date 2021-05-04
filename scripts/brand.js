@@ -414,11 +414,16 @@ function DeleteCookie() {
                /*
                cookievalue = escape(document.getElementById("username").value) + ";"
                */
-                var cookies = document.cookie.split(";");
-                for (var i = 0; i < cookies.length; i++) {
                 document.cookie = "name=" + cookievalue;
                 document.cookie = "expires=" + now.toUTCString() + ";"            
-                }
                  document.getElementById("display_cookies_two").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
             }
 
+function DeleteAllCookies() {
+              
+                var cookies = document.cookie.split(";");
+                for (var i = 0; i < cookies.length; i++) {
+                    DeleteCookie(cookies[i].split("=")[0]);          
+                }
+                 document.getElementById("display_cookies_two").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
+            }
