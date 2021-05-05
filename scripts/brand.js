@@ -440,7 +440,7 @@ function setCookie(cname, cvalue, exdays) {
   var expires = "expires="+d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
   getCookie(cname);
-  alert(cname " + " cvalue);
+  alert("Your are now logged in as " + cvalue);
 }
 
 function getCookie(cname) {
