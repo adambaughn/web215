@@ -7,7 +7,7 @@
   title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
   placeholder="Create Your User Name" size="58" required>
   
-<button id="user_submit" class="cookies_button" target="hiddenFrame" onclick="setCookie(document.getElementById('username'), document.getElementById('username').value, 1)">Submit</button>
+<button id="user_submit" class="cookies_button" onclick="setCookie(document.getElementById('username'), document.getElementById('username').value, 1)">Submit</button>
 </form>
 
 <button id="show_cookie" class="cookies_button" onclick="getCookie(document.getElementById('username').value)">Show Cookies</button>
