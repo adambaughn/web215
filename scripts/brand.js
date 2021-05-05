@@ -439,7 +439,6 @@ function setCookie(cname, cvalue, exdays) {
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   var expires = "expires="+d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  getCookie(cname);
   alert("Your are now logged in as " + cvalue);
 }
 
@@ -456,7 +455,7 @@ function getCookie(cname) {
     }
   }
   return "";
-  document.getElementById("display_cookies_two").innerHTML = "Key is : " + name + " and Value is : " + value  
+  document.getElementById("display_cookies_two").innerHTML = "Key is : " + name + " and Value is : " + value;   
 }
 
 function checkCookie() {
