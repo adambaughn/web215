@@ -456,7 +456,7 @@ function getCookie(cname, cvalue) {
   }
   return "";
   document.getElementById("display_cookies_two").innerHTML = "Key is : " + cname + " and Value is : " + cvalue;   
-  alert("Current Cookie: " + cname);  
+  alert("Current Cookie: " + cvalue);  
 }
 
 function checkCookie() {
@@ -472,7 +472,7 @@ function checkCookie() {
 }
 
 
-function deleteCookie() {
+function deleteCookie( cvalue ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
     cookievalue = document.cookie;
