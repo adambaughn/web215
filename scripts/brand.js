@@ -475,7 +475,7 @@ function checkCookie() {
 function deleteCookie( cvalue ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
-    document.cookie = "username=" + cvalue + "expires=" + now.toUTCString() + ";"            
+    document.cookie = "username=" + cvalue + "; expires=" + now.toUTCString() + ";";            
     document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + cvalue ;
     alert("Deleted Cookie: username=" + cvalue );
 }
