@@ -365,17 +365,7 @@ function writeFile() {
    Use this script in the page to run the bowser.getParser function below. 
    Bowser was created by lancedikson  */
    
-$(document).ready(function () {
-    var timestamp = new Date();
-    var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
-    $.getJSON("http://jsonip.com/?callback=?", function (data) {
-        var clientIpInfo = data.ip;
-    });
-    var sessionuser = timestamp + clientBrowserInfo + clientIpInfo;
-    document.cookie = "name=" + sessionuser;
-    document.cookie = "expires=0";
-    document.cookie = "path=/"
-});
+
 
 
 function WriteCookie(value) {
