@@ -404,7 +404,7 @@ function DeleteCookie() {
                /*
                cookievalue = escape(document.getElementById("username").value) + ";"
                */
-                document.cookie = "name=" + cookievalue;
+                document.cookie = "username=" + cookievalue;
                 document.cookie = "expires=" + now.toUTCString() + ";"            
                  document.getElementById("display_cookies_two").innerHTML = "Last Cookie: " + "name=" + cookievalue ;
             }
