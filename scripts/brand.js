@@ -365,7 +365,7 @@ function writeFile() {
    Use this script in the page to run the bowser.getParser function below. 
    Bowser was created by lancedikson  */
    
-
+/*
 function WriteCookie(value) {
                var now = new Date();
                now.setMonth( now.getMonth() + 1 );
@@ -376,9 +376,9 @@ function WriteCookie(value) {
             }
 
 function PassCookie(value) {
-    WriteCookie(document.getElementById("name").value); /* change back to username */
+    WriteCookie(document.getElementById("name").value); */ /* change back to username */
 }
-
+/*
 function ReadCookie() {
                var allcookies = document.cookie;
                document.getElementById("display_cookies_one").innerHTML = "All Cookies : " + allcookies;
@@ -419,8 +419,10 @@ function DeleteAllCookies() {
     $.getJSON("http://jsonip.com/?callback=?", function (data) {
         var clientIpInfo = data.ip;
     });
+*/
 
-function CreateSessionCookie() {
+
+function createSessionCookie() {
     var timestamp = new Date();
     var timString = timestamp.toGMTString();
     var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
@@ -429,3 +431,38 @@ function CreateSessionCookie() {
     document.cookie = "expires=0;";
     document.cookie = "path=/";
 }; 
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  var expires = "expires="+d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function checkCookie() {
+  var user = getCookie("username");
+  if (user != "") {
+    alert("Welcome again " + user);
+  } else {
+    user = prompt("Please enter your name:", "");
+    if (user != "" && user != null) {
+      setCookie("username", user, 1);
+    }
+  }
+}
+
