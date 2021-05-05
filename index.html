@@ -157,7 +157,7 @@ window.addEventListener('load', (event) => {
     var timestamp = new Date();
     var timeString = timestamp.toGMTString();
     var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
-    var sessionuser = timeString + clientBrowserInfo;
+    var sessionuser = "session " + timeString + clientBrowserInfo;
     document.cookie = "name=testing2; path=/; expires=0";
     alert( document.cookie );
   }, false);
