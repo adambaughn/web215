@@ -456,6 +456,7 @@ function getCookie(cname) {
   }
   return "";
   document.getElementById("display_cookies_two").innerHTML = "Key is : " + name + " and Value is : " + value;   
+  alert("Last Cookie: " + cookievalue);  
 }
 
 function checkCookie() {
