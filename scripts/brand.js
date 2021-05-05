@@ -476,6 +476,6 @@ function deleteCookie( cvalue ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
     document.cookie = "username=" + cvalue + "expires=" + now.toUTCString() + ";"            
-    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: " + cookievalue ;
-    alert("Deleted Cookie: " + cookievalue);
+    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + cvalue + ",expires=" + now.toUTCString() ;
+    alert("Deleted Cookie: username=" + cvalue + ",expires=" + now.toUTCString());
 }
