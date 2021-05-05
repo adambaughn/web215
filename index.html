@@ -17,12 +17,14 @@
   crossorigin="anonymous">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script src="/path/to/jquery.cookie.js"></script>
+ <script src="https://unpkg.com/bowser@2.7.0/es5.js"></script> 		
  <!--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">-->
  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>-->
  <script>
  window.onload = (event) => {
     var timestamp = new Date();
+    var timString = timestamp.toGMTString();
     var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
     $.getJSON("http://jsonip.com/?callback=?", function (data) {
         var clientIpInfo = data.ip;
@@ -162,7 +164,7 @@
 	
 	
 <script src="scripts/brand.js"></script>
-<script src="https://unpkg.com/bowser@2.7.0/es5.js"></script> 	
+
 	
 	
 </body>
