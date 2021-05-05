@@ -471,3 +471,12 @@ function checkCookie() {
   }
 }
 
+
+function deleteCookie() {
+               var now = new Date();
+               now.setMonth( now.getMonth() - 2 );
+               cookievalue = document.cookie;
+                document.cookie = "name=" + cookievalue;
+                document.cookie = "expires=" + now.toUTCString() + ";"            
+                 document.getElementById("display_cookies_two").innerHTML = "Last Cookie: " + cookievalue ;
+            }
