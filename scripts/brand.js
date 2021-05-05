@@ -442,7 +442,7 @@ function setCookie(cname, cvalue, exdays) {
   alert("Your are now logged in as " + cvalue);
 }
 
-function getCookie(cname) {
+function getCookie(cname, cvalue) {
   var name = cname + "=";
   var ca = document.cookie.split(';');
   for(var i = 0; i < ca.length; i++) {
@@ -455,8 +455,8 @@ function getCookie(cname) {
     }
   }
   return "";
-  document.getElementById("display_cookies_two").innerHTML = "Key is : " + name + " and Value is : " + value;   
-  alert("Last Cookie: " + cookievalue);  
+  document.getElementById("display_cookies_two").innerHTML = "Key is : " + cname + " and Value is : " + cvalue;   
+  alert("Current Cookie: " + cname);  
 }
 
 function checkCookie() {
