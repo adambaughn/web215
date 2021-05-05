@@ -429,9 +429,7 @@ function createSessionCookie() {
     var timString = timestamp.toGMTString();
     var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
     var sessionuser = timestamp + clientBrowserInfo + clientIpInfo;
-    document.cookie = "name=testing";
-    document.cookie = "expires=0;";
-    document.cookie = "path=/";
+    document.cookie = "name=testing; path=/; expires=0";
 }; 
 
 function setCookie(cname, cvalue, exdays) {
