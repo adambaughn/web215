@@ -157,14 +157,13 @@
 <script type="text/javascript">
 
 
-	
+/*	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
   alert(JSON.stringify(data, null, 2));
-});
+}); */
 	
 window.addEventListener('load', (event) => { 
     var ipAddress = $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-    alert(JSON.stringify(data, null, 2));
     });
     ipAddress = JSON.stringify(ipAddress);
     ipAddress = ipAddress.replace('/}',' ');
