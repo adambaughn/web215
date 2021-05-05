@@ -361,22 +361,24 @@ function writeFile() {
 
 /* Cookies page functions below */
 
-var clientIpInfo;
-
-$(document).ready(function () {
-    $.getJSON("http://jsonip.com/?callback=?", function (data) {
-        var clientIpInfo = data.ip;
-        /*
-        console.log(data);
-        alert(data.ip); */
-    });
-});
-
 /* <script src="https://unpkg.com/bowser@2.7.0/es5.js"></script> 
    Use this script in the page to run the bowser.getParser function below. 
    Bowser was created by lancedikson  */
    
-var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
+$(document).ready(function () {
+    var sessionuser;
+    var timestamp = new Date();
+    var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
+    $.getJSON("http://jsonip.com/?callback=?", function (data) {
+        var clientIpInfo = data.ip;
+    });
+    sessionuser = timestamp + clientBrowserInfo + clientIpInfo;
+    document.cookie = "name=" + sessionuser;
+    document.cookie = "expires=0";
+    
+    
+});
+
 
 function WriteCookie(value) {
                var now = new Date();
@@ -420,7 +422,6 @@ function DeleteCookie() {
             }
 
 function DeleteAllCookies() {
-              
                 var cookies = document.cookie.split(";");
                 for (var i = 0; i < cookies.length; i++) {
                     DeleteCookie();          
