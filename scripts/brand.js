@@ -440,7 +440,7 @@ function setCookie(cname, cvalue, exdays) {
   var expires = "expires="+d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
   getCookie(cname);
-  
+  alert("Your are now logged in as " + cvalue);
 }
 
 function getCookie(cname) {
@@ -473,10 +473,11 @@ function checkCookie() {
 
 
 function deleteCookie() {
-               var now = new Date();
-               now.setMonth( now.getMonth() - 12 );
-               cookievalue = document.cookie;
-                document.cookie = "username=" + cookievalue;
-                document.cookie = "expires=" + now.toUTCString() + ";"            
-                 document.getElementById("display_cookies_two").innerHTML = "Last Cookie: " + cookievalue ;
-            }
+    var now = new Date();
+    now.setMonth( now.getMonth() - 12 );
+    cookievalue = document.cookie;
+    document.cookie = "username=" + cookievalue;
+    document.cookie = "expires=" + now.toUTCString() + ";"            
+    document.getElementById("display_cookies_two").innerHTML = "Last Cookie: " + cookievalue ;
+    alert("Last Cookie: " + cookievalue);
+}
