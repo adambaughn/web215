@@ -424,12 +424,6 @@ function DeleteAllCookies() {
 
 
 
-
-
-
-
-
-/*
 function createSessionCookie() {
     var timestamp = new Date();
     var timString = timestamp.toGMTString();
@@ -473,4 +467,4 @@ function checkCookie() {
     }
   }
 }
-*/
+
