@@ -164,6 +164,7 @@ $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
 	
 window.addEventListener('load', (event) => { 
     var ipAddress = $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
+	    return JSON.stringify(data, null, 2);
     });
     ipAddress = JSON.stringify(ipAddress);
     ipAddress = ipAddress.replace('/}',' ');
