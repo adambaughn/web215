@@ -445,6 +445,7 @@ function setCookie(cvalue, exdays) {
 function getCookie(cvalue) {
   var name = "username=";
   var ca = document.cookie.split(';');
+ if(cvalue != "") {   
   for(var i = 0; i < ca.length; i++) {
     var c = ca[i];
     while (c.charAt(0) == ' ') {
@@ -456,7 +457,10 @@ function getCookie(cvalue) {
   }
   return "";
   document.getElementById("display_cookies_two").innerHTML = "Key is : username and Value is : " + cvalue;   
-  alert("This cookie exists: username= " + cvalue);  
+  alert("This cookie exists: username= " + cvalue);
+ } else {
+    alert("No value was entered");
+ }
 }
 
 function checkCookie() {
