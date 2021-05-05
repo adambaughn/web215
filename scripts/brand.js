@@ -423,7 +423,7 @@ function DeleteAllCookies() {
 
 
 
-
+/*
 function createSessionCookie() {
     var timestamp = new Date();
     var timString = timestamp.toGMTString();
@@ -432,6 +432,7 @@ function createSessionCookie() {
     document.cookie = "name=testing; path=/; expires=0";
     alert( document.cookie );
 }; 
+*/
 
 function setCookie(cvalue, exdays) {
   var d = new Date();
