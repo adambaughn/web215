@@ -454,8 +454,8 @@ function getCookie(cvalue) {
     }
   }
   return "";
-  document.getElementById("display_cookies_two").innerHTML = "Key is : " + cname + " and Value is : " + cvalue;   
-  alert("This cookie exists: " + cvalue);  
+  document.getElementById("display_cookies_two").innerHTML = "Key is : username and Value is : " + cvalue;   
+  alert("This cookie exists: username= " + cvalue);  
 }
 
 function checkCookie() {
