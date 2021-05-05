@@ -465,6 +465,10 @@ function getCookie(cvalue) {
  }
 }
 
+function showAllCookies() {
+    alert( document.cookie );
+}
+
 function checkCookie() {
   var user = getCookie();
   if (user != "") {
