@@ -443,7 +443,8 @@ function setCookie(cvalue, exdays) {
 }
 
 function getCookie(cvalue) {
-  var name = "username=";
+  var name = "user=";
+  var session = "session=";
   var ca = document.cookie.split(';');
  if(cvalue != "") {   
   for(var i = 0; i < ca.length; i++) {
@@ -452,13 +453,13 @@ function getCookie(cvalue) {
       c = c.substring(1);
     }
     if (c.indexOf(name) == 0) {
-      document.getElementById("display_cookies_two").innerHTML = "Cookie found for username=" + cvalue;   
-      alert("This cookie exists: username= " + cvalue);  
+      document.getElementById("display_cookies_two").innerHTML = "Cookie found for user=" + cvalue;   
+      alert("This cookie exists: user= " + cvalue);  
       return c.substring(name.length, c.length);  
     }
   }
-  document.getElementById("display_cookies_two").innerHTML = "No cookie found for: username=" + cvalue;   
-  alert("This cookie does not exist: username=" + cvalue);
+  document.getElementById("display_cookies_two").innerHTML = "No cookie found for: user=" + cvalue;   
+  alert("This cookie does not exist: user=" + cvalue);
   return "";     
  } else {
     alert("No value was entered");
