@@ -441,8 +441,8 @@ function setCookie(cname, cvalue, exdays) {
   alert("Your are now logged in as " + cvalue);
 }
 
-function getCookie(cname, cvalue) {
-  var name = cname + "=";
+function getCookie(cvalue) {
+  var name = "username=";
   var ca = document.cookie.split(';');
   for(var i = 0; i < ca.length; i++) {
     var c = ca[i];
@@ -455,7 +455,7 @@ function getCookie(cname, cvalue) {
   }
   return "";
   document.getElementById("display_cookies_two").innerHTML = "Key is : " + cname + " and Value is : " + cvalue;   
-  alert("Current Cookie: " + cvalue);  
+  alert("This cookie exists: " + cvalue);  
 }
 
 function checkCookie() {
