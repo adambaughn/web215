@@ -1602,3 +1602,14 @@ code {
 	margin-left: 5%;
 }
 
+.cookies_button {
+	margin-top: 2%;
+	color: #000048;
+	font-family: 'Carter one', cursive;
+}
+
+#cookie_form {
+	margin-top: 4%;
+	font-family: Lucida Console, Courier New, sans-serif;
+}
+
