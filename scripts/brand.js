@@ -365,14 +365,12 @@ function writeFile() {
    Use this script in the page to run the bowser.getParser function below. 
    Bowser was created by lancedikson  */
    
-
-
-
+/*
 function WriteCookie(value) {
                var now = new Date();
                now.setMonth( now.getMonth() + 1 );
                cookievalue = escape(value) + ";";
-               document.cookie = "name=0"/*+ cookievalue;*/
+               document.cookie = "name=" + cookievalue;
                document.cookie = "expires=" + now.toUTCString() + ";"
                document.getElementById("display_cookies_one").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
             }
@@ -401,9 +399,6 @@ function DeleteCookie() {
                var now = new Date();
                now.setMonth( now.getMonth() - 2 );
                cookievalue = document.cookie;
-               /*
-               cookievalue = escape(document.getElementById("username").value) + ";"
-               */
                 document.cookie = "name=" + cookievalue;
                 document.cookie = "expires=" + now.toUTCString() + ";"            
                  document.getElementById("display_cookies_two").innerHTML = "Last Cookie: " + cookievalue ;
@@ -420,7 +415,7 @@ function DeleteAllCookies() {
     $.getJSON("http://jsonip.com/?callback=?", function (data) {
         var clientIpInfo = data.ip;
     });
-
+*/
 function CreateSessionCookie() {
     var timestamp = new Date();
     var timString = timestamp.toGMTString();
