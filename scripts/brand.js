@@ -464,7 +464,7 @@ function getCookie(cvalue) {
 }
 
 function checkCookie() {
-  var user = getCookie("username");
+  var user = getCookie();
   if (user != "") {
     alert("Welcome again " + user);
   } else {
