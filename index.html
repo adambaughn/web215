@@ -19,7 +19,7 @@
  <script src="/path/to/jquery.cookie.js"></script>
  <script src="https://unpkg.com/bowser@2.7.0/es5.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
- <script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+ <!--<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>-->
  <!--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">-->
  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>-->
@@ -155,9 +155,7 @@
 	
 <script src="scripts/brand.js"></script>
 <script type="text/javascript">
-function getIP(json) {
-	alert(json.ip);
-}
+
 
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
@@ -165,15 +163,20 @@ $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
 });
 	
 window.addEventListener('load', (event) => { 
+    var ipAddress = $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
+    alert(JSON.stringify(data, null, 2));
+    });
+    ipAddress = JSON.stringify(ipAddress);
+    ipAddress = ipAddress.replace('/}',' ');
+    ipAddress = ipAddress.replace('/{',' ');
+    ipAddress = ipAddress.trim(); 
     var timestamp = new Date();
     var timeString = timestamp.toGMTString();
     var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
     var sessionuser = "session " + timeString + clientBrowserInfo;
     document.cookie = "name=testing2; path=/; expires=0";
-    alert( document.cookie );
-    $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-    alert(JSON.stringify(data, null, 2));
-});	
+    alert( document.cookie );	
+    alert(ipAddress);
   }, false);
 </script>
 
