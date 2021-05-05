@@ -366,15 +366,14 @@ function writeFile() {
    Bowser was created by lancedikson  */
    
 $(document).ready(function () {
-    var sessionuser;
     var timestamp = new Date();
     var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
     $.getJSON("http://jsonip.com/?callback=?", function (data) {
         var clientIpInfo = data.ip;
     });
-    sessionuser = timestamp + clientBrowserInfo + clientIpInfo;
+    var sessionuser = timestamp + clientBrowserInfo + clientIpInfo;
     document.cookie = "name=" + sessionuser;
-    document.cookie = "expires=0;";
+    document.cookie = "expires=0";
     document.cookie = "path=/"
 });
 
