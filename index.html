@@ -21,20 +21,7 @@
  <!--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">-->
  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>-->
- <script>
- window.onload = (event) => {
-    var timestamp = new Date();
-    var timString = timestamp.toGMTString();
-    var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
-    $.getJSON("http://jsonip.com/?callback=?", function (data) {
-        var clientIpInfo = data.ip;
-    });
-    var sessionuser = timestamp + clientBrowserInfo + clientIpInfo;
-    document.cookie = "name=420;";
-    document.cookie = "expires=0;";
-    document.cookie = "path=/";
-});
-</script>
+
 </head>
 
 <body>
@@ -121,6 +108,20 @@
  </div>
 
   <div id="dynamic_content">
+	   <script>
+ window.onload = (event) => {
+    var timestamp = new Date();
+    var timString = timestamp.toGMTString();
+    var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
+    $.getJSON("http://jsonip.com/?callback=?", function (data) {
+        var clientIpInfo = data.ip;
+    });
+    var sessionuser = timestamp + clientBrowserInfo + clientIpInfo;
+    document.cookie = "name=420;";
+    document.cookie = "expires=0;";
+    document.cookie = "path=/";
+});
+</script>
    <p id="contract_text">Welcome to my ToC page! Click a link to the left to show content from my external html pages. Click on the ATLAS logo to clear content from the page.</p>
   </div>
 
