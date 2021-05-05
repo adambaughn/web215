@@ -437,7 +437,7 @@ function createSessionCookie() {
 function setCookie(cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-  var expires = "expires="+d.toUTCString();
+  var expires = "expires=" + d.toUTCString();
   document.cookie = "user=" + cvalue + ";" + expires + ";path=/";
   alert("Your are now logged in as " + cvalue);
 }
