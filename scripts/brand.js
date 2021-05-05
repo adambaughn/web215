@@ -374,9 +374,8 @@ $(document).ready(function () {
     });
     sessionuser = timestamp + clientBrowserInfo + clientIpInfo;
     document.cookie = "name=" + sessionuser;
-    document.cookie = "expires=0";
-    
-    
+    document.cookie = "expires=0;";
+    document.cookie = "path=/"
 });
 
 
