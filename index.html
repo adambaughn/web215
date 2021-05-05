@@ -158,7 +158,7 @@
 function getIP(json) {
 	alert(json.ip);
 }
-getIP(json);
+
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
   alert(JSON.stringify(data, null, 2));
@@ -170,6 +170,7 @@ window.addEventListener('load', (event) => {
     var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
     var sessionuser = "session " + timeString + clientBrowserInfo;
     document.cookie = "name=testing2; path=/; expires=0";
+    getIP(json);
     alert( document.cookie );
   }, false);
 </script>
