@@ -391,10 +391,8 @@ function ReadCookie() {
                // Now take key value pair out of this array
                name = cookiearray[i].split('=')[0];
                value = cookiearray[i].split('=')[1];
-               third = cookiearray[i].split('=')[2];
-               forth = cookiearray[i].split('=')[3];
                for(var i=0; i<cookiearray.length; i++) {
-                  document.getElementById("display_cookies_two").innerHTML = "Key is : " + name + " and Value is : " + value + " Third: " + third + " Forth: " + forth;
+                  document.getElementById("display_cookies_two").innerHTML = "Key is : " + name + " and Value is : " + value;
                }
             }
 
@@ -408,7 +406,7 @@ function DeleteCookie() {
                */
                 document.cookie = "name=" + cookievalue;
                 document.cookie = "expires=" + now.toUTCString() + ";"            
-                 document.getElementById("display_cookies_two").innerHTML = "Last Cookie: " + "name=" + cookievalue ;
+                 document.getElementById("display_cookies_two").innerHTML = "Last Cookie: " + cookievalue ;
             }
 
 function DeleteAllCookies() {
@@ -416,5 +414,5 @@ function DeleteAllCookies() {
                 for (var i = 0; i < cookies.length; i++) {
                     DeleteCookie();          
                 }
-                 document.getElementById("display_cookies_two").innerHTML = "Deleted Cookies: " + "name=" + cookievalue ;
+                 document.getElementById("display_cookies_two").innerHTML = "Deleted Cookies: " + cookievalue ;
             }
