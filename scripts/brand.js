@@ -372,7 +372,7 @@ function WriteCookie(value) {
                var now = new Date();
                now.setMonth( now.getMonth() + 1 );
                cookievalue = escape(value) + ";";
-               document.cookie = "username=" + cookievalue;
+               document.cookie = "usersname=" + cookievalue;
                document.cookie = "expires=" + now.toUTCString() + ";"
                document.getElementById("display_cookies_one").innerHTML = "Setting Cookies : " + "name=" + cookievalue ;
             }
