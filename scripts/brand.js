@@ -376,7 +376,7 @@ function WriteCookie(value) {
             }
 
 function PassCookie(value) {
-    WriteCookie(document.getElementById("username").value);
+    WriteCookie(document.getElementById("name").value); /* change back to username */
 }
 
 function ReadCookie() {
