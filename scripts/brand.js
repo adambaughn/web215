@@ -453,11 +453,13 @@ function getCookie(cvalue) {
     }
     if (c.indexOf(name) == 0) {
       return c.substring(name.length, c.length);
+      document.getElementById("display_cookies_two").innerHTML = "Cookie found for username=" + cvalue;   
+      alert("This cookie exists: username= " + cvalue);  
     }
   }
   return "";
-  document.getElementById("display_cookies_two").innerHTML = "Key is : username and Value is : " + cvalue;   
-  alert("This cookie exists: username= " + cvalue);
+  document.getElementById("display_cookies_two").innerHTML = "No cookie found for: username=" + cvalue;   
+  alert("This cookie does not exist: username=" + cvalue);
  } else {
     alert("No value was entered");
  }
