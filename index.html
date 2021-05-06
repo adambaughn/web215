@@ -157,15 +157,12 @@
 <script type="text/javascript">
 
 
-/*	
+	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-  alert(JSON.stringify(data, null, 2));
-}); */
+  var ipData = (JSON.stringify(data, null, 2));
+}); 
 	
 window.addEventListener('load', (event) => {
-    $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-	    var ipData = (JSON.stringify(data, null, 2));
-    });
 	var ipAddress = ipData;	
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
