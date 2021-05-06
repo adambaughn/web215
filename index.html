@@ -180,6 +180,8 @@ window.addEventListener('load', (event) => {
            }
            if (c.indexOf(session) == 0) {
            alert("This session exists. Refreshing session.");  
+	   document.cookie = "session= IP Address: " + ipAddressFromOutput + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
+	   alert( document.cookie );     
            return c.substring(session.length, c.length);      
            } else {
            alert("This session does not exist. Creating session.");
