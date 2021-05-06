@@ -494,13 +494,8 @@ function getCookie(cvalue) {
  }
 }
 
-function showAllCookies() {
-    alert( document.cookie );
-    document.getElementById("display_cookies_two").innerHTML = document.cookie;
-}
-
-function checkCookie() {
-  var user = getCookie("user");
+function checkCookie( value ) {
+  var user = getCookie( value );
   if (user != "") {
     alert("Welcome again " + user);
   } else {
@@ -509,6 +504,13 @@ function checkCookie() {
     }
   }
 }
+
+function showAllCookies() {
+    alert( document.cookie );
+    document.getElementById("display_cookies_two").innerHTML = document.cookie;
+}
+
+
 
 
 function deleteCookie( cvalue ) {
