@@ -513,10 +513,10 @@ function deleteCookie( cvalue ) {
     }    
 }
 
-function deleteSession( cvalue ) {
+function deleteSession( ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
     document.cookie = "session=" + "; expires=" + now.toUTCString() + ";";            
-    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: session for " + cvalue ;
-    alert("Deleted Cookie: session for " + cvalue );
+    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: session";
+    alert("Deleted Cookie: session";
 }
