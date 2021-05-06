@@ -164,17 +164,16 @@ $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
 	
 window.addEventListener('load', (event) => {
     $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-	    var ipAddress = JSON.stringify(data, null, 2);
-	    let addSession = function() {	
-		    var timestamp = new Date();
-		    var timeString = timestamp.toGMTString();
-		    var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
-		    clientBrowserInfo = JSON.stringify(clientBrowserInfo);
-		    document.cookie = "session= IP Address: " + ipAddress + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
-		    alert( document.cookie );	
-		    alert(ipAddress);
-	    }
+	    var ipData = (JSON.stringify(data, null, 2));
     });
+	var ipAddress = ipData;	
+	var timestamp = new Date();
+	var timeString = timestamp.toGMTString();
+	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
+	clientBrowserInfo = JSON.stringify(clientBrowserInfo);
+	document.cookie = "session= IP Address: " + ipAddress + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
+	alert( document.cookie );	
+	alert(ipAddress);
   }, false);
 </script>
 
