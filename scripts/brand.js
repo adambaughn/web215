@@ -540,6 +540,6 @@ function deleteAllUsers( ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
     document.cookie = "user=; path=/; expires=" + now.toUTCString() ;            
-    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: session";
-    alert("Deleted Cookie: session");
+    document.getElementById("display_cookies_two").innerHTML = "Deleted All Cookies for: user";
+    alert("Deleted All Cookies for: user");
 }
