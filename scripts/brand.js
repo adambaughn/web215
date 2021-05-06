@@ -539,7 +539,7 @@ var cookies = document.cookie.split(";");
         var name=cookiename;
         //alert(name);
         var value="";
-        document.cookie = name + "=" + value + expires + "; path=/acc/html";                    
+        document.cookie = name + "=" + value + expires + "; path=/";                    
     }
     window.location = ""; // TO REFRESH THE PAGE
 }
