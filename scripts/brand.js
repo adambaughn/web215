@@ -509,7 +509,7 @@ function deleteCookie( cvalue ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
     if(cvalue != "") { 
-    document.cookie = "user=" + userInputted + "; expires=" + now.toUTCString() + ";";            
+    document.cookie = "user=" + userInputted + "; expires=" + now.toUTCString();            
     document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + userInputted ;
     alert("Deleted Cookie: username=" + userInputted );
     } else {
