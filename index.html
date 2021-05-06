@@ -157,7 +157,8 @@
 <script type="text/javascript">
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-  	alert(JSON.stringify(data.ip, null, 2));
+  	var test = (JSON.stringify(data.ip, null, 2));
+	alert(test);
 }); 
 	
 window.addEventListener('load', (event) => {
