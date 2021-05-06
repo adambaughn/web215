@@ -486,7 +486,19 @@ function checkCookie() {
 function deleteCookie( cvalue ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
-    document.cookie = "username=" + cvalue + "; expires=" + now.toUTCString() + ";";            
+    if(cvalue != "") { 
+    document.cookie = "user=" + cvalue + "; expires=" + now.toUTCString() + ";";            
     document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + cvalue ;
     alert("Deleted Cookie: username=" + cvalue );
+    } else {
+    user = prompt("Please enter your name:", "");
+    }    
+}
+
+function deleteSession( cvalue ) {
+    var now = new Date();
+    now.setMonth( now.getMonth() - 12 );
+    document.cookie = "session=" + "; expires=" + now.toUTCString() + ";";            
+    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: session for " + cvalue ;
+    alert("Deleted Cookie: session for " + cvalue );
 }
