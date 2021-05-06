@@ -535,8 +535,13 @@ function checkCookie( value ) {
 
 
 function showAllCookies() {
-    alert( document.cookie );
-    document.getElementById("display_cookies_two").innerHTML = document.cookie;
+    if (document.cookie != null || document.cookie != "") {
+       alert( document.cookie );
+       document.getElementById("display_cookies_two").innerHTML = document.cookie;
+    } else {
+       alert("There are no cookies to display.");
+       document.getElementById("display_cookies_two").innerHTML = "There are no cookies to display."; 
+    }
 }
 
 
