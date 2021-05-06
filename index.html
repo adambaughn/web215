@@ -156,16 +156,15 @@
 <script src="scripts/brand.js"></script>
 <script type="text/javascript">	
 	
-let outputFromIpQuery;	
-let ipAddressFromOutput;	
+var outputFromIpQuery;	
+var ipAddressFromOutput;	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
   	outputFromIpQuery = (JSON.stringify(data.ip, null, 2));
 	return outputFromIpQuery;
 }); 
 
-ipAddressFromOutput = outputFromIpQuery;
-
 window.addEventListener('load', (event) => {
+	ipAddressFromOutput = outputFromIpQuery;
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
