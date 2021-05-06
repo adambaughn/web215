@@ -19,6 +19,8 @@
  <script src="/path/to/jquery.cookie.js"></script>
  <script src="https://unpkg.com/bowser@2.7.0/es5.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>	
  <!--<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>-->
  <!--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">-->
  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -173,6 +175,14 @@ window.addEventListener('load', (event) => {
 	alert( document.cookie );
   }, false);	
 	
+$(function () {
+        $("#delete_all_cookies").click(function () {
+            $.removeCookie("Name");
+            if ($.cookie("Name") == null) {
+                $("#display_cookies_two").html("");
+            }
+        });
+    });
 	
 </script>
 
