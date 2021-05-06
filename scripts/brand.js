@@ -437,7 +437,7 @@ function createSessionCookie() {
 
 function setCookie(cvalue, exdays) {
     var inputtedUserName = cvalue;
-    if (inputtedUserName != "") {
+    if (inputtedUserName !== "") {
         checkCookie();
         var d = new Date();
         d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
