@@ -525,8 +525,10 @@ function deleteCookie( cvalue ) {
                    alert("Deleted Cookie: username=" + userInputted );
                    return c.substring(name.length, c.length);  
                 } else {
-                  document.getElementById("display_cookies_two").innerHTML = "This cookie does not exist:" + cvalue;   
-                  alert("This cookie does not exist: " + cvalue);         
+                    if (i < 2) {
+                    document.getElementById("display_cookies_two").innerHTML = "This cookie does not exist:" + cvalue;   
+                    alert("This cookie does not exist: " + cvalue);
+                    }
                 }
               }  
         } else {
