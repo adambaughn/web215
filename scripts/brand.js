@@ -473,6 +473,7 @@ function getSession() {
 }
 
 function getCookie(cvalue) {
+  var inputValue = cvalue;
   var name = "user=";
   var ca = document.cookie.split(';');
  if(cvalue != "") {   
@@ -482,13 +483,13 @@ function getCookie(cvalue) {
       c = c.substring(1);
     }
     if (c.indexOf(name) == 0) {
-      document.getElementById("display_cookies_two").innerHTML = "Cookie found for " + cvalue;   
-      alert("This cookie exists: " + cvalue);  
+      document.getElementById("display_cookies_two").innerHTML = "Cookie found for " + inputValue;   
+      alert("This cookie exists: " + inputValue);  
       return c.substring(name.length, c.length);  
     } else {
       if (i === ca.length) {
-         document.getElementById("display_cookies_two").innerHTML = "This cookie does not exist:" + cvalue;   
-         alert("This cookie does not exist: " + cvalue); 
+         document.getElementById("display_cookies_two").innerHTML = "This cookie does not exist:" + inputValue;   
+         alert("This cookie does not exist: " + inputValue); 
       }
     }
   }
