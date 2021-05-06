@@ -518,5 +518,5 @@ function deleteSession( ) {
     now.setMonth( now.getMonth() - 12 );
     document.cookie = "session=" + "; expires=" + now.toUTCString() + ";";            
     document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: session";
-    alert("Deleted Cookie: session";
+    alert("Deleted Cookie: session");
 }
