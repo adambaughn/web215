@@ -162,13 +162,13 @@ $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
 	
 window.addEventListener('load', (event) => {
 	var ipAddress = $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-  return JSON.stringify(data, null, 2);
+  return JSON.stringify(data.ip, null, 2);
 }); 
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
 	clientBrowserInfo = JSON.stringify(clientBrowserInfo);
-	document.cookie = "session= IP Address: " + ipAddress.ip + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
+	document.cookie = "session= IP Address: " + ipAddress + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
 	alert( document.cookie );	
   }, false);
 	
