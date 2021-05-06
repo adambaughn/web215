@@ -525,25 +525,15 @@ function deleteSession( ) {
     alert("Deleted Cookie: session");
 }
 
-/*
+
 function deleteAllCookies() {
-var cookies = document.cookie.split(";");
-    for (var i = 0; i < cookies.length; i++)
-    {   
-        var spcook =  cookies[i].split("=");
-        deleteCookieName(spcook[0]);
-    }
-    function deleteCookieName(cookiename)
-    {
-        var d = new Date();
-        d.setDate(d.getDate() - 1);
-        var expires = ";expires="+d;
-        var name=cookiename;
-        //alert(name);
-        var value="";
-        document.cookie = name + "=" + value + expires + "; path=/";                    
-    }
-    window.location = ""; // TO REFRESH THE PAGE
+    var now = new Date();
+    now.setMonth( now.getMonth() - 12 );                
+    document.cookie = "session=; path=/; expires=" + now.toUTCString() ; 
+    document.cookie = "user=; path=/; expires=" + now.toUTCString();  
+   // window.location = ""; // TO REFRESH THE PAGE
+    document.getElementById("display_cookies_two").innerHTML = "Deleted username and session cookies";
+    alert("Deleted username and session cookies");
 }
-*/
+
 
