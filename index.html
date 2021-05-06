@@ -176,7 +176,7 @@ window.addEventListener('load', (event) => {
   }, false);	
 	
 $(function () {
-        $("delete_all_cookies").click(function () {
+        $("#delete_all_cookies").click(function () {
             $.removeCookie("Name");
             if ($.cookie("Name") == null) {
                 $("#display_cookies_two").html("");
