@@ -160,7 +160,7 @@ let ipAddressFromOutput;
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
   	outputFromIpQuery = (JSON.stringify(data.ip, null, 2));
-	return test;
+	return outputFromIpQuery;
 }); 
 
 
