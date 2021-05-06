@@ -455,12 +455,12 @@ function getSession() {
     if (c.indexOf(session) == 0) {
       document.getElementById("display_cookies_two").innerHTML = "Cookie found for session";   
       alert("This session exists");  
-      return c.substring(session.length, c.length);  
-    }
-  }
-  document.getElementById("display_cookies_two").innerHTML = "No cookie found for session";   
-  alert("This session does not exist");
-  return "";       
+      return c.substring(session.length, c.length);      
+    } else {
+      document.getElementById("display_cookies_two").innerHTML = "No cookie found for session";   
+      alert("This session does not exist");
+      return "";    
+  }    
 }
 
 function getCookie(cvalue) {
@@ -496,7 +496,6 @@ function checkCookie() {
   if (user != "") {
     alert("Welcome again " + user);
   } else {
-    user = prompt("Please enter your name:", "");
     if (user != "" && user != null) {
       setCookie("username", user, 1);
     }
