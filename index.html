@@ -157,24 +157,20 @@
 <script type="text/javascript">
 
 
-	
+var ipAddress;
+
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-  var ipData = (JSON.stringify(data, null, 2));
-	alert("OK1");
+  alert(JSON.stringify(data, null, 2));
 }); 
 	
 window.addEventListener('load', (event) => {
-	alert("OK2");
-	var ipAddress = ipData;	
-	alert("ok3");
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
 	clientBrowserInfo = JSON.stringify(clientBrowserInfo);
 	document.cookie = "session= IP Address: " + ipAddress + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
 	alert( document.cookie );	
-	alert(ipAddress);
-	
+	alert(JSON.stringify(data, null, 2));
   }, false);
 </script>
 
