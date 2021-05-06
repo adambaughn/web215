@@ -18,3 +18,13 @@
 <p id="display_cookies_one"></p>
 <p id="display_cookies_two"></p>
 </div>
+<script>
+  $(function () {
+        $("#delete_all_cookies").click(function () {
+            $.removeCookie("Name");
+            if ($.cookie("Name") == null) {
+                $("#display_cookies_two").html("");
+            }
+        });
+    });
+</script>
