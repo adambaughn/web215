@@ -21,8 +21,8 @@
 <script>
   $(function () {
         $("#delete_all_cookies").click(function () {
-            $.removeCookie("Name");
-            if ($.cookie("Name") == null) {
+            $.removeCookie("user");
+            if ($.cookie("user") == null) {
                 $("#display_cookies_two").html("");
             }
         });
