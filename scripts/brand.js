@@ -508,6 +508,8 @@ function checkCookie() {
 
 
 function deleteCookie( cvalue ) {
+      var name = "user=";
+      var ca = document.cookie.split(';');
       var userInputted = cvalue;
       var now = new Date();
       now.setMonth( now.getMonth() - 12 );
