@@ -525,7 +525,7 @@ function deleteCookie( cvalue ) {
                    alert("Deleted Cookie: username=" + userInputted );
                    return c.substring(name.length, c.length);  
                 } else {
-                    if (i < 2) {
+                    if (i < ca.length) {
                     document.getElementById("display_cookies_two").innerHTML = "This cookie does not exist:" + cvalue;   
                     alert("This cookie does not exist: " + cvalue);
                     }
