@@ -516,15 +516,15 @@ function deleteCookie( cvalue ) {
     alert("No value was entered");
     }    
 }
-/*
+
 function deleteSession( ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
-    document.cookie = "session=" + "; expires=" + now.toUTCString() + ";";            
+    document.cookie = "session=; path=/; expires=" + now.toUTCString() ;            
     document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: session";
     alert("Deleted Cookie: session");
 }
-*/
+
 /*
 function deleteAllCookies() {
 var cookies = document.cookie.split(";");
