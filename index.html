@@ -162,9 +162,7 @@ $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
 }); 
 	
 window.addEventListener('load', (event) => {
-	var ipAddress = $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-  return JSON.stringify(data.ip, null, 2);
-}); 
+	var ipAddress = test;
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
