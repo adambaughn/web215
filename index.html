@@ -155,6 +155,8 @@
 	
 <script src="scripts/brand.js"></script>
 <script type="text/javascript">
+window.addEventListener('load', (event) => {
+	
 let outputFromIpQuery;	
 let ipAddressFromOutput;
 	
@@ -165,16 +167,19 @@ $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
 
 
 	
-window.addEventListener('load', (event) => {
+function addSessionCookie() {
 	ipAddressFromOutput = outputFromIpQuery;
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
 	clientBrowserInfo = JSON.stringify(clientBrowserInfo);
 	document.cookie = "session= IP Address: " + ipAddressFromOutput + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
-	alert( document.cookie );	
+	alert( document.cookie );
+}
+	addSessionCookie();
   }, false);
-	
+
+			
 </script>
 
 	
