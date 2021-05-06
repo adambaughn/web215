@@ -518,7 +518,7 @@ function deleteCookie( cvalue ) {
             while (c.charAt(0) == ' ') {
             c = c.substring(1);
          }
-         if (c.indexOf(name) == 0) {
+         if (c.indexOf(name) == 0 || c.indexOf(name) == 1) {
             document.cookie = "user=" + userInputted + "; path=/; expires=" + now.toUTCString();            
             document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + userInputted ;
             alert("Deleted Cookie: username=" + userInputted );
