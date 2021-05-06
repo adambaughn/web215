@@ -167,9 +167,7 @@ window.addEventListener('load', (event) => {
 	    return JSON.stringify(data, null, 2);
     });
     ipAddress = JSON.stringify(ipAddress);
-    ipAddress = ipAddress.replace('/}',' ');
-    ipAddress = ipAddress.replace('/{',' ');
-    ipAddress = ipAddress.trim(); 
+
     var timestamp = new Date();
     var timeString = timestamp.toGMTString();
     var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
