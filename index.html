@@ -155,10 +155,7 @@
 	
 <script src="scripts/brand.js"></script>
 <script type="text/javascript">
-
-
-var ipAddress;
-
+	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
   alert(JSON.stringify(data, null, 2));
 }); 
@@ -172,6 +169,7 @@ window.addEventListener('load', (event) => {
 	alert( document.cookie );	
 	alert(JSON.stringify(data, null, 2));
   }, false);
+	
 </script>
 
 	
