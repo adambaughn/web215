@@ -512,8 +512,10 @@ function checkCookie( value ) {
       } 
     return "";   
     } else {
-      if (user != "" && user != null) {
+      if (usersname != "" && usersname != null) {
       setCookie("username", user, 1);
+      } else {
+          alert("No value was entered");
       }
     }
 }
