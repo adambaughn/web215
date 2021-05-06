@@ -166,7 +166,7 @@ window.addEventListener('load', (event) => {
     var ipAddress = $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
 	    return JSON.stringify(data, null, 2);
     });
-    ipAddress = JSON.stringify(ipAddress);
+    ipAddress = JSON.stringify(data, null, 2);
 
     var timestamp = new Date();
     var timeString = timestamp.toGMTString();
