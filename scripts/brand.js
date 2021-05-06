@@ -436,12 +436,18 @@ function createSessionCookie() {
 
 
 function setCookie(cvalue, exdays) {
-  checkCookie();
-  var d = new Date();
-  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-  var expires = "expires=" + d.toUTCString();
-  document.cookie = "user=" + cvalue + ";" + expires + ";path=/";
-  alert("Your are now logged in as " + cvalue);
+    var inputtedUserName = cvalue;
+    if (inputtedUserName != "") {
+        checkCookie();
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = "user=" + cvalue + ";" + expires + ";path=/";
+        alert("Your are now logged in as " + cvalue);
+    } else {
+        alert("Please enter a Username")
+        document.getElementById("display_cookies_two").innerHTML = "Please enter a Username";  
+    }
 }
 
 function getSession() {
