@@ -457,9 +457,11 @@ function getSession() {
       alert("This session exists");  
       return c.substring(session.length, c.length);      
     } else {
-      document.getElementById("display_cookies_two").innerHTML = "No cookie found for session";   
-      alert("This session does not exist");
-      return "";    
+      if (i === ca.length) {
+        document.getElementById("display_cookies_two").innerHTML = "No cookie found for session";   
+        alert("This session does not exist");
+        return ""; 
+      }
   }    
 }
 }
@@ -478,8 +480,10 @@ function getCookie(cvalue) {
       alert("This cookie exists: " + cvalue);  
       return c.substring(name.length, c.length);  
     } else {
-      document.getElementById("display_cookies_two").innerHTML = "This cookie does not exist:" + cvalue;   
-      alert("This cookie does not exist: " + cvalue);         
+      if (i === ca.length) {
+         document.getElementById("display_cookies_two").innerHTML = "This cookie does not exist:" + cvalue;   
+         alert("This cookie does not exist: " + cvalue); 
+      }
     }
   }
   //document.getElementById("display_cookies_two").innerHTML = "No cookie found for " + cvalue;   
