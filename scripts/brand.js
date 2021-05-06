@@ -505,12 +505,13 @@ function checkCookie() {
 
 
 function deleteCookie( cvalue ) {
+    var userInputted = cvalue;
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
     if(cvalue != "") { 
-    document.cookie = "user=" + cvalue + "; expires=" + now.toUTCString() + ";";            
-    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + cvalue ;
-    alert("Deleted Cookie: username=" + cvalue );
+    document.cookie = "user=" + userInputted + "; expires=" + now.toUTCString() + ";";            
+    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + userInputted ;
+    alert("Deleted Cookie: username=" + userInputted );
     } else {
     alert("No value was entered");
     }    
