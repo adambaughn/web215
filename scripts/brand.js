@@ -434,7 +434,9 @@ function createSessionCookie() {
 }; 
 */
 
+
 function setCookie(cvalue, exdays) {
+  checkCookie();
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   var expires = "expires=" + d.toUTCString();
@@ -490,7 +492,7 @@ function showAllCookies() {
 }
 
 function checkCookie() {
-  var user = getCookie();
+  var user = getCookie("user");
   if (user != "") {
     alert("Welcome again " + user);
   } else {
