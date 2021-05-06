@@ -478,8 +478,8 @@ function getCookie(cvalue) {
       return c.substring(name.length, c.length);  
     }
   }
-  document.getElementById("display_cookies_two").innerHTML = "No cookie found for " + cvalue;   
-  alert("This cookie does not exist: " + cvalue);
+  //document.getElementById("display_cookies_two").innerHTML = "No cookie found for " + cvalue;   
+  //alert("This cookie does not exist: " + cvalue);
   return "";     
  } else {
     alert("No value was entered");
