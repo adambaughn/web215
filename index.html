@@ -155,17 +155,18 @@
 	
 <script src="scripts/brand.js"></script>
 <script type="text/javascript">
+var test;	
+var ipAddress;
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-  	var test = (JSON.stringify(data.ip, null, 2));
+  	test = (JSON.stringify(data.ip, null, 2));
 	return test;
 }); 
 
 
 	
 window.addEventListener('load', (event) => {
-
-	var ipAddress = test;
+	ipAddress = test;
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
