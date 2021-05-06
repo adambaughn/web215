@@ -156,11 +156,12 @@
 <script src="scripts/brand.js"></script>
 <script type="text/javascript">
 	
-$.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-  alert(JSON.stringify(data, null, 2));
-}); 
+
 	
 window.addEventListener('load', (event) => {
+	var ipAddress = $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
+  return JSON.stringify(data, null, 2);
+}); 
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
