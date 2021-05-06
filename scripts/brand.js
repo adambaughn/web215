@@ -515,7 +515,7 @@ function deleteCookie( cvalue ) {
     alert("No value was entered");
     }    
 }
-
+/*
 function deleteSession( ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
@@ -523,7 +523,7 @@ function deleteSession( ) {
     document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: session";
     alert("Deleted Cookie: session");
 }
-
+*/
 /*
 function deleteAllCookies() {
 var cookies = document.cookie.split(";");
