@@ -165,10 +165,9 @@ $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
 	return outputFromIpQuery;
 }); 
 
-
+ipAddressFromOutput = outputFromIpQuery;
 	
 function addSessionCookie() {
-	ipAddressFromOutput = outputFromIpQuery;
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
