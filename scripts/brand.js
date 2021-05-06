@@ -528,3 +528,21 @@ function deleteAllCookies() {
     document.cookie.split(";").forEach( function(c) { 
         document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
 }
+
+
+var outputFromIpQuery;	
+var ipAddressFromOutput;	
+$.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
+  	outputFromIpQuery = (JSON.stringify(data.ip, null, 2));
+	return outputFromIpQuery;
+}); 
+
+window.addEventListener('load', (event) => {
+	ipAddressFromOutput = outputFromIpQuery;
+	var timestamp = new Date();
+	var timeString = timestamp.toGMTString();
+	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
+	clientBrowserInfo = JSON.stringify(clientBrowserInfo);
+	document.cookie = "session= IP Address: " + ipAddressFromOutput + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
+	alert( document.cookie );
+  }, false);	
