@@ -474,12 +474,12 @@ function getCookie(cvalue) {
     }
     if (c.indexOf(name) == 0) {
       document.getElementById("display_cookies_two").innerHTML = "Cookie found for user=" + cvalue;   
-      alert("This cookie exists: user= " + cvalue);  
+      alert("This cookie exists: " + cvalue);  
       return c.substring(name.length, c.length);  
     }
   }
   document.getElementById("display_cookies_two").innerHTML = "No cookie found for: user=" + cvalue;   
-  alert("This cookie does not exist: user=" + cvalue);
+  alert("This cookie does not exist: " + cvalue);
   return "";     
  } else {
     alert("No value was entered");
