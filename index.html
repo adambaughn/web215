@@ -160,9 +160,11 @@
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
   var ipData = (JSON.stringify(data, null, 2));
+	alert("OK1");
 }); 
 	
 window.addEventListener('load', (event) => {
+	alert("OK2");
 	var ipAddress = ipData;	
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
@@ -171,6 +173,7 @@ window.addEventListener('load', (event) => {
 	document.cookie = "session= IP Address: " + ipAddress + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
 	alert( document.cookie );	
 	alert(ipAddress);
+	alert("ok3");
   }, false);
 </script>
 
