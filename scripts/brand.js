@@ -541,7 +541,8 @@ function checkCookie( value ) {
 
 
 function showAllCookies() {
-    if (document.cookie != null || document.cookie != "") {
+    var cookieCheck = document.cookie; 
+    if (cookieCheck != null && cookieCheck != "") {
        alert( document.cookie );
        document.getElementById("display_cookies_two").innerHTML = document.cookie;
     } else {
