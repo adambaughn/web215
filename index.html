@@ -155,23 +155,23 @@
 	
 <script src="scripts/brand.js"></script>
 <script type="text/javascript">
-var test;	
-var ipAddress;
+var outputFromIpQuery;	
+var ipAddressFromOutput;
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
-  	test = (JSON.stringify(data.ip, null, 2));
+  	outputFromIpQuery = (JSON.stringify(data.ip, null, 2));
 	return test;
 }); 
 
 
 	
 window.addEventListener('load', (event) => {
-	ipAddress = test;
+	ipAddressFromOutput = test;
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
 	var clientBrowserInfo = bowser.getParser(window.navigator.userAgent);
 	clientBrowserInfo = JSON.stringify(clientBrowserInfo);
-	document.cookie = "session= IP Address: " + ipAddress + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
+	document.cookie = "session= IP Address: " + ipAddressFromOutput + " || Timestamp: " + timeString + " || Browser: " + clientBrowserInfo + "; path=/; expires=0";
 	alert( document.cookie );	
   }, false);
 	
