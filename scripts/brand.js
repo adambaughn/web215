@@ -524,6 +524,7 @@ function deleteSession( ) {
     alert("Deleted Cookie: session");
 }
 
+/*
 function deleteAllCookies() {
 var cookies = document.cookie.split(";");
     for (var i = 0; i < cookies.length; i++)
@@ -543,5 +544,5 @@ var cookies = document.cookie.split(";");
     }
     window.location = ""; // TO REFRESH THE PAGE
 }
-
+*/
 
