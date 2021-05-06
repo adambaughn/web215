@@ -525,10 +525,23 @@ function deleteSession( ) {
 }
 
 function deleteAllCookies() {
-var allCookies = document.cookie.split(';');
-    for (var i = 0; i < allCookies.length; i++)
-    document.cookie = allCookies[i] + "=;expires="
-    + new Date(0).toUTCString();
+var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++)
+    {   
+        var spcook =  cookies[i].split("=");
+        deleteCookieName(spcook[0]);
+    }
+    function deleteCookieName(cookiename)
+    {
+        var d = new Date();
+        d.setDate(d.getDate() - 1);
+        var expires = ";expires="+d;
+        var name=cookiename;
+        //alert(name);
+        var value="";
+        document.cookie = name + "=" + value + expires + "; path=/acc/html";                    
+    }
+    window.location = ""; // TO REFRESH THE PAGE
 }
 
 
