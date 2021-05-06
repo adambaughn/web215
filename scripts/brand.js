@@ -495,6 +495,30 @@ function getCookie(cvalue) {
 }
 
 function checkCookie( value ) {
+    var user = getCookie( value );
+    var name = "user=";
+    var ca = document.cookie.split(';');
+    if (user != "") {
+      for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+           alert("Welcome again " + user);
+           return c.substring(name.length, c.length);  
+        } 
+      } 
+    return "";   
+    } else {
+      if (user != "" && user != null) {
+      setCookie("username", user, 1);
+      }
+    }
+}
+
+/* old check cookie
+function checkCookie( value ) {
   var user = getCookie( value );
   if (user != "") {
     alert("Welcome again " + user);
@@ -504,6 +528,8 @@ function checkCookie( value ) {
     }
   }
 }
+*/
+
 
 function showAllCookies() {
     alert( document.cookie );
