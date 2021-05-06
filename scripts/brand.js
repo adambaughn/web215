@@ -512,9 +512,22 @@ function deleteCookie( cvalue ) {
     var now = new Date();
     now.setMonth( now.getMonth() - 12 );
     if(cvalue != "") { 
-    document.cookie = "user=" + userInputted + "; path=/; expires=" + now.toUTCString();            
-    document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + userInputted ;
-    alert("Deleted Cookie: username=" + userInputted );
+         if(cvalue != "") {   
+            for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+         }
+         if (c.indexOf(name) == 0) {
+            document.cookie = "user=" + userInputted + "; path=/; expires=" + now.toUTCString();            
+            document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + userInputted ;
+            alert("Deleted Cookie: username=" + userInputted );
+            return c.substring(name.length, c.length);  
+         } else {
+            document.getElementById("display_cookies_two").innerHTML = "This cookie does not exist:" + cvalue;   
+            alert("This cookie does not exist: " + cvalue);         
+         }
+       }
     } else {
     alert("No value was entered");
     }    
