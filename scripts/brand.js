@@ -442,9 +442,27 @@ function setCookie(cvalue, exdays) {
   alert("Your are now logged in as " + cvalue);
 }
 
+function getSession() {
+  var session = "session=";
+  var ca = document.cookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(session) == 0) {
+      document.getElementById("display_cookies_two").innerHTML = "Cookie found for session";   
+      alert("This session exists");  
+      return c.substring(session.length, c.length);  
+    }
+  }
+  document.getElementById("display_cookies_two").innerHTML = "No cookie found for session";   
+  alert("This session does not exist");
+  return "";       
+}
+
 function getCookie(cvalue) {
   var name = "user=";
-  var session = "session=";
   var ca = document.cookie.split(';');
  if(cvalue != "") {   
   for(var i = 0; i < ca.length; i++) {
