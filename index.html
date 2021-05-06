@@ -158,10 +158,15 @@
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
   	var test = (JSON.stringify(data.ip, null, 2));
-	alert(test);
+	return test;
 }); 
+
+
 	
 window.addEventListener('load', (event) => {
+	ipAddress = $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
+  return JSON.stringify(data.ip, null, 2);
+}); 
 	var ipAddress = test;
 	var timestamp = new Date();
 	var timeString = timestamp.toGMTString();
