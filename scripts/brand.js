@@ -462,6 +462,7 @@ function getSession() {
       return "";    
   }    
 }
+}
 
 function getCookie(cvalue) {
   var name = "user=";
