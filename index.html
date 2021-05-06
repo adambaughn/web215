@@ -155,8 +155,8 @@
 	
 <script src="scripts/brand.js"></script>
 <script type="text/javascript">
-var outputFromIpQuery;	
-var ipAddressFromOutput;
+let outputFromIpQuery;	
+let ipAddressFromOutput;
 	
 $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
   	outputFromIpQuery = (JSON.stringify(data.ip, null, 2));
