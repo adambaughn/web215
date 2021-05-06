@@ -491,7 +491,7 @@ function deleteCookie( cvalue ) {
     document.getElementById("display_cookies_two").innerHTML = "Deleted Cookie: username=" + cvalue ;
     alert("Deleted Cookie: username=" + cvalue );
     } else {
-    user = prompt("Please enter your name:", "");
+    alert("No value was entered");
     }    
 }
 
