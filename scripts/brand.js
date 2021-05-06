@@ -495,17 +495,18 @@ function getCookie(cvalue) {
 }
 
 function checkCookie( value ) {
+    var usersname = value;
     var user = getCookie( value );
     var name = "user=";
     var ca = document.cookie.split(';');
-    if (user != "") {
+    if (usersname != "") {
       for(var i = 0; i < ca.length; i++) {
         var c = ca[i];
         while (c.charAt(0) == ' ') {
           c = c.substring(1);
         }
         if (c.indexOf(name) == 0) {
-           alert("Welcome again " + user);
+           alert("Welcome again " + usersname);
            return c.substring(name.length, c.length);  
         } 
       } 
