@@ -486,6 +486,7 @@ function getCookie(cvalue) {
 
 function showAllCookies() {
     alert( document.cookie );
+    document.getElementById("display_cookies_two").innerHTML = document.cookie;
 }
 
 function checkCookie() {
