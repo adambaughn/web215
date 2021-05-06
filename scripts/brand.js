@@ -542,7 +542,7 @@ function checkCookie( value ) {
 
 function showAllCookies() {
     var cookieCheck = document.cookie; 
-    if (cookieCheck != null && cookieCheck != "") {
+    if (cookieCheck.length > 0) {
        alert( document.cookie );
        document.getElementById("display_cookies_two").innerHTML = document.cookie;
     } else {
