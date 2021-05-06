@@ -196,9 +196,9 @@ var backOneDayForCookies = (new Date()).getTime() - 1);
 	
 $(function () {
         $("#delete_session").click(function () {
-	browser.browsingData.removeCookies(
-  	{since: backOneDayForCookies}).
-	then(onRemoved, onError);
+            $.removeCookie("session");
+            if ($.cookie("session") == null) {
+                $("#display_cookies_two").html("");
             }
         });
     });	
