@@ -306,13 +306,14 @@ a:active
 
 .buttonsx {
 	font-family: 'Carter one', cursive;	
+	font-size: 1em;
 	color: #000048;
 	background-color: #FFFFFF;
 	border: 1px solid #F0FFFF;
 	border-radius: 5px;
 	padding: 2px 4px;
 	text-align: center;
-	width: 30px;
+	width: 100%;
 }
 
 
