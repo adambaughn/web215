@@ -1451,7 +1451,7 @@ code {
 .tableLinksFilter:hover {
 	text-decoration: none;
 	background-image: none;
-	background-color: #F0FFFF
+	background-color: #F0FFFF;
 	border-style: none;
 	border-color: #ADD8E6;
 	border-radius: 5px;
@@ -1503,7 +1503,7 @@ code {
 
 #table_top_button {
 	position: fixed; 
-	top: 3; 
+	top: 3%; 
 	color: #000048; 
 	font-family: 'Carter one', cursive; 
 	background-color: white;
