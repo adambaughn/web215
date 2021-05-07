@@ -827,6 +827,8 @@ code {
   border: 1px #000048 solid;
   padding: 10px;
   font-family: Lucida Console, Courier New, sans-serif;
+  margin-top: 1%;
+	margin-bottom: 1%; 
 }
 
 #techDocHeader {
