@@ -267,7 +267,10 @@ a:active
 #dynamic_content {
 	margin-top: -57%;
 }
-/* was-750px */
+
+#dynamic_contentx {
+	margin-top: -10%;
+}
 
 #links_to_profile_pages p {
 	font-family: 'Carter one', cursive;
