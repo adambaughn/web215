@@ -822,7 +822,7 @@ button:active
 }
 /* added width 150px */
 
-code {
+.code {
   background-color: white;
   border: 1px #000048 solid;
   padding: 10px;
