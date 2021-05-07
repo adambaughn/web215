@@ -316,6 +316,10 @@ a:active
 	width: 55px;
 }
 
+.buttonsx a {
+	background-color: #FFFFFF;
+	width: 100%;
+}
 
 .buttons button {
 	
