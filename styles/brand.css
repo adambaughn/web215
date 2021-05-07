@@ -306,19 +306,17 @@ a:active
 
 .buttonsx {
 	font-family: 'Carter one', cursive;	
-	font-size: 1em;
 	color: #000048;
-	background-color: #FFFFFF;
-	border: 1px solid #F0FFFF;
-	border-radius: 5px;
-	padding: 2px 4px;
 	text-align: center;
-	width: 55px;
 }
 
 .buttonsx a {
 	background-color: #FFFFFF;
-	width: 100%;
+	width: 30px;
+	padding: 2px 4px;
+	font-size: 1em;
+	border: 1px solid #F0FFFF;
+	border-radius: 5px;
 }
 
 .buttons button {
