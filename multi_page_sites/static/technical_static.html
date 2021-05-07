@@ -263,7 +263,7 @@
         <p>There is more than one way to create dynamic pages. My index page uses Javascript to load the dynamic content.</p>
     <p>Here is some of the Javascript behind the page.</p>
         <ul>
-          <li>First, I created a variable to hold the new XMLHttpRequest function.<li class="code">var xhttp = new XMLHttpRequest();</li></li>
+          <li>First, I created a variable to hold the new XMLHttpRequest function.<li class="code">var xhttp = new XMLHttpRequest();</li>
           <li>Next, I created functions to load each page. This function was created to load my introduction page.<li class="code">function loadIntroduction() {
   xhttp.onload = function() {
             if (xhttp.status == 200) { </li><li class="code">
@@ -276,9 +276,9 @@
             <li class="code">
     xhttp.open("GET", "multi_page_sites/introduction_two.html", true);
     xhttp.send(null);
-  } </li></li>
-      <li>This part of the code from above is the target for my page. The id called "dynamic_content" is where all the new dynamic content will load.<li class="code">document.getElementById('dynamic_content').innerHTML = xhttp.responseText;</li></li>
-      <li>This part of the code shows where I'm pulling the dynamic content from. I am getting the introduction_two.html file from the multi_page_sites folder.<li class="code">xhttp.open("GET", "multi_page_sites/introduction_two.html", true);</li></li>
+  } </li>
+      <li>This part of the code from above is the target for my page. The id called "dynamic_content" is where all the new dynamic content will load.<li class="code">document.getElementById('dynamic_content').innerHTML = xhttp.responseText;</li>
+      <li>This part of the code shows where I'm pulling the dynamic content from. I am getting the introduction_two.html file from the multi_page_sites folder.<li class="code">xhttp.open("GET", "multi_page_sites/introduction_two.html", true);</li>
     </ul>
   </section>
   <section class="main-section" id="Fifth_Section">
@@ -287,8 +287,7 @@
     <p>Here's a look at some of the HTML working behind the scenes to create this page dynamic.</p>
         <ul>
           <li>The first step is to make sure you define your script source unless you're putting your Javascript on the same page as the HTML. Having HTML, CSS, or Javascript can get messy as more content is added so I prefer to keep them separate.</li>
-      <li>I placed the links for my dynamic index page inside a div without a nav tag. Each link uses a button with onclick equal to the function that calls the page. Here is the HTML that calls the function I showed in a previous example.<li class="code">button type="button" id="introduction" class="buttons" onclick="loadIntroduction()">Introduction</li></li>
-      <li>For my function, the only important part of the button is onclick. </li>
+      <li>I placed the links for my dynamic index page inside a div without a nav tag. Each link uses a button with onclick equal to the function that calls the page. Here is the HTML that calls the function I showed in a previous example.<li class="code">button type="button" id="introduction" class="buttons" onclick="loadIntroduction()">Introduction</li>
       <li>After a user activates the function with onclick, content is loaded into my div. I gave my div an id called "dynamic_content" with some placeholder text between the div tags.</li>
           
       <li>The page that is loaded into the div called "dynamic_content" is much simpler than a normal html page. I only need to create anything that I would put inside a main tag. No head, header, or footer is needed.</li>
