@@ -14,7 +14,7 @@ var xhttp = new XMLHttpRequest();
 function loadIntroduction() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/introduction_two.html", true);
@@ -24,7 +24,7 @@ function loadIntroduction() {
 function loadContract() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/contract_two.html", true);
@@ -35,7 +35,7 @@ function loadContract() {
 function loadBrand() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/brand_two.html", true);
@@ -46,7 +46,7 @@ function loadBrand() {
 function loadCodeplay() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/codeplay.html", true);
@@ -56,7 +56,7 @@ function loadCodeplay() {
 function loadAsmarterWayToLearn() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/asmarterwaytolearn.html", true);
@@ -66,7 +66,7 @@ function loadAsmarterWayToLearn() {
 function loadCertification() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/certification_check.html", true);
@@ -76,7 +76,7 @@ function loadCertification() {
 function loadTribute() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/tribute.html", true);
@@ -86,7 +86,7 @@ function loadTribute() {
 function loadSurvey() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/survey.html", true);
@@ -96,7 +96,7 @@ function loadSurvey() {
 function loadLanding() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/landing.html", true);
@@ -106,7 +106,7 @@ function loadLanding() {
 function loadTechnical() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/technical.html", true);
@@ -116,7 +116,7 @@ function loadTechnical() {
 function loadPortfolio() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/portfolio.html", true);
@@ -126,7 +126,7 @@ function loadPortfolio() {
 function loadSprites() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/sprites.html", true);
@@ -137,7 +137,7 @@ function loadSprites() {
 function loadCsv() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/csv_page.html", true);
@@ -148,7 +148,7 @@ function loadCsv() {
 function loadMernExample() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/mernExample_page.html", true);
@@ -159,7 +159,7 @@ function loadMernExample() {
 function loadNodeBeginner() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/nodeBeginner_page.html", true);
@@ -170,7 +170,7 @@ function loadNodeBeginner() {
 function loadEssentialTraining() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/essentialTraining_page.html", true);
@@ -181,7 +181,7 @@ function loadEssentialTraining() {
 function loadMongoDB() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/mongodb_page.html", true);
@@ -191,7 +191,7 @@ function loadMongoDB() {
 function loadCookies() {
   xhttp.onload = function() {
     if (xhttp.status == 200) {
-      document.getElementById('dynamic_content').innerHTML = xhttp.responseText;
+      document.getElementById('dynamic_contentw').innerHTML = xhttp.responseText;
     }
   };
     xhttp.open("GET", "https://adambaughn.github.io/web215_adambaughn/multi_page_sites/dynamic/cookies_page.html", true);
